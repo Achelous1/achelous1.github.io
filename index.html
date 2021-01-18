@@ -1,102 +1,68 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: home
+adsense: false
+regenerate: true
+---
 
-    <!--외부스타일 시트-->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./css/plugin.css">
-    <!--스크립트 파일-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="scripts/plugin.js"></script>
-    <title>JS Design</title>
-  </head>
-  <body data-spy="scroll" data-target="#navBar" data-offset="50">
-    <!-- affix nav bar -->
-    <div class="container-fluid">
-      <div class="row content">
-        <nav class="col-sm-3" id="navBar">
-          <p style="font-family: 'helvetica'; font-size: 20px; color: white;margin-top: 50px; text-shadow: 2px 2px rgb(38, 38, 38);">JS Design</p>
-          <p style="font-family: 'helvetica'; font-size: 15px; color: rgb(133, 133, 133); margin-left: 20px;margin-top: 20px; margin-bottom: 100px;text-shadow: 2px 2px rgb(38, 38, 38);">and Programming</p>
-          <ul>
-            <li><a href="#aboutMe">About me</a></li>
-            <li><a href="#myWork">My work</a></li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contactMe">Contact me</a></li>
-          </ul>
-        </nav>
-        <div id="contents" class="col-sm-9">
-          <div id="aboutMe" class="container-fluid">
-            <div>
-              <h3 style="font-size: 60px; margin-left: -30px;">About me..</h3><br>
-            </div>
-            <div>
-              <img src="./img/profpic2.jpg" style="width: 250px; height: auto; float: left; margin-right: 30px; margin-bottom : 30px;">
-            </div>
-            <p style="font-size: 15px;">Based in Daegu, Republic of Korea, I am a programmer and a web designer. I graduated College of Architecture and Fine Arts at University of San Carlos at Cebu, Philippines.
-              I have a set of skills in programming in C, Java, Javascript, HTML, CSS, jQuery, AngularJS, node.js, JSP, Spring, bootstrap, etc., learned from programming cource taken in Korea's one of best job schools.
-            </p>
-            <div class="cProgramming circularProgress">
-            </div>
-          </div>
-
-          <!-- My works -->
-          <div id="myWork" class="container-fluid">
-            <div>
-              <h3>My work</h3><br>
-            </div>
-            <p style="font-size: 20px;">You can check out my works at my public github at <a href = "http://www.github.com/Achelous1">here</a>
-            </p>
-          </div>
-
-          <!-- Clients -->
-          <div id="clients" class="container-fluid">
-            <div>
-              <h3>Clients</h3><br>
-            </div>
-            <p style="font-size: 20px;">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-            </p>
-          </div>
-
-          <!-- News -->
-          <div id="news" class="container-fluid">
-            <div>
-              <h3>News</h3><br>
-            </div>
-            <p style="font-size: 20px;">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-            </p>
-          </div>
-          
-          <!-- Contact Me -->
-          <!-- <div id="contactMe" class="container-fluid">
-            <div>
-              <h3>Contact me</h3><br>
-            </div>
-            <div class="container-fluid">
-              <center>
-                <div id="mailBox">
-                  <form class="form-group" method="PUT">
-                    <label for="email" style="color: white; margin-bottom: 30px; font-size: 20px;">Get notifications via email!</label><br>
-                    <input id="mailText" type="text" placeholder="Enter your email" style="text-align:center;">
-                    <input id="mailButton" type="submit" value="Get notified!">
-                  </form>
-                </div>
-              </center>
-            </div>
-          </div> -->
-        </div>
-      </div>
+<div class="blog-face">
+    <div>
+        <H3>
+            <a href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
+            +
+            <a href="https://jekyllrb.com/">Jekyll</a>
+            +
+            <a href="https://pages.github.com/">Github.io</a>
+        </H3>
     </div>
-
-    <!-- footer -->
-    <footer>
-      <a href="https://www.facebook.com/HaJinSu"><img src = "./img/if_Facebook_logo_2258500.png" style="height: 70%; width: auto;"></a>
-      <a href="https://www.instagram.com/gotcha.js/"><img src = "./img/if_Instagram_logo_2258498.png" style="height: 70%; width: auto;"></a>
-    </footer>
-  </body>
-</html>
+        기억 보조용 위키
+    <div>
+    </div>
+    <div>
+        <a href="/blog/">블로그</a>
+        /
+        <a href="/tag/">태그</a>
+    </div>
+    <div class="contact">
+{% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+{% endif %}
+{% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+{% endif %}
+{% if site.email %}
+        <a href="mailto:{{ site.email }}">Email</a>
+{% endif %}
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    </div>
+</div>
+<div>
+    <H3 class="indent">최근 변경된 문서</H3>
+    <ul class="post-list">
+{% assign documents = site.wiki | sort: 'updated' | reverse %}
+{% for doc in documents limit: 30 %}
+    {% if doc.public == true and doc.title != 'wiki'%}
+        <li>
+            <div>
+                <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
+                    <div class="post-meta">
+                        {{ doc.updated | date: "%Y.%m.%d" }}
+                        -
+                        {{ doc.title }}
+                    </div>
+                    <div class="post-excerpt">{{ doc.summary }}</div>
+                    <ul class="tag-list">
+                        <li class="post-tag">
+                            {{ doc. tag }}
+                        </li>
+                    </ul>
+                </a>
+            </div>
+        </li>
+    {% endif %}
+{% endfor %}
+    </ul>
+    <h4>
+        <a href="/recent/">전체 문서 리스트 보기 ({{ site.wiki | size | minus: 1 }} 항목)</a>
+    </h4>
+</div>
+{% include createLink.html %}
