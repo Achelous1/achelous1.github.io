@@ -12,8 +12,6 @@ regenerate: true
 * [[life-log]]
 
 * [[mathjax-latex]]
-* [[test]]
-* [[danbi]]
 
 ---
 
