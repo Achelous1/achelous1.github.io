@@ -1,8 +1,9 @@
 # Site settings
 title: 개발하는 집사
-url: "https://achelous1_wiki.github.io"
+url: "https://achelous1.github.io"
 baseurl: ""
-description: 친슈 블로그
+description: >
+    친슈 블로그
 
 # My information
 email: jsdesign1204@gmail.com
@@ -40,7 +41,7 @@ disqus:
   id: Achelous1
   shortname: Achelous1
 utterances:
-  repo: Achelous1/achelous1_wiki.github.io
+  repo: Achelous1/achelous1.github.io
   issue-term: pathname
   label: Comment
   branch: main
@@ -51,9 +52,9 @@ google_analytics:
 google_adsense:
   client: ca-pub-3675948545737694
 
-blame: "https://github.com/Achelous1/achelous1_wiki.github.io/blame/main/_wiki"
-edit: "https://github.com/Achelous1/achelous1_wiki.github.io/edit/main/_wiki"
-issue: "https://github.com/Achelous1/achelous1_wiki.github.io/issues/new"
+blame: "https://github.com/Achelous1/achelous1.github.io/blame/main/_wiki"
+edit: "https://github.com/Achelous1/achelous1.github.io/edit/main/_wiki"
+issue: "https://github.com/Achelous1/achelous1.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
