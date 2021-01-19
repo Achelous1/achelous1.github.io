@@ -7,11 +7,14 @@ comment : false
 regenerate: true
 ---
 
-## wiki items
+## Categories
+
+* [[life-log]]
 
 * [[mathjax-latex]]
 * [[test]]
 * [[danbi]]
+
 ---
 
 ## blog posts
