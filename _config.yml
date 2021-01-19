@@ -1,9 +1,8 @@
 # Site settings
-title: 친슈 Achelous1
+title: 개발하는 집사
 url: "https://achelous1_wiki.github.io"
 baseurl: ""
-description: >
-    친슈 블로그
+description: 친슈 블로그
 
 # My information
 email: jsdesign1204@gmail.com
