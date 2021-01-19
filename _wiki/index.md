@@ -10,8 +10,8 @@ regenerate: true
 ## wiki items
 
 * [[mathjax-latex]]
-* [test](test)
-
+* [[test]]
+* [[danbi]]
 ---
 
 ## blog posts
