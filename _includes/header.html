@@ -4,7 +4,7 @@
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <meta name="description" content="{{ page.summary }}">
+    <meta name="description" content="{{ page.description }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -12,7 +12,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.summary }}">
+    <meta property="og:description" content="{{ page.description }}">
     <meta property="og:image" content="{{ site.url }}/resource/logo.png">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
