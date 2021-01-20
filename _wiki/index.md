@@ -6,13 +6,13 @@ public  : true
 comment : false
 regenerate: true
 ---
-
-## Categories
-
-* [[life-log]]
-* [[life-guide]]
+# </dev>
 * [[program-algorithms]]
 * [[tech]]
+
+# Life
+* [[life-log]]
+* [[life-guide]]
 
 ---
 
