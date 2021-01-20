@@ -10,8 +10,7 @@ regenerate: true
 ## Categories
 
 * [[life-log]]
-
-* [[mathjax-latex]]
+* [[life-guide]]
 
 ---
 
