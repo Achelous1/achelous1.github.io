@@ -11,10 +11,12 @@ regenerate: true
 
 * [[life-log]]
 * [[life-guide]]
+* [[program-algorithms]]
+* [[tech]]
 
 ---
 
-## blog posts
+## Blog posts
 <div>
     <ul>
 {% for post in site.posts %}
