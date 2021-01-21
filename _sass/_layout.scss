@@ -242,7 +242,12 @@ div.search {
 
 .content-below {
     border-top: 1px solid #d0d0d0;
+    padding-top: 5px;
     color: $third-font-color;
     font-size: 13px;
+    text-align: center;
+}
+
+.custom-header{
     text-align: center;
 }
