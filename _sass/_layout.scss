@@ -10,7 +10,8 @@
   body {
     width: 800px;
     margin: auto;
-    border: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
   }
 }
 
@@ -243,4 +244,5 @@ div.search {
     border-top: 1px solid #d0d0d0;
     color: $third-font-color;
     font-size: 13px;
+    text-align: center;
 }
