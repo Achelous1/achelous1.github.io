@@ -24,15 +24,15 @@ regenerate: true
     </div>
     <div class="contact">
 {% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github-square"></i></a>
 {% endif %}
-{% if site.twitter_username %}
-        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+{% if site.insta_username %}
+        <a href="https://instagram.com/{{ site.insta_username }}"><i class="fab fa-instagram-square"></i></a>
 {% endif %}
 {% if site.email %}
-        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="mailto:{{ site.email }}"><i class="fab fa-envelope-square"></i></a>
 {% endif %}
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fab fa-rss-square"></i></a>
     </div>
 </div>
 <div>
