@@ -2,7 +2,7 @@
 ---
 @charset "utf-8";
 
-$base-font-family  : Arial;
+$base-font-family: 'D2Coding';
 $default-font-size : 0.9rem;
 $default-font-color : #000;
 $second-font-color : #503e2b;
@@ -11,7 +11,7 @@ $forth-font-color : #808094;
 $small-font-size   : $default-font-size * 0.8;
 $base-line-height  : 1.5;
 
-$coding-font: Consolas, "Courier New", Courier;
+$coding-font:  'D2Coding';
 $theme-color: #000000;
 
 // Import from 'sass_dir' (default: _sass)
@@ -22,3 +22,10 @@ $theme-color: #000000;
     "index",
     "toc"
 ;
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
