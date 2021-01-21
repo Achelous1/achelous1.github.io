@@ -1,6 +1,11 @@
----
----
 @charset "utf-8";
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 $base-font-family: 'D2Coding';
 $default-font-size : 0.9rem;
@@ -22,10 +27,3 @@ $theme-color: #000000;
     "index",
     "toc"
 ;
-
-@font-face {
-    font-family: 'D2Coding';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
