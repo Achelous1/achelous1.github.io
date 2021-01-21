@@ -2,7 +2,7 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'D2Coding';
+$base-font-family  : Arial;
 $default-font-size : 0.9rem;
 $default-font-color : #000;
 $second-font-color : #503e2b;
@@ -11,8 +11,8 @@ $forth-font-color : #808094;
 $small-font-size   : $default-font-size * 0.8;
 $base-line-height  : 1.5;
 
-$coding-font:  'D2Coding';
-$theme-color: #000000;
+$coding-font: Consolas, "Courier New", Courier;
+$theme-color: #47146C;
 
 // Import from 'sass_dir' (default: _sass)
 @import
@@ -22,4 +22,3 @@ $theme-color: #000000;
     "index",
     "toc"
 ;
-
