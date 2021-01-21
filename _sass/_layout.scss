@@ -105,10 +105,6 @@ table.gsc-search-box {
 
 .footer {
     text-align: left;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 ul.tag-list {
@@ -241,4 +237,10 @@ div.search {
 
 .post-excerpt {
     color: $forth-font-color;
+}
+
+.content-below {
+    border-top: 1px solid #d0d0d0;
+    color: $third-font-color;
+    font-size: 13px;
 }
