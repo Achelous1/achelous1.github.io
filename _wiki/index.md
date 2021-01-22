@@ -9,7 +9,7 @@ regenerate: true
 
 # </dev>
 
-* [[program-algorithms]]
+* [[programming]]
 * [[tech]]
 
 # Life
