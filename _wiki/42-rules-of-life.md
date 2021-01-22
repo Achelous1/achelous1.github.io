@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : 
-summary : 
+title   : 인생의 42가지 규칙
+summary : Jordan Peterson 교수의 인생의 42가지 규칙
 date    : 2021-01-20 09:42:31 +0900
 updated : 2021-01-20 14:42:31 +0900
-tags    : 
+tags    : life, quotes
 toc     : true
 public  : true
 parent  : [[life-guide]]

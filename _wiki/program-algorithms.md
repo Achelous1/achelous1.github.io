@@ -7,7 +7,7 @@ updated : 2021-01-20 16:43:56 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[program-algorithm]]
+parent  : 
 latex   : false
 ---
 * TOC
