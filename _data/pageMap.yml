@@ -30,6 +30,14 @@ calculate-datetime-bw-2-days:
     url: /wiki/calculate-datetime-bw-2-days
     updated: '2021-01-20 16:45:04 +0900'
     children: []
+google-java-style-guide:
+    type: wiki
+    title: '자바 코딩가이드'
+    summary: '구글의 자바 코딩가이드'
+    parent: programming
+    url: /wiki/google-java-style-guide
+    updated: '2021-01-22 11:30:24 +0900'
+    children: []
 index:
     type: wiki
     title: wiki
@@ -46,11 +54,11 @@ life-guide:
     url: /wiki/life-guide
     updated: '2021-01-20 09:58:28 +0900'
     children: [42-rules-of-life]
-program-algorithms:
+programming:
     type: wiki
     title: 알고리즘
     summary: ""
-    parent: ""
-    url: /wiki/program-algorithms
-    updated: '2021-01-20 16:43:56 +0900'
-    children: [calculate-datetime-bw-2-days]
+    parent: index
+    url: /wiki/programming
+    updated: '2021-01-22 10:29:48 +0900'
+    children: [google-java-style-guide]
