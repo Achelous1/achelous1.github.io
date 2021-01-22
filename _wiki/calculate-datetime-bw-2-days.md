@@ -4,7 +4,7 @@ title   :
 summary : 두 날짜 사이의 시간만 가지고 교대시간을 구하는 알고리즘
 date    : 2021-01-20 16:44:03 +0900
 updated : 2021-01-20 16:45:04 +0900
-tags    : algorithm
+tag     : algorithm
 toc     : true
 public  : true
 parent  : [[program-algorithms]]
