@@ -6,6 +6,22 @@
     url: /wiki/1000
     updated: '2021-01-20 16:48:24 +0900'
     children: []
+'2020':
+    type: wiki
+    title: '2020년 일지'
+    summary: ""
+    parent: '2020'
+    url: /wiki/2020
+    updated: '2021-01-22 14:50:53 +0900'
+    children: ['2020']
+'2021':
+    type: wiki
+    title: '2021년 일지'
+    summary: ""
+    parent: '2021'
+    url: /wiki/2021
+    updated: '2021-01-22 14:50:13 +0900'
+    children: ['2021']
 42-rules-of-life:
     type: wiki
     title: '인생의 42가지 규칙'
@@ -48,12 +64,20 @@ index:
     children: []
 life-guide:
     type: wiki
-    title: ""
-    summary: ""
-    parent: ""
+    title: 'Life Guides'
+    summary: '인생을 이끌어줄 가이드라인'
+    parent: index
     url: /wiki/life-guide
-    updated: '2021-01-20 09:58:28 +0900'
+    updated: '2021-01-22 14:51:51 +0900'
     children: [42-rules-of-life]
+life-log:
+    type: wiki
+    title: 'Life Log'
+    summary: 인생기록
+    parent: index
+    url: /wiki/life-log
+    updated: '2021-01-22 14:51:10 +0900'
+    children: []
 programming:
     type: wiki
     title: 알고리즘

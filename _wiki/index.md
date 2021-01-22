@@ -16,7 +16,7 @@ regenerate: true
 * [[life-guide]]
 
 ---
-# Blog posts
+## Blog posts
 <div>
     <ul>
 {% for post in site.posts %}
