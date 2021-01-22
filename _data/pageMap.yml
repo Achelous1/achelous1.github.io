@@ -12,7 +12,7 @@
     summary: 'Jordan Peterson 교수의 인생의 42가지 규칙'
     parent: life-guide
     url: /wiki/42-rules-of-life
-    updated: '2021-01-20 14:42:31 +0900'
+    updated: '2021-01-22 13:39:17 +0900'
     children: []
 baekjun:
     type: wiki
@@ -60,5 +60,5 @@ programming:
     summary: ""
     parent: index
     url: /wiki/programming
-    updated: '2021-01-22 10:29:48 +0900'
+    updated: '2021-01-22 14:13:50 +0900'
     children: [google-java-style-guide]
