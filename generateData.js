@@ -30,10 +30,10 @@ const dataList = list.map(function collectData(file) {
 const tagMap = {};
 
 dataList.forEach(function collectTagMap(data) {
-    if (!data.tag) {
+    if (!data.tags) {
         return;
     }
-    data.tag.forEach(function(tag) {
+    data.tags.forEach(function(tag) {
         if (!tagMap[tag]) {
             tagMap[tag] = [];
         }
@@ -213,8 +213,8 @@ function parseInfo(file, info) {
         obj.url = '/wiki/' + obj.fileName;
     }
 
-    if (obj.tag) {
-        obj.tag = obj.tag.split(/\s+/);
+    if (obj.tags) {
+        obj.tags = obj.tags.split(/\s+/);
     }
 
     const mtime = fs.statSync(file.path).mtime;

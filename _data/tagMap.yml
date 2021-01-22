@@ -1,1 +1,14 @@
-{}
+baekjun:
+    - {fileName: '1000'}
+life:
+    - {fileName: 42-rules-of-life}
+quotes:
+    - {fileName: 42-rules-of-life}
+algorithm:
+    - {fileName: calculate-datetime-bw-2-days}
+guideline:
+    - {fileName: google-java-style-guide}
+java:
+    - {fileName: google-java-style-guide}
+style:
+    - {fileName: google-java-style-guide}
