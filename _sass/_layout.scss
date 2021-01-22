@@ -29,6 +29,7 @@ table.gsc-search-box {
 
 .header {
     background-color: $theme-color;
+    position: absolute;
 
     &:after {
         clear: both;
