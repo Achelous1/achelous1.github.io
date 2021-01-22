@@ -67,7 +67,7 @@ table.gsc-search-box {
 }
 
 .post {
-    margin-top: 37px;
+    margin-top: $header-height;
     overflow-x: auto;
     padding: 5px;
 
@@ -259,5 +259,5 @@ pre.custom-header{
 }
 
 .home {
-    margin-top: 37px;
+    margin-top: $header-height;
 }
