@@ -8,7 +8,7 @@
 
 @media (min-width: 800px) {
   body {
-    width: 800px;
+    width: $base-page-width;
     margin: auto;
     border-left: 1px solid #d0d0d0;
     border-right: 1px solid #d0d0d0;
@@ -29,7 +29,8 @@ table.gsc-search-box {
 
 .header {
     background-color: $theme-color;
-    position: absolute;
+    position: fixed;
+    width: $base-page-width;
     top: 0;
 
     &:after {
@@ -66,7 +67,7 @@ table.gsc-search-box {
 }
 
 .post {
-    margin-top: 37;
+    margin-top: 37px;
     overflow-x: auto;
     padding: 5px;
 
@@ -194,9 +195,9 @@ ul.tag-list {
 
 div.search {
     background-color: #f6f5ea;
-    width: 100%;
-    position: absolute;
-    top: 20;
+    position: fixed;
+    width: $base-page-width;
+    margin-top: 20px;
     border-bottom: 1px solid $theme-color;
     line-height: 1;
 }
@@ -258,5 +259,5 @@ pre.custom-header{
 }
 
 .home {
-    margin-top: 37;
+    margin-top: 37px;
 }
