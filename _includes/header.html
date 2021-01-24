@@ -84,6 +84,19 @@
 ;(function(){
     var isCtrl = false;
 
+    function setClassWidth(className){
+        var el = document.getElementsByClassName(className)[0];
+        el.style.width = window.innerWidth;
+    }
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        debugger; 
+        if(window.innerWidth < 800){
+            this.setClassWidth("header");
+            this.setClassWidth("search");
+        }
+    });
+
     document.onkeyup=function(e){
         if (e.which == 17) {
             isCtrl = false;

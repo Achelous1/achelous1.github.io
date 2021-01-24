@@ -30,7 +30,7 @@ table.gsc-search-box {
 .header {
     background-color: $theme-color;
     position: fixed;
-    width: $base-page-width;
+    // width: $base-page-width;
     top: 0;
 
     &:after {
@@ -196,7 +196,7 @@ ul.tag-list {
 div.search {
     background-color: #f6f5ea;
     position: fixed;
-    width: $base-page-width;
+    // width: $base-page-width;
     margin-top: 20px;
     border-bottom: 1px solid $theme-color;
     line-height: 1;
@@ -247,6 +247,7 @@ div.search {
 .content-below {
     border-top: 1px solid #d0d0d0;
     padding-top: 5px;
+    padding-bottom: 20px;
     color: $third-font-color;
     font-size: 13px;
     text-align: center;
