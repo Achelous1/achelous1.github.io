@@ -85,16 +85,14 @@
     var isCtrl = false;
 
     document.addEventListener("DOMContentLoaded", function(event) {
-        debugger; 
-
-        function setClassWidth(className){
+        function setClassMobileWidth(className){
             var el = document.getElementsByClassName(className)[0];
             el.style.width = window.innerWidth + "px";
         }
 
         if(window.innerWidth < 800){
-            setClassWidth("header");
-            setClassWidth("search");
+            setClassMobileWidth("header");
+            setClassMobileWidth("search");
         }
     });
 
