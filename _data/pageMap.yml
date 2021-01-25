@@ -52,7 +52,7 @@ google-java-style-guide:
     summary: '구글의 자바 코딩가이드'
     parent: programming
     url: /wiki/google-java-style-guide
-    updated: '2021-01-25 14:31:12 +0900'
+    updated: '2021-01-25 14:53:13 +0900'
     children: []
 index:
     type: wiki
@@ -80,11 +80,11 @@ life-log:
     children: ['2020', '2021']
 programming:
     type: wiki
-    title: 알고리즘
-    summary: ""
+    title: 프로그래밍
+    summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-01-22 14:13:50 +0900'
+    updated: '2021-01-25 15:18:24 +0900'
     children: [calculate-datetime-bw-2-days, google-java-style-guide]
 tech:
     type: wiki

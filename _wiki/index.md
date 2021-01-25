@@ -7,11 +7,11 @@ comment : false
 regenerate: true
 ---
 
-# </dev>
+## </dev>
 * [[programming]]
 * [[tech]]
 
-# Life
+## Life
 * [[life-log]]
 * [[life-guide]]
 
