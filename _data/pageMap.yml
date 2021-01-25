@@ -42,9 +42,9 @@ calculate-datetime-bw-2-days:
     type: wiki
     title: ""
     summary: '두 날짜 사이의 시간만 가지고 교대시간을 구하는 알고리즘'
-    parent: program-algorithms
+    parent: programming
     url: /wiki/calculate-datetime-bw-2-days
-    updated: '2021-01-25 13:47:48 +0900'
+    updated: '2021-01-25 13:49:45 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -52,7 +52,7 @@ google-java-style-guide:
     summary: '구글의 자바 코딩가이드'
     parent: programming
     url: /wiki/google-java-style-guide
-    updated: '2021-01-22 16:11:06 +0900'
+    updated: '2021-01-25 14:31:12 +0900'
     children: []
 index:
     type: wiki
@@ -85,7 +85,7 @@ programming:
     parent: index
     url: /wiki/programming
     updated: '2021-01-22 14:13:50 +0900'
-    children: [google-java-style-guide]
+    children: [calculate-datetime-bw-2-days, google-java-style-guide]
 tech:
     type: wiki
     title: 개발기술
