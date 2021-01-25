@@ -44,7 +44,7 @@ calculate-datetime-bw-2-days:
     summary: '두 날짜 사이의 시간만 가지고 교대시간을 구하는 알고리즘'
     parent: program-algorithms
     url: /wiki/calculate-datetime-bw-2-days
-    updated: '2021-01-25 10:51:44 +0900'
+    updated: '2021-01-25 11:57:31 +0900'
     children: []
 google-java-style-guide:
     type: wiki
