@@ -44,7 +44,7 @@ calculate-datetime-bw-2-days:
     summary: '두 날짜 사이의 시간만 가지고 교대시간을 구하는 알고리즘'
     parent: program-algorithms
     url: /wiki/calculate-datetime-bw-2-days
-    updated: '2021-01-20 16:45:04 +0900'
+    updated: '2021-01-25 10:51:44 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -76,7 +76,7 @@ life-log:
     summary: 인생기록
     parent: index
     url: /wiki/life-log
-    updated: '2021-01-22 14:51:10 +0900'
+    updated: '2021-01-25 10:34:03 +0900'
     children: ['2020', '2021']
 programming:
     type: wiki
@@ -86,3 +86,11 @@ programming:
     url: /wiki/programming
     updated: '2021-01-22 14:13:50 +0900'
     children: [google-java-style-guide]
+tech:
+    type: wiki
+    title: 개발기술
+    summary: '기술을 발굴해낼 때 마다 적어두는 공간'
+    parent: index
+    url: /wiki/tech
+    updated: '2021-01-25 10:35:46 +0900'
+    children: []
