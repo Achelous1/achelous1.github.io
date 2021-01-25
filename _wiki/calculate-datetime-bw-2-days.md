@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 두 날짜 사이의 시간만 가지고 교대시간을 구하는 알고리즘
 date    : 2021-01-20 16:44:03 +0900
-updated : 2021-01-25 11:57:31 +0900
+updated : 2021-01-25 13:47:48 +0900
 tag     : algorithm
 toc     : true
 public  : true
@@ -43,6 +43,7 @@ latex   : false
 
 * `UNIX Time` 을 활용 한 해결방안
   * 모든 언어에서 공통적으로 활용하고 있는 [UNIX Time][unix_wiki_link]을 활용하여 간단하게 다음 자바스크립트 코드를 구현해 보았다
+
 ```javascript
 // 교대 데이터
 var shifts= [
