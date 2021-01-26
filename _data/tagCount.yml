@@ -5,6 +5,12 @@
     name: baekjun
     size: 1
 -
+    name: books
+    size: 1
+-
+    name: cheetsheet
+    size: 1
+-
     name: guideline
     size: 1
 -
@@ -12,7 +18,7 @@
     size: 1
 -
     name: life
-    size: 1
+    size: 2
 -
     name: quotes
     size: 1
