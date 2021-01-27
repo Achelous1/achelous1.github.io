@@ -1,10 +1,10 @@
 '1000':
     type: wiki
-    title: ""
-    summary: 'baekjun의 1000번 문제'
-    parent: ""
+    title: A+B
+    summary: '두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.'
+    parent: baekjun
     url: /wiki/1000
-    updated: '2021-01-20 16:48:24 +0900'
+    updated: '2021-01-27 11:54:41 +0900'
     children: []
 '2557':
     type: wiki
@@ -12,7 +12,7 @@
     summary: ""
     parent: baekjun
     url: /wiki/2557
-    updated: '2021-01-27 11:48:21 +0900'
+    updated: '2021-01-27 11:55:02 +0900'
     children: []
 42-rules-of-life:
     type: wiki
@@ -29,7 +29,7 @@ baekjun:
     parent: ""
     url: /wiki/baekjun
     updated: '2021-01-20 16:46:46 +0900'
-    children: ['2557']
+    children: ['1000', '2557']
 books-2021:
     type: wiki
     title: '2021년 독서목록'
