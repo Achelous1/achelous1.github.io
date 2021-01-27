@@ -6,21 +6,13 @@
     url: /wiki/1000
     updated: '2021-01-20 16:48:24 +0900'
     children: []
-'2020':
+'2557':
     type: wiki
-    title: '2020년 일지'
+    title: 'Hello World'
     summary: ""
-    parent: life-log
-    url: /wiki/2020
-    updated: '2021-01-22 14:54:33 +0900'
-    children: []
-'2021':
-    type: wiki
-    title: '2021년 일지'
-    summary: ""
-    parent: life-log
-    url: /wiki/2021
-    updated: '2021-01-26 16:30:23 +0900'
+    parent: baekjun
+    url: /wiki/2557
+    updated: '2021-01-27 11:48:21 +0900'
     children: []
 42-rules-of-life:
     type: wiki
@@ -37,14 +29,14 @@ baekjun:
     parent: ""
     url: /wiki/baekjun
     updated: '2021-01-20 16:46:46 +0900'
-    children: []
+    children: ['2557']
 books-2021:
     type: wiki
     title: '2021년 독서목록'
     summary: ""
     parent: life-log
     url: /wiki/books-2021
-    updated: '2021-01-26 17:31:22 +0900'
+    updated: '2021-01-26 17:59:57 +0900'
     children: []
 calculate-datetime-bw-2-days:
     type: wiki
@@ -53,6 +45,22 @@ calculate-datetime-bw-2-days:
     parent: programming
     url: /wiki/calculate-datetime-bw-2-days
     updated: '2021-01-25 13:49:45 +0900'
+    children: []
+diary-2020:
+    type: wiki
+    title: '2020년 일지'
+    summary: ""
+    parent: life-log
+    url: /wiki/diary-2020
+    updated: '2021-01-22 14:54:33 +0900'
+    children: []
+diary-2021:
+    type: wiki
+    title: '2021년 일지'
+    summary: ""
+    parent: life-log
+    url: /wiki/diary-2021
+    updated: '2021-01-26 16:30:23 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -92,8 +100,8 @@ life-log:
     summary: 인생기록
     parent: index
     url: /wiki/life-log
-    updated: '2021-01-26 17:29:29 +0900'
-    children: ['2020', '2021', books-2021, life-cheatsheet]
+    updated: '2021-01-27 09:07:58 +0900'
+    children: [books-2021, diary-2020, diary-2021, life-cheatsheet]
 programming:
     type: wiki
     title: 프로그래밍
