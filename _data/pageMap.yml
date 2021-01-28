@@ -28,7 +28,7 @@ baekjun:
     summary: 'baekjun문제를 풀어보자'
     parent: ""
     url: /wiki/baekjun
-    updated: '2021-01-20 16:46:46 +0900'
+    updated: '2021-01-28 10:18:03 +0900'
     children: ['1000', '2557']
 books-2021:
     type: wiki
@@ -60,7 +60,7 @@ diary-2021:
     summary: ""
     parent: life-log
     url: /wiki/diary-2021
-    updated: '2021-01-26 16:30:23 +0900'
+    updated: '2021-01-28 09:51:16 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -116,5 +116,5 @@ tech:
     summary: '기술을 발굴해낼 때 마다 적어두는 공간'
     parent: index
     url: /wiki/tech
-    updated: '2021-01-25 10:35:46 +0900'
+    updated: '2021-01-28 09:32:41 +0900'
     children: []
