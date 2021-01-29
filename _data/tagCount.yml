@@ -2,6 +2,9 @@
     name: algorithm
     size: 2
 -
+    name: architecture
+    size: 1
+-
     name: baekjun
     size: 2
 -
@@ -21,6 +24,9 @@
     size: 2
 -
     name: quotes
+    size: 1
+-
+    name: study
     size: 1
 -
     name: style

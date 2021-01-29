@@ -17,5 +17,9 @@ java:
     - {fileName: google-java-style-guide}
 style:
     - {fileName: google-java-style-guide}
+study:
+    - {fileName: importance-in-studying}
+architecture:
+    - {fileName: importance-in-studying}
 cheetsheet:
     - {fileName: life-cheatsheet}
