@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2021년 독서목록
 summary : 
 date    : 2021-01-26 17:29:30 +0900
-updated : 2021-01-26 17:59:57 +0900
+updated : 2021-02-01 10:42:40 +0900
 tag     : books 
 toc     : true
 public  : true
@@ -14,5 +14,13 @@ latex   : false
 {:toc}
 
 # 2021년 독서목록
-## Clean Code by 로버트 C. 마틴
-i
+### Clean Code by 로버트 C. 마틴
+
+### Clean Architecture
+
+### Test Driven Design
+
+### 누워서 읽는 알고리즘
+
+### 프로그래머의 길, 멘토에게 묻다
+
