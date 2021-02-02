@@ -23,3 +23,9 @@ architecture:
     - {fileName: importance-in-studying}
 cheetsheet:
     - {fileName: life-cheatsheet}
+developer:
+    - {fileName: United-Resume}
+toy-project:
+    - {fileName: United-Resume}
+chrome-extension:
+    - {fileName: United-Resume}

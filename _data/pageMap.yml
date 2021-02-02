@@ -36,7 +36,7 @@ books-2021:
     summary: ""
     parent: life-log
     url: /wiki/books-2021
-    updated: '2021-02-01 15:56:22 +0900'
+    updated: '2021-02-02 14:20:40 +0900'
     children: []
 calculate-datetime-bw-2-days:
     type: wiki
@@ -116,8 +116,8 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-01-29 16:36:01 +0900'
-    children: [calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying]
+    updated: '2021-02-02 14:25:53 +0900'
+    children: [calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, United-Resume]
 tech:
     type: wiki
     title: 개발기술
@@ -125,4 +125,12 @@ tech:
     parent: index
     url: /wiki/tech
     updated: '2021-01-28 09:32:41 +0900'
+    children: []
+United-Resume:
+    type: wiki
+    title: 'UR? (United Resume)'
+    summary: '이력서통합관리 크롬확장프로그램을 만들어보자'
+    parent: programming
+    url: /wiki/United-Resume
+    updated: '2021-02-02 14:55:39 +0900'
     children: []
