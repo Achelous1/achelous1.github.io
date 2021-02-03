@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-03 16:38:18 +0900
+updated : 2021-02-03 16:42:04 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -52,6 +52,8 @@ latex   : false
 | String unitAbbrev = "\u03bcs"; // Greek letter mu, "s" | 허용되지만 어색하고 실수 할 여지가 많음                                      |
 | String unitAbbrev = "\u03bcs";                         | 좋지 않음: 어떤 의도인지 파악하기 어려움                                     |
 | return '\ufeff' + content; // byte order mark          | 좋음: 출력되지 않는 문자에 대해서 이스케이프를 사용하고 필요하면 주석을 사용 |
+
+
 > **Tip**: 특정 프로그램들이 ASCII 문자를 지원하지 않을까봐 걱정되어 여러분이 작성하는 코드의 가독성을 줄이지 말자. 만약 그런 프로그램이 있다면, 그 프로그램은 **고장난** 것이며 **고쳐야** 한다.
     
 ## 3 소스파일구조
