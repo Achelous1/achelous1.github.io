@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-03 16:42:04 +0900
+updated : 2021-02-03 17:00:06 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -73,8 +73,10 @@ latex   : false
 * 패키지선언문은 **줄 바꿈 하지 않는다**(not line-wrapped). 컬럼제한(4.4섹션, [컬럼제한: 100](#44-컬럼제한-100))은 패키지 선언문에 적용되지 않는다.
 
 ### 3.3 임포트 선언문들
+#### 3.3.1 와일드카드 임포트 사용금지
+* **와일드카드 임포트[^WILDCARD-1]는**, 스태틱이든 간에, **사용되지 않는다**
 
-### 3.4
+### 3.4 
 
 ## 4 포맷
 ### 4.1 대괄호
@@ -102,3 +104,7 @@ latex   : false
 ---
 ## Links
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+---
+## 주석
+[^WILDCARD-1]: [와일드카드 임포트]특정 패키지 내에 존재하는 모든 클래스를 임포트하는 임포트 선언문 `예: java.util.*`
