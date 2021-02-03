@@ -3,7 +3,7 @@ layout  : wiki
 title   : UR? (United Resume)
 summary : 이력서통합관리 크롬확장프로그램을 만들어보자 
 date    : 2021-02-02 14:25:53 +0900
-updated : 2021-02-02 15:04:24 +0900
+updated : 2021-02-02 18:01:20 +0900
 tag     : developer toy-project chrome-extension
 toc     : true
 public  : true
@@ -40,7 +40,8 @@ latex   : false
 * 너무 넓은 범위는 꿈을 헤집고 다니는 것이나 다름없다. 최대한 처음에 할 수 있는만큼 만들어보자.
 
 ### 구글크롬 확장프로그램 UI 만들기(1차)
-
+* 인터페이스에는 각 구직사이트 필드의 최대공약수가 아닌 최소공배수의 항목들이 존재해야 함(모든 사이트에 대응하기 위해서)
+ 
 ### 사람인 인터페이스와 연동하기(1차)
 
 
