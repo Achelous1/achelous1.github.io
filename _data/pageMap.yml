@@ -68,7 +68,7 @@ google-java-style-guide:
     summary: '구글의 자바 코딩가이드'
     parent: programming
     url: /wiki/google-java-style-guide
-    updated: '2021-02-03 16:15:45 +0900'
+    updated: '2021-02-03 16:20:26 +0900'
     children: []
 importance-in-studying:
     type: wiki
