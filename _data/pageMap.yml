@@ -44,7 +44,7 @@ baekjun:
     summary: 'baekjun문제를 풀어보자'
     parent: ""
     url: /wiki/baekjun
-    updated: '2021-02-05 16:17:18 +0900'
+    updated: '2021-02-05 16:53:27 +0900'
     children: [baekjun-level-1]
 baekjun-level-1:
     type: wiki
