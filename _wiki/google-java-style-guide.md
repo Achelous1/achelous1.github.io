@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-05 11:24:40 +0900
+updated : 2021-02-05 11:26:32 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -104,11 +104,14 @@ latex   : false
 
 ## 4 포맷
 * **용어참고**: *블록형 구조*란 클래스, 메서드 또는 생성자의 몸통*body*영역을 의미하한다. 섹션 4.8.3.1 배열이니셜라이저 [*array initializers*](#4831-배열이니셜라이저)에 따라, 모든 배열이니셜라이저는 *선택적으로 블록형구조로 취급*될 수 있다.
+
 ### 4.1 중괄호*Braces*
+
 #### 4.1.1 조건부*optional*일 경우 중괄호사용
 * 중괄호는 `if`, `else`, `for`, `do` 그리고 `while`문에서 사용되며, 내용이 비거나 한줄*single statement*만 쓰더라도 중괄호를 쓴다.
+
 #### 4.1.2 비어 있지 않은 블록*Nonempty blocks* : K & R 스타일
-*  
+* 
 
 #### 4.1.3
 
