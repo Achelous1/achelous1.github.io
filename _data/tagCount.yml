@@ -23,8 +23,14 @@
     name: guideline
     size: 1
 -
+    name: instanceof
+    size: 1
+-
     name: java
     size: 1
+-
+    name: javascript
+    size: 2
 -
     name: life
     size: 2
@@ -39,4 +45,7 @@
     size: 1
 -
     name: toy-project
+    size: 1
+-
+    name: typeof
     size: 1

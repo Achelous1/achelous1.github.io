@@ -86,6 +86,14 @@ index:
     url: /wiki/index
     updated: null
     children: []
+Javascript:
+    type: wiki
+    title: JavaScript
+    summary: '자바스크립트에 관하여'
+    parent: programming
+    url: /wiki/Javascript
+    updated: '2021-02-05 15:34:50 +0900'
+    children: []
 life-cheatsheet:
     type: wiki
     title: '인생 가이드라인'
@@ -116,8 +124,8 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-02-02 14:25:53 +0900'
-    children: [calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, United-Resume]
+    updated: '2021-02-05 15:34:33 +0900'
+    children: [calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, Javascript, United-Resume]
 tech:
     type: wiki
     title: 개발기술
@@ -125,6 +133,14 @@ tech:
     parent: index
     url: /wiki/tech
     updated: '2021-01-28 09:32:41 +0900'
+    children: []
+typeof-instanceof:
+    type: wiki
+    title: 'typeof와 instanceof의 차이점'
+    summary: ""
+    parent: JavaScript
+    url: /wiki/typeof-instanceof
+    updated: '2021-02-05 15:46:00 +0900'
     children: []
 United-Resume:
     type: wiki

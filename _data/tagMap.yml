@@ -21,8 +21,15 @@ study:
     - {fileName: importance-in-studying}
 architecture:
     - {fileName: importance-in-studying}
+javascript:
+    - {fileName: Javascript}
+    - {fileName: typeof-instanceof}
 cheetsheet:
     - {fileName: life-cheatsheet}
+typeof:
+    - {fileName: typeof-instanceof}
+instanceof:
+    - {fileName: typeof-instanceof}
 developer:
     - {fileName: United-Resume}
 toy-project:
