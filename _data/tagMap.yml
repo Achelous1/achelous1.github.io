@@ -3,6 +3,7 @@ baekjun:
     - {fileName: '1001'}
     - {fileName: '10171'}
     - {fileName: '2557'}
+    - {fileName: baekjun}
     - {fileName: baekjun-level-1}
 algorithm:
     - {fileName: '2557'}
@@ -29,7 +30,7 @@ study:
 architecture:
     - {fileName: importance-in-studying}
 javascript:
-    - {fileName: Javascript}
+    - {fileName: JavaScript}
     - {fileName: typeof-instanceof}
 cheetsheet:
     - {fileName: life-cheatsheet}

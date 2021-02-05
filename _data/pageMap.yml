@@ -25,10 +25,10 @@
 '10171':
     type: wiki
     title: 고양이
-    summary: ""
+    summary: '고양이를 출력하라'
     parent: baekjun-level-1
     url: /wiki/10171
-    updated: '2021-02-05 16:40:49 +0900'
+    updated: '2021-02-05 17:03:17 +0900'
     children: []
 42-rules-of-life:
     type: wiki
@@ -42,9 +42,9 @@ baekjun:
     type: wiki
     title: 'baekjun문제를 풀어보자'
     summary: 'baekjun문제를 풀어보자'
-    parent: ""
+    parent: programming
     url: /wiki/baekjun
-    updated: '2021-02-05 16:53:27 +0900'
+    updated: '2021-02-05 17:05:55 +0900'
     children: [baekjun-level-1]
 baekjun-level-1:
     type: wiki
@@ -110,14 +110,14 @@ index:
     url: /wiki/index
     updated: null
     children: []
-Javascript:
+JavaScript:
     type: wiki
     title: JavaScript
     summary: '자바스크립트에 관하여'
     parent: programming
-    url: /wiki/Javascript
+    url: /wiki/JavaScript
     updated: '2021-02-05 15:34:50 +0900'
-    children: []
+    children: [typeof-instanceof]
 life-cheatsheet:
     type: wiki
     title: '인생 가이드라인'
@@ -149,7 +149,7 @@ programming:
     parent: index
     url: /wiki/programming
     updated: '2021-02-05 15:34:33 +0900'
-    children: [calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, Javascript, United-Resume]
+    children: [baekjun, calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, JavaScript, United-Resume]
 tech:
     type: wiki
     title: 개발기술
