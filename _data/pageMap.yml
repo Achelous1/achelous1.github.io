@@ -52,7 +52,7 @@ baekjun-level-1:
     summary: '입출력과 사칙연산'
     parent: baekjun
     url: /wiki/baekjun-level-1
-    updated: '2021-02-05 16:37:33 +0900'
+    updated: '2021-02-05 16:56:16 +0900'
     children: ['1000', '1001', '10171']
 books-2021:
     type: wiki
