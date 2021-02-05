@@ -3,7 +3,7 @@ layout  : wiki
 title   : baekjun문제를 풀어보자
 summary : baekjun문제를 풀어보자
 date    : 2021-01-20 16:45:14 +0900
-updated : 2021-01-28 10:18:03 +0900
+updated : 2021-02-05 16:17:18 +0900
 tag     : 
 toc     : true
 public  : true
@@ -14,6 +14,8 @@ latex   : false
 {:toc}
 
 # baekjun문제를 풀어보자
+## 단계별
+### [[baekjun-level-1]]
 * [[1000]]
 * [[1001]]
 * [[2557]]

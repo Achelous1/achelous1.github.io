@@ -2,17 +2,33 @@
     type: wiki
     title: A+B
     summary: '두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.'
-    parent: baekjun
+    parent: baekjun-level-1
     url: /wiki/1000
-    updated: '2021-01-27 11:54:41 +0900'
+    updated: '2021-02-05 16:17:32 +0900'
+    children: []
+'1001':
+    type: wiki
+    title: A-B
+    summary: ""
+    parent: baekjun-level-1
+    url: /wiki/1001
+    updated: '2021-02-05 16:51:57 +0900'
     children: []
 '2557':
     type: wiki
     title: 'Hello World'
     summary: ""
-    parent: baekjun
+    parent: IO-and-arithmetic-operation
     url: /wiki/2557
-    updated: '2021-01-27 11:55:02 +0900'
+    updated: '2021-02-05 16:16:25 +0900'
+    children: []
+'10171':
+    type: wiki
+    title: 고양이
+    summary: ""
+    parent: baekjun-level-1
+    url: /wiki/10171
+    updated: '2021-02-05 16:40:49 +0900'
     children: []
 42-rules-of-life:
     type: wiki
@@ -28,8 +44,16 @@ baekjun:
     summary: 'baekjun문제를 풀어보자'
     parent: ""
     url: /wiki/baekjun
-    updated: '2021-01-28 10:18:03 +0900'
-    children: ['1000', '2557']
+    updated: '2021-02-05 16:17:18 +0900'
+    children: [baekjun-level-1]
+baekjun-level-1:
+    type: wiki
+    title: 단계1
+    summary: '입출력과 사칙연산'
+    parent: baekjun
+    url: /wiki/baekjun-level-1
+    updated: '2021-02-05 16:37:33 +0900'
+    children: ['1000', '1001', '10171']
 books-2021:
     type: wiki
     title: '2021년 독서목록'

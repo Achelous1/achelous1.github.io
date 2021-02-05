@@ -1,6 +1,9 @@
 baekjun:
     - {fileName: '1000'}
+    - {fileName: '1001'}
+    - {fileName: '10171'}
     - {fileName: '2557'}
+    - {fileName: baekjun-level-1}
 algorithm:
     - {fileName: '2557'}
     - {fileName: calculate-datetime-bw-2-days}
@@ -9,6 +12,10 @@ life:
     - {fileName: life-cheatsheet}
 quotes:
     - {fileName: 42-rules-of-life}
+arithmetic:
+    - {fileName: baekjun-level-1}
+IO:
+    - {fileName: baekjun-level-1}
 books:
     - {fileName: books-2021}
 guideline:

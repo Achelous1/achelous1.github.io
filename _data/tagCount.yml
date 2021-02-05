@@ -5,8 +5,11 @@
     name: architecture
     size: 1
 -
+    name: arithmetic
+    size: 1
+-
     name: baekjun
-    size: 2
+    size: 5
 -
     name: books
     size: 1
@@ -24,6 +27,9 @@
     size: 1
 -
     name: instanceof
+    size: 1
+-
+    name: IO
     size: 1
 -
     name: java
