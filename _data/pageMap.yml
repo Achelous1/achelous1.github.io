@@ -18,9 +18,9 @@
     type: wiki
     title: 'Hello World'
     summary: ""
-    parent: IO-and-arithmetic-operation
+    parent: baekjun-level-1
     url: /wiki/2557
-    updated: '2021-02-05 16:16:25 +0900'
+    updated: '2021-02-08 11:06:50 +0900'
     children: []
 '10171':
     type: wiki
@@ -53,7 +53,7 @@ baekjun-level-1:
     parent: baekjun
     url: /wiki/baekjun-level-1
     updated: '2021-02-05 16:56:16 +0900'
-    children: ['1000', '1001', '10171']
+    children: ['1000', '1001', '10171', '2557']
 books-2021:
     type: wiki
     title: '2021년 독서목록'
