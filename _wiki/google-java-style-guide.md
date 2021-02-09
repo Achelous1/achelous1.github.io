@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-09 13:45:09 +0900
+updated : 2021-02-09 13:48:14 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -144,6 +144,8 @@ return new MyClass() {
 
 ```
 
+4.8.1섹션 [열거형 클래스](#481-열거형-클래스)에서 열거형 클래스에 대한 몇가지 예외를 설명한다.
+
 #### 4.1.3
 
 ### 4.2 
@@ -159,6 +161,7 @@ return new MyClass() {
 ### 4.7
 
 ### 4.8
+#### 4.8.1 열거형 클래스
     
 ## 5 명명규칙
 
