@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-05 11:26:32 +0900
+updated : 2021-02-09 13:45:09 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -111,7 +111,38 @@ latex   : false
 * 중괄호는 `if`, `else`, `for`, `do` 그리고 `while`문에서 사용되며, 내용이 비거나 한줄*single statement*만 쓰더라도 중괄호를 쓴다.
 
 #### 4.1.2 비어 있지 않은 블록*Nonempty blocks* : K & R 스타일
-* 
+* 중괄호는 커니간*Kernighan*과 릿치*Ritchie*의 *nonempty* 블럭과 블럭형 구조스타일을 따른다.
+    * 중괄호 열기 전에는 줄바꿈하지 않는다.
+    * 중괄호를 연 다음 줄바꿈한다.
+    * 중괄호를 닫기 전 줄바꿈한다.
+    * 중괄호를 닫은 후엔, 해당 중괄호가 메서드, 생성자 또는 명명된*named* 클래스를 종료할 때만 줄바꿈을 한다. 예를들어, 중괄호 뒤에 `else` 또는 쉼표*comma*가 따라올 땐 줄바꿈하지 않는다.
+
+예제: 
+
+```java
+return () -> {
+  while (condition()) {
+    method();
+  }
+};
+
+return new MyClass() {
+  @Override public void method() {
+    if (condition()) {
+      try {
+        something();
+      } catch (ProblemException e) {
+        recover();
+      }
+    } else if (otherCondition()) {
+      somethingElse();
+    } else {
+      lastThing();
+    }
+  }
+};
+
+```
 
 #### 4.1.3
 
@@ -142,12 +173,4 @@ latex   : false
 ---
 ## 주석
 [^WILDCARD-1]: [와일드카드 임포트]특정 패키지 내에 존재하는 모든 클래스를 임포트하는 임포트 선언문 `예: java.util.*`
-[^OPTIONAL-2]: [Optional] [설명링크]:http://homoefficio.github.io/2019/10/03/Java-Optional-%EB%B0%94%EB%A5%B4%EA%B2%8C-%EC%93%B0%EA%B8%B0/
-
-
-
-
-
-
-
 
