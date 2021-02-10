@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-10 16:49:22 +0900
+updated : 2021-02-10 16:51:21 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -115,9 +115,9 @@ latex   : false
     * 중괄호를 연 다음 줄바꿈한다.
     * 중괄호를 닫기 전 줄바꿈한다.
     * 중괄호를 닫은 후엔, 해당 중괄호가 메서드, 생성자 또는 명명된*named* 클래스를 종료할 때만 줄바꿈을 한다. 예를들어, 중괄호 뒤에 `else` 또는 쉼표*comma*가 따라올 땐 줄바꿈하지 않는다.
+
 <br/>
 예제: 
-
 ```java
 return () -> {
   while (condition()) {
