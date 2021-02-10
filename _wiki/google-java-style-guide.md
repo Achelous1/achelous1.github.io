@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-10 16:46:31 +0900
+updated : 2021-02-10 16:49:22 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -115,7 +115,7 @@ latex   : false
     * 중괄호를 연 다음 줄바꿈한다.
     * 중괄호를 닫기 전 줄바꿈한다.
     * 중괄호를 닫은 후엔, 해당 중괄호가 메서드, 생성자 또는 명명된*named* 클래스를 종료할 때만 줄바꿈을 한다. 예를들어, 중괄호 뒤에 `else` 또는 쉼표*comma*가 따라올 땐 줄바꿈하지 않는다.
-
+<br/>
 예제: 
 
 ```java
@@ -148,7 +148,7 @@ return new MyClass() {
 #### 4.1.3 빈 블록: 간결할 수도 있음
 * 빈 블록, 또는 블록형구조는 K & R 스타일을 따를 수 있다( [Section 4.1.2](#412-비어-있지-않은-블록-nonempty-block--k--r-스타일)에서 설명한 것처럼). 다른형태로는 빈 블록은 다중블럭선언문*multi-block statement*의 한 부분이지 **않을 경우**(직접적으로 다중블록을 가지고 있는 경우: `if/else` 또는 `try/catch/finally`) 중괄호 사이에 다른 문자열이나 줄바꿈 없이 바로 열고 닫을 수 있다(`{}`).
 <br/>
-Examples:
+예제:
 ```java
   // 허용
   void doNothing() {}
