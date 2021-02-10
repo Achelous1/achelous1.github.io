@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-09 14:02:14 +0900
+updated : 2021-02-10 16:43:43 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -145,7 +145,26 @@ return new MyClass() {
 
 4.8.1섹션 [열거형 클래스](#481-열거형-클래스)에서 열거형 클래스에 대한 몇가지 예외를 설명한다.
 
-#### 4.1.3
+#### 4.1.3 빈 블록: 간결할 수도 있음
+* 빈 블록, 또는 블록형구조는 K & R 스타일을 따를 수 있다( [Section 4.1.2](#412-비어-있지-않은-블록-nonempty-block--k--r-스타일)에서 설명한 것처럼). 다른형태로는 빈 블록은 다중블럭선언문*multi-block statement*의 한 부분이지 **않을 경우**(직접적으로 다중블록을 가지고 있는 경우: `if/else` 또는 `try/catch/finally`) 중괄호 사이에 다른 문자열이나 줄바꿈 없이 바로 열고 닫을 수 있다(`{}`).
+<br/>
+Examples:
+```java
+  // 허용
+  void doNothing() {}
+
+  // 허용 
+  void doNothingElse() {
+  }
+```
+<br/>
+
+```java
+  // 허용되지 않음: 다중블록선언문에선 간결한 빈블록을 사용할 수 없다
+  try {
+    doSomething();
+  } catch (Exception e) {}
+```
 
 ### 4.2 
 
