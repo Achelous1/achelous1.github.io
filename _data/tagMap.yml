@@ -32,7 +32,7 @@ architecture:
 javascript:
     - {fileName: JavaScript}
     - {fileName: typeof-instanceof}
-cheetsheet:
+cheatsheet:
     - {fileName: life-cheatsheet}
 typeof:
     - {fileName: typeof-instanceof}

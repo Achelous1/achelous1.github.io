@@ -120,11 +120,11 @@ JavaScript:
     children: [typeof-instanceof]
 life-cheatsheet:
     type: wiki
-    title: '인생 가이드라인'
+    title: 'Life Cheatsheet'
     summary: ""
-    parent: life-log
+    parent: life-guide
     url: /wiki/life-cheatsheet
-    updated: '2021-01-26 16:58:07 +0900'
+    updated: '2021-02-10 17:36:16 +0900'
     children: []
 life-guide:
     type: wiki
@@ -133,7 +133,7 @@ life-guide:
     parent: index
     url: /wiki/life-guide
     updated: '2021-02-10 17:30:57 +0900'
-    children: [42-rules-of-life]
+    children: [42-rules-of-life, life-cheatsheet]
 life-log:
     type: wiki
     title: 'Life Log'
@@ -141,7 +141,7 @@ life-log:
     parent: index
     url: /wiki/life-log
     updated: '2021-02-10 17:30:43 +0900'
-    children: [books-2021, diary-2020, diary-2021, life-cheatsheet]
+    children: [books-2021, diary-2020, diary-2021]
 programming:
     type: wiki
     title: 프로그래밍
