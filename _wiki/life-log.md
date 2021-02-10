@@ -1,9 +1,9 @@
 ---
-layout  : wiki
+layout  : category
 title   : Life Log
 summary : 인생기록
 date    : 2021-01-22 14:47:35 +0900
-updated : 2021-01-27 09:07:58 +0900
+updated : 2021-02-10 17:28:56 +0900
 tag     : 
 toc     : true
 public  : true

@@ -140,7 +140,7 @@ life-log:
     summary: 인생기록
     parent: index
     url: /wiki/life-log
-    updated: '2021-01-27 09:07:58 +0900'
+    updated: '2021-02-10 17:28:56 +0900'
     children: [books-2021, diary-2020, diary-2021, life-cheatsheet]
 programming:
     type: wiki
