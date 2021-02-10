@@ -44,3 +44,7 @@ toy-project:
     - {fileName: United-Resume}
 chrome-extension:
     - {fileName: United-Resume}
+sites:
+    - {fileName: Useful-sites}
+useful:
+    - {fileName: Useful-sites}

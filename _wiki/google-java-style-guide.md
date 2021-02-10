@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-10 16:51:21 +0900
+updated : 2021-02-10 17:10:00 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -129,8 +129,7 @@ return new MyClass() {
   @Override public void method() {
     if (condition()) {
       try {
-        something();
-      } catch (ProblemException e) {
+        something(); } catch (ProblemException e) {
         recover();
       }
     } else if (otherCondition()) {
