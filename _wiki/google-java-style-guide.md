@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-10 16:43:43 +0900
+updated : 2021-02-10 16:46:31 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -158,7 +158,6 @@ Examples:
   }
 ```
 <br/>
-
 ```java
   // 허용되지 않음: 다중블록선언문에선 간결한 빈블록을 사용할 수 없다
   try {
