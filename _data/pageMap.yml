@@ -132,7 +132,7 @@ life-guide:
     summary: '인생을 이끌어줄 가이드라인'
     parent: index
     url: /wiki/life-guide
-    updated: '2021-01-26 16:57:23 +0900'
+    updated: '2021-02-10 17:30:57 +0900'
     children: [42-rules-of-life]
 life-log:
     type: wiki
@@ -140,7 +140,7 @@ life-log:
     summary: 인생기록
     parent: index
     url: /wiki/life-log
-    updated: '2021-02-10 17:28:56 +0900'
+    updated: '2021-02-10 17:30:43 +0900'
     children: [books-2021, diary-2020, diary-2021, life-cheatsheet]
 programming:
     type: wiki
