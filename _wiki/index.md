@@ -14,6 +14,8 @@ regenerate: true
 
 ## Life
 * [[life-log]]
+    * [[diary-2021]]
+    * [[books-2021]]
 * [[life-guide]]
 
 ---
