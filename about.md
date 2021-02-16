@@ -8,22 +8,16 @@ latex: true
 * TOC
 {:toc}
 
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jsdesign1204@gmail.com)](mailto:jsdesign1204@gmail.com)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAchelous1&count_bg=%2379C83D&title_bg=%23555555&icon=atom.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+**Greetings!** 저는 현재 *HNC 기술정보*에서 웹프로그래머로 재직중인 친슈라고 합니다!
+
+# Stack
 <br/>
+![Markdown badge](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![AngularJS badge](https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white)
+![Spring badge](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
-- 🔭 I’m currently working at HNC Tech. as a Web Developer. Currently, I am working for TSB - Software migration.
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# 프로젝트 이력
 
-### GitHub Stats⚡
-![ISA github stats](https://github-readme-stats.vercel.app/api?username=Achelous1&count_private=true&show_icons=true&theme=vue)
-
-### Languages Used in Repositories⚡
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Achelous1&langs_count=10&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+# 작업중
 
