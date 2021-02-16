@@ -110,21 +110,21 @@ index:
     url: /wiki/index
     updated: null
     children: []
-JavaScript:
+Javascript:
     type: wiki
     title: JavaScript
     summary: '자바스크립트에 관하여'
     parent: programming
-    url: /wiki/JavaScript
+    url: /wiki/Javascript
     updated: '2021-02-05 15:34:50 +0900'
-    children: [typeof-instanceof]
+    children: []
 life-cheatsheet:
     type: wiki
     title: 'Life Cheatsheet'
     summary: ""
     parent: life-guide
     url: /wiki/life-cheatsheet
-    updated: '2021-02-10 17:36:16 +0900'
+    updated: '2021-02-16 15:05:51 +0900'
     children: []
 life-guide:
     type: wiki
@@ -149,7 +149,7 @@ programming:
     parent: index
     url: /wiki/programming
     updated: '2021-02-09 13:57:45 +0900'
-    children: [baekjun, calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, JavaScript, United-Resume]
+    children: [baekjun, calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, Javascript, United-Resume]
 tech:
     type: wiki
     title: 개발기술

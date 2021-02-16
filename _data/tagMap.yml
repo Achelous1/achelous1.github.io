@@ -30,7 +30,7 @@ study:
 architecture:
     - {fileName: importance-in-studying}
 javascript:
-    - {fileName: JavaScript}
+    - {fileName: Javascript}
     - {fileName: typeof-instanceof}
 cheatsheet:
     - {fileName: life-cheatsheet}
