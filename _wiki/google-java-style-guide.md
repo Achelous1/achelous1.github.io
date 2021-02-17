@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-17 15:28:10 +0900
+updated : 2021-02-17 15:30:29 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -195,8 +195,9 @@ latex   : false
     
 ---
 ## Links
-[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-[Jenkov tutorials](http://tutorials.jenkov.com/unicode/index.html)
+* [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+* [Jenkov tutorials](http://tutorials.jenkov.com/unicode/index.html)
+
 ---
 ## 주석
 [^WILDCARD-1]: [와일드카드 임포트]특정 패키지 내에 존재하는 모든 클래스를 임포트하는 임포트 선언문 `예: java.util.*`
