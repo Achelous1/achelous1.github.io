@@ -20,6 +20,9 @@
     name: chrome-extension
     size: 1
 -
+    name: complexity
+    size: 1
+-
     name: developer
     size: 1
 -
@@ -40,6 +43,9 @@
 -
     name: life
     size: 2
+-
+    name: performance
+    size: 1
 -
     name: quotes
     size: 1

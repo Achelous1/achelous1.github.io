@@ -19,6 +19,10 @@ arithmetic:
     - {fileName: baekjun-level-1}
 IO:
     - {fileName: baekjun-level-1}
+complexity:
+    - {fileName: Big-O-Notation}
+performance:
+    - {fileName: Big-O-Notation}
 books:
     - {fileName: books-2021}
 guideline:
