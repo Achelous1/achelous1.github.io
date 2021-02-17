@@ -3,6 +3,7 @@ baekjun:
     - {fileName: '1001'}
     - {fileName: '10171'}
     - {fileName: '10172'}
+    - {fileName: '10718'}
     - {fileName: '2557'}
     - {fileName: baekjun}
     - {fileName: baekjun-level-1}

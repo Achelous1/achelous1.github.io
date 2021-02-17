@@ -38,6 +38,14 @@
     url: /wiki/10172
     updated: '2021-02-17 16:07:08 +0900'
     children: []
+'10718':
+    type: wiki
+    title: 'We love kriii'
+    summary: ""
+    parent: baekjun-level-1
+    url: /wiki/10718
+    updated: '2021-02-17 16:12:52 +0900'
+    children: []
 42-rules-of-life:
     type: wiki
     title: '인생의 42가지 규칙'
@@ -60,8 +68,8 @@ baekjun-level-1:
     summary: '입출력과 사칙연산'
     parent: baekjun
     url: /wiki/baekjun-level-1
-    updated: '2021-02-17 16:01:12 +0900'
-    children: ['1000', '1001', '10171', '10172', '2557']
+    updated: '2021-02-17 16:08:28 +0900'
+    children: ['1000', '1001', '10171', '10172', '10718', '2557']
 books-2021:
     type: wiki
     title: '2021년 독서목록'

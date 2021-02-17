@@ -3,7 +3,7 @@ layout  : wiki
 title   : 단계1
 summary : 입출력과 사칙연산 
 date    : 2021-02-05 16:11:24 +0900
-updated : 2021-02-17 16:01:12 +0900
+updated : 2021-02-17 16:08:28 +0900
 tag     : baekjun arithmetic IO
 toc     : true
 public  : true
@@ -15,7 +15,7 @@ latex   : false
 
 # 입출력과 사칙연산
 #### [[2557]]
-#### 10718
+#### [[10718]]
 #### [[10171]]
 #### [[10172]]
 #### [[1000]]
