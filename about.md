@@ -8,11 +8,9 @@ latex: true
 * TOC
 {:toc}
 
-![profile-pic](https://user-images.githubusercontent.com/24582045/108148108-7c614980-7113-11eb-880a-949a26d908ac.jpg)
-<br/>
+[//]: <> (<img align="left" src="https://user-images.githubusercontent.com/24582045/108148108-7c614980-7113-11eb-880a-949a26d908ac.jpg" style="width:15vw; height:15vw;"/>)
 # **Greetings** - @Achelous1
-* 반갑습니다! 저는 현재 *HNC 기술정보*에서 웹프로그래머로 재직중인 `친슈`라고 합니다!
-
+반갑습니다! 저는 현재 *HNC 기술정보*에서 웹프로그래머로 재직중인 친슈라고 합니다!
 # Stack
 ![Javascript badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML badge](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
