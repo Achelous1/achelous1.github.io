@@ -8,7 +8,7 @@ regenerate: true
 ---
 
 ## </dev>
-* [[programming]]
+* [[programming]]{프로그래밍}
 * [[tech]]
 * [[Useful-sites]]
 

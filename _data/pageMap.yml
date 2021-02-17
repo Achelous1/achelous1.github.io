@@ -60,7 +60,7 @@ baekjun:
     summary: 'baekjun문제를 풀어보자'
     parent: programming
     url: /wiki/baekjun
-    updated: '2021-02-05 17:05:55 +0900'
+    updated: '2021-02-17 16:31:23 +0900'
     children: [baekjun-level-1]
 baekjun-level-1:
     type: wiki
@@ -164,7 +164,7 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-02-09 13:57:45 +0900'
+    updated: '2021-02-17 16:30:58 +0900'
     children: [baekjun, calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, Javascript, United-Resume]
 tech:
     type: wiki
