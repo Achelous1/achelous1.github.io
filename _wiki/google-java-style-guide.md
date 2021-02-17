@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-10 17:10:00 +0900
+updated : 2021-02-17 15:28:10 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -72,7 +72,7 @@ latex   : false
 ### 3.2 패키지 선언문
 * 패키지선언문은 **줄바꿈 하지 않는다** *not line-wrapped*. 컬럼제한(4.4섹션, [컬럼제한: 100](#44-컬럼제한-100))은 패키지 선언문에 적용되지 않는다.
 
-### 3.3 임포트 선언문들
+### 3.3 임포트 선언문
 #### 3.3.1 와일드카드 임포트 사용금지
 * **와일드카드 임포트[^WILDCARD-1]는**, 스태틱이든 간에, **사용되지 않는다**
 
@@ -116,31 +116,30 @@ latex   : false
     * 중괄호를 닫기 전 줄바꿈한다.
     * 중괄호를 닫은 후엔, 해당 중괄호가 메서드, 생성자 또는 명명된*named* 클래스를 종료할 때만 줄바꿈을 한다. 예를들어, 중괄호 뒤에 `else` 또는 쉼표*comma*가 따라올 땐 줄바꿈하지 않는다.
 
-<br/>
-예제: 
-```java
-return () -> {
-  while (condition()) {
-    method();
-  }
-};
-
-return new MyClass() {
-  @Override public void method() {
-    if (condition()) {
-      try {
-        something(); } catch (ProblemException e) {
-        recover();
+    예제: 
+    ```java
+    return () -> {
+      while (condition()) {
+        method();
       }
-    } else if (otherCondition()) {
-      somethingElse();
-    } else {
-      lastThing();
-    }
-  }
-};
+    };
 
-```
+    return new MyClass() {
+      @Override public void method() {
+        if (condition()) {
+          try {
+            something(); } catch (ProblemException e) {
+            recover();
+          }
+        } else if (otherCondition()) {
+          somethingElse();
+        } else {
+          lastThing();
+        }
+      }
+    };
+
+    ```
 
 4.8.1섹션 [열거형 클래스](#481-열거형-클래스)에서 열거형 클래스에 대한 몇가지 예외를 설명한다.
 
@@ -164,13 +163,22 @@ return new MyClass() {
   } catch (Exception e) {}
 ```
 
-### 4.2 
+### 4.2 블록 들여쓰기: +2 띄어쓰기
+* 새로운 블럭이나 블럭형 구조가 열릴 경우, 들여쓰기는 두번 띄어쓰기*two spaces* 한다. 만약 블럭이 닫힌다면, 들여쓰기는 기존 들여쓰기레벨로 돌아간다. 들여쓰기레벨은 코드와 주석 모두에 블럭 안에서 적용된다. (Section 4.1.2 [비어있지 않은 블록: K & R스타일](#412-비어-있지-않은-블록-nonempty-block--k--r-스타일)의 예제 참조)
 
-### 4.3
+### 4.3 라인*line* 당 하나의 선언문
+* 한줄에는 하나의 선언문만으로 이루어진다.
 
 ### 4.4 컬럼제한: 100
+* 자바코드는 100자*characters*의 컬럼제한을 가진다. 하나의 "문자"라는 의미는 아무 유니코드의 코드포인트*code point*를[^UTFCDPNT-2] 의미한다. 아래의 예외경우를 제외하고 컬럼제한을 초과한 경우엔 Section 4.5[줄바꿈](#45-줄바꿈)에서 설명하듯이 줄바꿈*line-wrapping*을 해야한다.
+> 각각의 유니코드 코드포인트는[^UTFCDPNT-2], 화면의 가로값이 길거나 짧아도, 하나의 문자로 계산한다. 예를 들어, 전각문자*[fullwidth characters](ref-fullwidth-characters)*를 사용하는 경우, 해당 줄을 이 규칙이 엄격하게 적용되는 범위 전에 줄바꿈 할 수 있다.
 
-### 4.5
+    예외:
+    1. 컬럼제한을 따르는 것이 불가능한 줄의 경우(자바독의 URL 또는 긴 JSNI 메서드 참조).
+    2. 패키지*package* 그리고 임포트*import* 선언문([Section 3.2 패키지선언문](#32-패키지-선언문)과 [Section 3.3 임포트선언문](#33-임포트-선언문) 참조)
+    3. 주석 내에 작성 된 쉘에 잘라내기 후 붙혀넣기*cut-and-pasted* 할 수 있는 명령문들*command lines*.
+
+### 4.5 줄바꿈
 
 ### 4.6
 
@@ -188,10 +196,11 @@ return new MyClass() {
 ---
 ## Links
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-
+[Jenkov tutorials](http://tutorials.jenkov.com/unicode/index.html)
 ---
 ## 주석
 [^WILDCARD-1]: [와일드카드 임포트]특정 패키지 내에 존재하는 모든 클래스를 임포트하는 임포트 선언문 `예: java.util.*`
-
+[^UTFCDPNT-2]: [유니코드 코드포인트] 유니코드를 정의하는 'U+' 0 부터 10FFFF값 사이의 16진수 값
 
 [ref-egyptian-brackets]:https://blog.codinghorror.com/new-programming-jargon/
+[ref-fullwidth-characters]:https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms
