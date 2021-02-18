@@ -11,6 +11,9 @@
     name: baekjun
     size: 8
 -
+    name: blog
+    size: 1
+-
     name: books
     size: 1
 -
@@ -44,6 +47,9 @@
     name: life
     size: 2
 -
+    name: local-test
+    size: 1
+-
     name: performance
     size: 1
 -
@@ -66,4 +72,7 @@
     size: 1
 -
     name: useful
+    size: 1
+-
+    name: wiki
     size: 1

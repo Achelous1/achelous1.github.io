@@ -23,6 +23,12 @@ complexity:
     - {fileName: Big-O-Notation}
 performance:
     - {fileName: Big-O-Notation}
+wiki:
+    - {fileName: blog-testing-method}
+blog:
+    - {fileName: blog-testing-method}
+local-test:
+    - {fileName: blog-testing-method}
 books:
     - {fileName: books-2021}
 guideline:
