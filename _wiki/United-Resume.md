@@ -3,7 +3,7 @@ layout  : wiki
 title   : UR? (United Resume)
 summary : 이력서통합관리 크롬확장프로그램을 만들어보자 
 date    : 2021-02-02 14:25:53 +0900
-updated : 2021-02-19 14:09:31 +0900
+updated : 2021-02-19 14:47:21 +0900
 tag     : developer toy-project chrome-extension
 toc     : true
 public  : true
@@ -49,7 +49,7 @@ latex   : false
     * 해결방안 :
         1. 찾다보니 `WebSQL`이란 브라우저 내에 데이터를 저장할 수 있는 기능을 발견했다. 이것을 사용해보자.
             * 검색해보니 `WebSQL`은 더이상 유지관리가 되고 있지 않다[*참조*](https://www.w3.org/TR/webdatabase/).(크롬에서 삭제 될 경우가 생길 수 있음)
-
+        2. `sql.js` 사용
 ### 사람인 인터페이스와 연동하기(1차)
 
 
