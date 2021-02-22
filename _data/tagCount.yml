@@ -20,13 +20,7 @@
     name: cheatsheet
     size: 1
 -
-    name: chrome-extension
-    size: 1
--
     name: complexity
-    size: 1
--
-    name: developer
     size: 1
 -
     name: guideline
@@ -63,9 +57,6 @@
     size: 1
 -
     name: style
-    size: 1
--
-    name: toy-project
     size: 1
 -
     name: typeof

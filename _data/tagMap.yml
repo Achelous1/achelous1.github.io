@@ -50,12 +50,6 @@ typeof:
     - {fileName: typeof-instanceof}
 instanceof:
     - {fileName: typeof-instanceof}
-developer:
-    - {fileName: United-Resume}
-toy-project:
-    - {fileName: United-Resume}
-chrome-extension:
-    - {fileName: United-Resume}
 sites:
     - {fileName: Useful-sites}
 useful:
