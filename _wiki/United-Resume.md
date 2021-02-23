@@ -3,7 +3,7 @@ layout  : wiki
 title   : UR? (United Resume)
 summary : 이력서통합관리 크롬확장프로그램을 만들어보자 
 date    : 2021-02-02 14:25:53 +0900
-updated : 2021-02-22 15:31:51 +0900
+updated : 2021-02-22 16:09:08 +0900
 tag     : developer toy-project chrome-extension
 toc     : true
 public  : false
@@ -51,20 +51,6 @@ latex   : false
             * 검색해보니 `WebSQL`은 더이상 유지관리가 되고 있지 않다[*참조*](https://www.w3.org/TR/webdatabase/).(크롬에서 삭제 될 경우가 생길 수 있음)
         2. `sql.js` 사용
 ### 사람인 인터페이스와 연동하기(1차)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Links
 [프로젝트 링크](https://www.github.com/Achelous1/united-resume)
