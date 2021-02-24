@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2021년 일지 
 summary : 
 date    : 2021-01-22 14:48:52 +0900
-updated : 2021-02-24 15:41:14 +0900
+updated : 2021-02-24 15:43:14 +0900
 tag     : 
 toc     : true
 public  : true
