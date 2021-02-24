@@ -3,11 +3,11 @@ layout  : wiki
 title   : ExtJS를 사용하며 디버깅 한 경험
 summary : 
 date    : 2021-02-24 16:31:38 +0900
-updated : 2021-02-24 16:42:24 +0900
+updated : 2021-02-24 17:49:48 +0900
 tag     : extjs debugging 
 toc     : true
 public  : true
-parent  : [[javascript]] 
+parent  : [[JavaScript]] 
 latex   : false
 ---
 * TOC
