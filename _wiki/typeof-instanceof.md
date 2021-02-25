@@ -3,11 +3,11 @@ layout  : wiki
 title   : typeof와 instanceof의 차이점
 summary : 
 date    : 2021-02-05 14:28:19 +0900
-updated : 2021-02-05 15:46:00 +0900
+updated : 2021-02-25 16:39:42 +0900
 tag     : javascript typeof instanceof
 toc     : true
 public  : true
-parent  : [[JavaScript]]
+parent  : [[Javascript]]
 latex   : false
 ---
 * TOC
