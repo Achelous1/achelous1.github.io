@@ -3,7 +3,7 @@ layout  : wiki
 title   : 자바 코딩가이드
 summary : 구글의 자바 코딩가이드
 date    : 2021-01-22 10:26:09 +0900
-updated : 2021-02-23 14:49:50 +0900
+updated : 2021-03-17 17:19:18 +0900
 tag     : guideline java style 
 toc     : true
 public  : true
@@ -186,7 +186,30 @@ latex   : false
 
 > **팁**: 줄바꿈을 하는 대신 메서드 또는 지역변수를 적출*extract* 함으로써 문제를 해결할 수도 있다.
 
-#### 4.5.1 
+#### 4.5.1 줄바꿈 할 위치
+* 줄바꿈의 주요 지침은 : *더 높은 구문레벨에서* 줄바꿈 하는것을 선호한다. 그리고:
+1. 
+
+
+
+
+
+
+
+The prime directive of line-wrapping is: prefer to break at a higher syntactic level. Also:
+
+When a line is broken at a non-assignment operator the break comes before the symbol. (Note that this is not the same practice used in Google style for other languages, such as C++ and JavaScript.)
+This also applies to the following "operator-like" symbols:
+the dot separator (.)
+the two colons of a method reference (::)
+an ampersand in a type bound (<T extends Foo & Bar>)
+a pipe in a catch block (catch (FooException | BarException e)).
+When a line is broken at an assignment operator the break typically comes after the symbol, but either way is acceptable.
+This also applies to the "assignment-operator-like" colon in an enhanced for ("foreach") statement.
+A method or constructor name stays attached to the open parenthesis (() that follows it.
+A comma (,) stays attached to the token that precedes it.
+A line is never broken adjacent to the arrow in a lambda, except that a break may come immediately after the arrow if the body of the lambda consists of a single unbraced expression. Examples:
+
 
 ####
 
