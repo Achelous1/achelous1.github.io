@@ -19,7 +19,6 @@ regenerate: true
     * [[news-2021]]
 * [[life-guide]]
     * [[life-cheatsheet]]
-    * [[law-of-jante]]
 
 ---
 ## Blog posts
