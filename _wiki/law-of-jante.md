@@ -3,7 +3,7 @@ layout  : wiki
 title   : 얀테의 법칙
 summary : 
 date    : 2021-03-30 10:40:24 +0900
-updated : 2021-03-30 10:44:15 +0900
+updated : 2021-03-30 10:53:54 +0900
 tag     : life
 toc     : true
 public  : true
@@ -27,5 +27,5 @@ latex   : false
 
 
 
-### Link
-[Wikipedia](https://ko.m.wikipedia.org/wiki/%EC%96%80%ED%85%8C%EC%9D%98_%EB%B2%95%EC%B9%99)
+# Link
+* [Wikipedia](https://ko.m.wikipedia.org/wiki/%EC%96%80%ED%85%8C%EC%9D%98_%EB%B2%95%EC%B9%99)
