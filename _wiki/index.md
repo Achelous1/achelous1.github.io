@@ -15,6 +15,7 @@ regenerate: true
 ## Study
 * [[mathematics]]
     *  [[exponentiation]]
+    
 ## Life
 * [[life-log]]
     * [[diary-2021]]
