@@ -3,7 +3,7 @@ layout  : wiki
 title   : 거듭제곱
 summary : 
 date    : 2021-04-02 11:40:03 +0900
-updated : 2021-04-02 14:26:30 +0900
+updated : 2021-04-02 14:28:20 +0900
 tag     : math
 toc     : true
 public  : true
@@ -40,7 +40,7 @@ $$ {0.1}^x $$
 * 각자 다른숫자가 여러번 곱하여진다면 각 다른 숫자끼리 묶어 거듭제곱을 표현한다.
 
 $$ 
-\a * a * a * b * b = a^3 * b^2
+a * a * a * b * b = a^3 * b^2
 $$
 
 # Links
