@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2021-04-02 09:44:20 +0900
+updated : 2021-04-02 14:38:52 +0900
 tag     : 
 toc     : true
 public  : true
@@ -16,6 +16,8 @@ latex   : false
 # Languages
 * [[Javascript]]
 
+# Design Pattern
+
 # Program Algorithms
 * [[calculate-datetime-bw-2-days]]
 * [[baekjun]]{Baekjun 문제풀이}
@@ -26,6 +28,7 @@ latex   : false
 * [[blog-testing-method]]{Johngrib 블로그 테스트 방법}
 * [[useful-cmd-commands]]{자주 쓰이고 유용한 cmd 커맨드}
 * [[sql-7-do-nots]]{SQL의 칠거지악}
+* [[solid-principle]]{SOLID 원칙}
 
 # HOW-TO
 * [[importance-in-studying]]
