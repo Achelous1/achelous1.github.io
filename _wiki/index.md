@@ -8,10 +8,13 @@ regenerate: true
 ---
 
 ## </dev>
-* [[programming]]{프로그래밍}
+* [[programming]]
 * [[tech]]
 * [[Useful-sites]]
 
+## Study
+* [[mathematics]]
+    *  [[exponentiation]]
 ## Life
 * [[life-log]]
     * [[diary-2021]]
