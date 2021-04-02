@@ -3,7 +3,7 @@ layout  : wiki
 title   : SOLID 원칙
 summary : 객체지향의 설계원칙
 date    : 2021-04-02 14:38:52 +0900
-updated : 2021-04-02 15:09:33 +0900
+updated : 2021-04-02 15:11:24 +0900
 tag     : OOP design principle
 toc     : true
 public  : true
@@ -35,4 +35,4 @@ latex   : false
 * [Wikipedia](https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84))
 
 ## 주석
-[^DESBYCONT-1]: [계약에 의한 설계] 계약에 의한 설계를 참고
+[^DESBYCONT-1]: 계약에 의한 설계를 참고
