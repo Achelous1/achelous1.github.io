@@ -3,7 +3,7 @@ layout  : wiki
 title   : SOLID 원칙
 summary : 객체지향의 설계원칙
 date    : 2021-04-02 14:38:52 +0900
-updated : 2021-04-02 15:00:49 +0900
+updated : 2021-04-02 15:05:31 +0900
 tag     : OOP design principle
 toc     : true
 public  : true
@@ -32,7 +32,7 @@ latex   : false
 * 프로그래머는 `추상화에 의존해야지, 구체화에 의존하면 안된다`. 의존성 주입은 이 원칙을 따르는 방법 중 하나다.
 
 ## 주석
-[^DESBYCONT-1] : 계약에 의한 설계를 참고
+[^DESBYCONT-1]: 계약에 의한 설계를 참고
 
 ## Links
 * [Wikipedia](https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84))
