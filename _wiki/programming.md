@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2021-04-02 14:38:52 +0900
+updated : 2021-04-05 14:42:41 +0900
 tag     : 
 toc     : true
 public  : true
@@ -16,7 +16,35 @@ latex   : false
 # Languages
 * [[Javascript]]
 
-# Design Pattern
+# [[design-patterns]]{Design Patterns}
+## Creational Patterns
+1. [[abstract-factory-pattern]]
+2. builder-pattern
+3. factory-method-pattern
+4. prototype-pattern
+5. singleton-pattern
+
+## Structural Patterns
+1. adapter-pattern
+2. bridge-pattern
+3. composite-pattern
+4. decorater-pattern
+5. facade-pattern
+6. flyweight-pattern
+7. proxy-pattern
+
+## Behavioral Patterns
+1. chain-of-responsibility-pattern
+2. command-pattern
+3. interpreter-pattern
+4. iterator-pattern
+5. mediator-pattern
+6. memento-pattern
+7. observer-pattern
+8. state-pattern
+9. strategy-pattern
+10. template-method-pattern
+11. visitor-pattern
 
 # Program Algorithms
 * [[calculate-datetime-bw-2-days]]
