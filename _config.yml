@@ -21,8 +21,7 @@ profile:
 plugins:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-asciidoc
-  - jekyll-plantuml
+  - kramdown-plantuml
 
 permalink: /blog/:year/:month/:day/:title/
 

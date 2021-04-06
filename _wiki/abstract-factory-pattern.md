@@ -17,6 +17,12 @@ latex   : true
 
 ![]({{site.baseurl}}/assets/uml/singleton.png)
 
-{% plantuml %}
-[First] - [Second]
-{% endplantuml %}
+```plantuml
+@startuml Diagram
+actor client
+node app
+database db
+db -> app
+app -> client
+@enduml
+```
