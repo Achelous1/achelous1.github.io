@@ -8,13 +8,11 @@ tag     : abstract-factory design-pattern
 toc     : true
 public  : true
 parent  : [[design-pattern]]
-latex   : true
+latex   : false
 ---
 * TOC
 {:toc}
 
 # 추상팩토리 패턴에 대하여
-
-![]({{site.baseurl}}/assets/uml/singleton.png)
 
 ![]({{site.baseurl}}/assets/uml/abstract-factory-pattern.png)
