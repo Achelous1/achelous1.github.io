@@ -18,10 +18,16 @@ gem "minima", "~> 2.0"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-gem 'kramdown-plantuml'
+# gem 'kramdown-plantuml'
+gem 'asciidoctor', '~> 1.5'
+gem 'coderay', '1.1.0'
+gem 'rake-jekyll', '~> 1.0'
+gem 'jekyll-plantuml', '~> 1.1' 
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-asciidoc"
+  gem 'asciidoctor-diagram' 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
