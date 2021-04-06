@@ -16,3 +16,13 @@ latex   : true
 # 추상팩토리 패턴에 대하여
 
 ![]({{site.baseurl}}/assets/uml/singleton.png)
+
+```plantuml
+@startuml Diagram
+actor client
+node app
+database db
+db -> app
+app -> client
+@enduml
+```

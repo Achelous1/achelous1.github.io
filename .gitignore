@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 /.idea
+/uml
 tags
 *.swp
 Gemfile.lock
