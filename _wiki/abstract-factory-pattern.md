@@ -16,3 +16,7 @@ latex   : true
 # 추상팩토리 패턴에 대하여
 
 ![]({{site.baseurl}}/assets/uml/singleton.png)
+
+{% plantuml %}
+[First] - [Second]
+{% endplantuml %}

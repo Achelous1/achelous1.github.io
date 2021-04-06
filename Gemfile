@@ -18,15 +18,19 @@ gem "minima", "~> 2.0"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
+gem 'asciidoctor', '~> 2.0.12'
+gem 'jekyll-plantuml', '~> 1.3.4'
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-asciidoc"
+  gem 'asciidoctor-diagram' 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
-gem 'jekyll-plantuml', '~> 1.3', '>= 1.3.4'
 
 # On Windows, you need to install 'wdm' , to avoid polling for changes
 # For more details, please check  https://jekyllrb.com/docs/installation/windows/#auto-regeneration
