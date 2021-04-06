@@ -28,7 +28,7 @@ permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
+  input: kramdown
   syntax_highlighter: rouge
 
 paginate: 10
