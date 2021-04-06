@@ -7,6 +7,6 @@ addons:
   apt:
     packages:
     - graphviz 
-# env:
-#   global:
-#     secure: <yourToken>
+env:
+  global:
+    secure: zYxg6lXWHVFGZdqwENZncQ
