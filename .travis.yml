@@ -7,6 +7,3 @@ addons:
   apt:
     packages:
     - graphviz 
-# env:
-#   global:
-#     secure: zYxg6lXWHVFGZdqwENZncQ
