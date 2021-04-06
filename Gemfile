@@ -20,6 +20,7 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 gem 'asciidoctor', '~> 2.0.12'
 gem 'jekyll-plantuml', '~> 1.3.4'
+gem 'jekyll-diagrams'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
