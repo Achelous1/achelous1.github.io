@@ -21,7 +21,7 @@ gem "minima", "~> 2.0"
 gem 'kramdown-plantuml'
 
 group :jekyll_plugins do
-  gem "jekyll-feed"
+  gem "jekyll-feed", "~> 0.6"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
