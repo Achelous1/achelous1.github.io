@@ -7,4 +7,3 @@ addons:
   apt:
     packages:
     - graphviz 
-    - plantuml
