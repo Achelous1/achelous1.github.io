@@ -21,8 +21,6 @@ profile:
 plugins:
   - jekyll-paginate
   - jekyll-gist
-  # - kramdown-plantuml
-  - jekyll-plantuml
   
 permalink: /blog/:year/:month/:day/:title/
 
@@ -67,6 +65,3 @@ timezone: "Asia/Seoul"
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
 kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
-
-liquid:
-  error_mode: warn

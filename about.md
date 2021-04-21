@@ -46,5 +46,11 @@ latex: true
 | 랑팡은행 데이터품질솔루션 납품               | 2019.04 ~ 2019.05 | ![AngularJS](https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white)                                                                                                                                                                                                                                                 | * 데이터품질솔루션 프론트엔드 커스터마이징                                                       |
 | 말레이시아 벌크터미널관리솔루션 마이그레이션 | 2020.06 ~         | ![Sencha badge](https://img.shields.io/badge/extjs-86BC40?style=for-the-badge&logo=Sencha&logoColor=white) <br/> ![Spring badge](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) <br/> ![Oracle badge](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white)                 | * Adobe Flex와 J2EE로 개발된 레거시솔루션을 ExtJS와 Spring Framework로 마이그레이션              |
 
+# 포트폴리오
+
+| Name                | Github                                                         | 데모사이트                                                  | 사용스택                                                                                       |
+|---------------------|----------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| React 영화앱 페이지 | [github](https://github.com/Achelous1/react-movie-web-service) | [demo](https://achelous1.github.io/react-movie-web-service) | ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+
 # 작업중
 
