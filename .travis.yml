@@ -11,7 +11,7 @@ cache: bundler
 
 deploy:
   provider: pages
-  local_dir: ../_sites
+  local_dir: _sites
   cleanup: false
   verbose: true
   token: "$GH_TOKEN"
