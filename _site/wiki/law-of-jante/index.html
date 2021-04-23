@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>얀테의 법칙 - 개발하는 집사</title>
+
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/wiki/law-of-jante/">
+    <link rel="alternate" type="application/rss+xml" title="개발하는 집사" href="http://localhost:4000/feed.xml" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="얀테의 법칙">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://localhost:4000/resource/logo.png">
+    <meta property="og:url" content="http://localhost:4000/wiki/law-of-jante/">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:url" content="http://localhost:4000/wiki/law-of-jante/" />
+    <meta name="twitter:title" content="얀테의 법칙" />
+    <meta name="twitter:description" content="" />
+
+    <meta name="google-site-verification" content="i8fItGUbybQvtdEqjTIlAbCUTL4mlNo-V9fuOiAWdTU" />
+
+    <link rel="apple-touch-icon" sizes="57x57"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180"      href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="96x96"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16"   href="/resource/logo.png">
+    <link rel="manifest" href="/resource/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/resource/logo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://kit.fontawesome.com/0e662baaf0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110224147-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110224147-1');
+    </script>
+
+
+
+    <script>
+        // debugger;
+        // var url = "";
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.onreadystatechange = function() {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //         debugger;
+        //         document.getElementById("demo").innerHTML = this.responseText;
+        //     }
+        // };
+        // xhttp.open("GET", "https://raw.githubusercontent.com/Achelous1/Achelous1/main/README.md", true);
+        // xhttp.send();
+
+    </script>
+
+</head>
+<header class="header">
+    <div>
+        <a class="site-title" href="/">개발하는 집사</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/about/">me</a>
+    </div>
+    <div>
+        <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/wiki/index/">wiki</a>
+    </div>
+</header>
+<script>
+;(function(){
+    var isCtrl = false;
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        function setClassMobileWidth(className){
+            var el = document.getElementsByClassName(className)[0];
+            el.style.width = window.innerWidth + "px";
+        }
+
+        if(window.innerWidth < 800){
+            setClassMobileWidth("header");
+            setClassMobileWidth("search");
+        }
+    });
+
+    document.onkeyup=function(e){
+        if (e.which == 17) {
+            isCtrl = false;
+        }
+    }
+
+    document.onkeydown=function(e){
+        if(e.which == 17) {
+            isCtrl = true;
+        }
+        if(e.which == 82 && isCtrl == true) {
+            document.getElementById("random-button").click();
+        }
+    }
+})();
+</script>
+
+    <body>
+        <div class="page-content">
+            <div class="search">
+    <form role="search" method="get" action="/search/">
+         <input name="searchString" class="searchInput" placeholder=" 검색하세요" type="text">
+         <input type="submit" class="searchButton" value="Search">
+    </form>
+</div>
+            <div class="post">
+                
+<input type="hidden" id="thisName" value="law-of-jante"/>
+<div class="post">
+    <header class="post-header">
+        <h1 class="page-title">
+            <a href="/wiki/law-of-jante/"> 얀테의 법칙 </a>
+        </h1>
+    
+        <div class="history-button">
+            <p><a href="https://github.com/Achelous1/achelous1.github.io/blame/main/_wiki/law-of-jante.md" target="_blank">created: 2021.03.30</a></p>
+            <p><a href="https://github.com/Achelous1/achelous1.github.io/blame/main/_wiki/law-of-jante.md" target="_blank">updated: 2021.03.30</a></p>
+            <p>
+                <a href="https://github.com/Achelous1/achelous1.github.io/edit/main/_wiki/law-of-jante.md">편집하기</a>
+                /
+                <a href="https://github.com/Achelous1/achelous1.github.io/issues/new?title=%EC%96%80%ED%85%8C%EC%9D%98+%EB%B2%95%EC%B9%99&body=의견을%20남겨주세요">의견 남기기</a>
+            </p>
+        </div>
+
+        <div id="parent-list"></div>
+
+
+
+    <div class="post-tag">
+    life
+</div>
+
+
+
+
+    </header>
+    <article class="post-content">
+        <ul id="markdown-toc">
+  <li><a href="#얀테의-법칙" id="markdown-toc-얀테의-법칙">얀테의 법칙</a></li>
+  <li><a href="#link" id="markdown-toc-link">Link</a></li>
+</ul>
+
+<h1 id="얀테의-법칙">얀테의 법칙</h1>
+<ol>
+  <li>당신이 특별하다고 생각하지 마라.</li>
+  <li>당신이 남들만큼 좋은 사람이라고 생각하지 마라.</li>
+  <li>당신이 남들보다 똑똑하다고 생각하지 마라.</li>
+  <li>당신이 남들보다 낫다고 생각하지 마라.</li>
+  <li>당신이 남들보다 많이 안다고 생각하지 마라.</li>
+  <li>당신이 남들보다 중요하다고 생각하지 마라.</li>
+  <li>당신이 모든 일을 잘한다고 생각하지 마라.</li>
+  <li>남들을 비웃지 마라.</li>
+  <li>누군가 당신을 걱정하리라 생각하지 마라.</li>
+  <li>남들에게 무엇이든 가르칠 수 있으리라 생각하지 마라.</li>
+</ol>
+
+<h1 id="link">Link</h1>
+<ul>
+  <li><a href="https://ko.m.wikipedia.org/wiki/%EC%96%80%ED%85%8C%EC%9D%98_%EB%B2%95%EC%B9%99">Wikipedia</a></li>
+</ul>
+
+    </article>
+
+
+    
+    <div class="post-comments">
+    
+    
+        <script src="https://utteranc.es/client.js"
+            repo="Achelous1/achelous1.github.io"
+            issue-term="pathname"
+            label="Comment"
+            branch="main"
+        async>
+        </script>
+    
+    </div>
+
+
+
+</div>
+<script>
+    ;(function() {
+        var tags = document.querySelectorAll('.post-tag');
+        if(tags == null || tags.length < 1) {
+            return;
+        }
+
+        for (var i = 0; i < tags.length; i++) {
+            var item = tags[i];
+            var tagList = item.innerHTML.trim();
+
+            if(/^\s*$/.test(tagList)) {
+                continue;
+            }
+            tagList = tagList.split(/\s+/)
+                .map(function(tag) {
+                    return `<a href="/tag/#${tag}">#${tag}</a>`;
+                })
+                .join(' ');
+            console.log(tagList);
+            tags[i].innerHTML = tagList;
+        }
+        return;
+    })();
+    ;(function() {
+        var post = document.querySelector('article.post-content');
+
+        if(post == null) {
+            return;
+        }
+
+        (function iterate_node(node) {
+
+            if (/^(?:p|ul|h\d|table)$/i.test(node.tagName)) {
+
+                node.innerHTML = link(node.innerHTML);
+
+            } else { // Node.ELEMENT_NODE
+                for (var i = 0; i < node.childNodes.length; i++) {
+                    iterate_node(node.childNodes[i]);
+                }
+            }
+        })(post);
+
+        function link(content) {
+            content = content.replace(/\\\[\[(.+?)\]\]/g, '\\[\\[$1\\]\\]');
+            content = content.replace(/\[\[([^\[\]]+?)\]\]\{([^\{\}]+?)\}/g, '<a href="../$1">$2</a>');
+            content = content.replace(/\[\[(.+?)\]\]/g, '<a href="../$1">$1</a>');
+            content = content.replace(/\\\[\\\[(.+?)\\\]\\\]/g, '[[$1]]');
+            return content;
+        }
+
+    })();
+</script>
+
+
+<script src="/js/axios.min.js"></script>
+<script async src="/js/parent.js"></script>
+<script async src="/js/toc-highlight.js"></script>
+
+            </div>
+        </div>
+        <footer class="footer">
+    <div>
+
+    </div>
+</footer>
+    </body>
+</html>
