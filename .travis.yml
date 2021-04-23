@@ -9,6 +9,8 @@ script: bundle exec jekyll build
 
 cache: bundler
 
+before_script:
+ - chmod 7 _site
 deploy:
   provider: pages
   local_dir: _site
