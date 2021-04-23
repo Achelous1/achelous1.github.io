@@ -8,7 +8,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   verbose: true
-  github_token: $GH_REPO  # Set in the settings page of your repository, as a secure variable
+  github_token: gh_repo  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: main
