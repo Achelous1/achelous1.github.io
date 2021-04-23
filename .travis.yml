@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.5.0
 sudo: false
-script: bundle exec jekyll build
+script: bundle install && bundle exec jekyll build
 
 deploy:
   provider: pages
