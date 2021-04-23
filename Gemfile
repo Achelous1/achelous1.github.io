@@ -16,7 +16,7 @@ gem "minima", "~> 2.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 # gem 'kramdown-plantuml'
@@ -28,6 +28,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
+gem "jekyll-plantuml"
 
 # On Windows, you need to install 'wdm' , to avoid polling for changes
 # For more details, please check  https://jekyllrb.com/docs/installation/windows/#auto-regeneration

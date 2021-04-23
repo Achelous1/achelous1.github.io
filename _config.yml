@@ -19,6 +19,7 @@ profile:
 
 # Build settings
 plugins:
+  - jekyll-plantuml
   - jekyll-paginate
   - jekyll-gist
   
