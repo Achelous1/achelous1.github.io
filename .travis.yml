@@ -1,16 +1,15 @@
 language: ruby
 rvm:
 - 2.5.0
-sudo: false
 script: bundle update && bundle install && bundle exec jekyll build
 
 deploy:
   provider: pages
-  github_url: https://achelous1.github.io/
+  url: https://achelous1.github.io/
   local_dir: ../_site
-  skip_cleanup: true
+  cleanup: false
   verbose: true
-  github_token: env.gh_repo  # Set in the settings page of your repository, as a secure variable
+  token: $gh_repo  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: main
