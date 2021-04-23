@@ -7,7 +7,8 @@ script: bundle update && bundle install && bundle exec jekyll build
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $gh_repo  # Set in the settings page of your repository, as a secure variable
+  verbose: true
+  github_token: $GH_REPO  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: main
