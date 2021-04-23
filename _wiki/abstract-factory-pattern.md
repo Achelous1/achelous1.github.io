@@ -15,7 +15,7 @@ latex   : true
 
 # 추상팩토리 패턴에 대하여
 
-{% plantuml %}
+``` plantuml
 skinparam componentStyle uml2
 
 title Abstract Factory Pattern
@@ -66,4 +66,4 @@ ConcreteFactory2 .. n1
 note “This is the product\nfamily. Each concrete\nfactory can produce an\nentire set of products.” as n2
 AbstractProductA .. n2
 AbstractProductB .. n2
-{% endplantuml %}
+```

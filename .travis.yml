@@ -1,29 +1,26 @@
-# language: ruby
-# env:
-#   global:
-#   - secure: LXQFQJB1Pi4NxdOuMX013YaxsM99r4WivukNGm1RelH8WfiIBDlsghriWrgSPruJm5v0i2l5ScueXc1Jad2y+DwlybiBjn5vB/dzPoGlP6pi0RuTzjMYLGOS15g+35zA9JU2Ix9BJfpOFHG3hwltg1zSo5MBtJIcZ4JXasJEh9o+HjJQTx5N3mSOeceVidZt00QFu1NXxY+DsHsz8gpay2FbRBv8LNMDCsRcGVpq81tIgx8SkBUipJFSUzsBs4QXsxUBlBbONnu2QNhPgg9NYcSz2HJGOKFJnKStDF2EvoFKe/okqdw3ctr//9x3xlxfEXD9Q1bIs9JU5Su3uNMqAkhxhyzQFFDyxM0otW8VAaFW/+igmDceLwmSd5FjkrX+w26e0Xty6YTZ1vfhdL2RXKTjoFYToJKg85c1odRMR1yJjG1MqJnl5ZPwKdloTGJf9H57lwF4yl0AXIG+nOHNPWjMRQO3Drz69AsaZ8j//431NOx9qsMkmyPTN/nZLOzUTIYWSvDe6miVHRGusqlAWwW5NyZNbckOlu6kDAKr8B/+i03nCX+JQarhycVYR5/EiaX6yMNNjpcXb4NuAwks2nuWQ5Rem6wQnNDrsFIIdzl9K3XlxXllj1JhEOfP7UJrwTVHg9fui1e5raxFG3NmWYOKo01absBHtd2Z2pnIAXc=
+language: ruby
+env:
+  global:
+  - secure: LXQFQJB1Pi4NxdOuMX013YaxsM99r4WivukNGm1RelH8WfiIBDlsghriWrgSPruJm5v0i2l5ScueXc1Jad2y+DwlybiBjn5vB/dzPoGlP6pi0RuTzjMYLGOS15g+35zA9JU2Ix9BJfpOFHG3hwltg1zSo5MBtJIcZ4JXasJEh9o+HjJQTx5N3mSOeceVidZt00QFu1NXxY+DsHsz8gpay2FbRBv8LNMDCsRcGVpq81tIgx8SkBUipJFSUzsBs4QXsxUBlBbONnu2QNhPgg9NYcSz2HJGOKFJnKStDF2EvoFKe/okqdw3ctr//9x3xlxfEXD9Q1bIs9JU5Su3uNMqAkhxhyzQFFDyxM0otW8VAaFW/+igmDceLwmSd5FjkrX+w26e0Xty6YTZ1vfhdL2RXKTjoFYToJKg85c1odRMR1yJjG1MqJnl5ZPwKdloTGJf9H57lwF4yl0AXIG+nOHNPWjMRQO3Drz69AsaZ8j//431NOx9qsMkmyPTN/nZLOzUTIYWSvDe6miVHRGusqlAWwW5NyZNbckOlu6kDAKr8B/+i03nCX+JQarhycVYR5/EiaX6yMNNjpcXb4NuAwks2nuWQ5Rem6wQnNDrsFIIdzl9K3XlxXllj1JhEOfP7UJrwTVHg9fui1e5raxFG3NmWYOKo01absBHtd2Z2pnIAXc=
   
-# rvm:
-# - 2.5.0
+rvm:
+- 2.5.0
 
-# cache: bundler
+cache: bundler
 
-# script: bundle exec jekyll build
-# # after_script:
-# #  - chmod 7 _site
+script: bundle exec jekyll build
 
-# deploy:
-#   provider: pages
-#   # local_dir: _site
-#   cleanup: false
-#   verbose: true
-#   token: "$GH_TOKEN"
-#   keep_history: true
-#   on:
-#     branch: main
+deploy:
+  provider: pages
+  cleanup: false
+  verbose: true
+  token: "$GH_TOKEN"
+  keep_history: true
+  on:
+    branch: main
     
-# addons:
-#   apt:
-#     packages:
-#     - plantuml
-#     - graphviz
+addons:
+  apt:
+    packages:
+    - plantuml
+    - graphviz
