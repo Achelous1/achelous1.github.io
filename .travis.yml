@@ -5,12 +5,13 @@ env:
   
 rvm:
 - 2.5.0
-script: bundle exec jekyll build
 
 cache: bundler
 
-before_script:
+script: bundle exec jekyll build
+after_script:
  - chmod 7 _site
+
 deploy:
   provider: pages
   local_dir: _site
