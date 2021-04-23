@@ -9,12 +9,12 @@ rvm:
 cache: bundler
 
 script: bundle exec jekyll build
-after_script:
- - chmod 7 _site
+# after_script:
+#  - chmod 7 _site
 
 deploy:
   provider: pages
-  local_dir: _site
+  # local_dir: _site
   cleanup: false
   verbose: true
   token: "$GH_TOKEN"
