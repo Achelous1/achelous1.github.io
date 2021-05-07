@@ -3,7 +3,11 @@ layout  : wiki
 title   : 유용한 웹사이트 
 summary : 유용한 사이트들 모음
 date    : 2021-02-10 17:10:21 +0900
+<<<<<<< HEAD
 updated : 2021-03-10 14:25:19 +0900
+=======
+updated : 2021-04-30 17:03:38 +0900
+>>>>>>> parent of 588ebfa... ADD new useful site
 tag     : sites useful
 toc     : true
 public  : true
@@ -21,9 +25,12 @@ latex   : false
 #### Vim
 * [VimAwesome](https://vimawesome.com/) Vi Improved의 여러가지 플러그인을 색인할 수 있는 사이트
 
+<<<<<<< HEAD
 #### VS Code Plugins
 * [Thunder Client](https://www.thunderclient.io/) VS Code에서 곧바로 API를 실행해 볼 수 있는 플러그인 (Postman 대용)
 
+=======
+>>>>>>> parent of 588ebfa... ADD new useful site
 #### Front-End
 * [W3Schools](https://www.w3schools.com/) 웹개발 레퍼런스 및 강의사이트
 * [MDN Web Docs](https://developer.mozilla.org/en-US/) HTML, CSS, JavaScript 개발문서
@@ -36,5 +43,14 @@ latex   : false
 #### Back-End
 * [MKyong](https://mkyong.com/) 자바와 스프링강좌 사이트
 
+<<<<<<< HEAD
+=======
+#### Common Programming
+* [regex101](https://regex101.com/) 각종 정규표현식을 보고 테스트 해볼 수 있는 웹서비스
+
+#### Documentation
+* [GitBook](https://www.gitbook.com/) 깃헙과 연동하여 도큐먼트를 작성하기 쉽게 도와주는 웹서비스
+
+>>>>>>> parent of 588ebfa... ADD new useful site
 #### API
 * [공공데이터포털](https://www.data.go.kr/index.do) 대한민국 공공정보 API제공 서비스
