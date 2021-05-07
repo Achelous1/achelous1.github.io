@@ -1,0 +1,27 @@
+---
+---
+@charset "utf-8";
+
+$base-font-family  : 'D2Coding';
+$default-font-size : 0.9rem;
+$default-font-color : #000;
+$second-font-color : #503e2b;
+$third-font-color : #9e948a;
+$forth-font-color : #808094;
+$small-font-size   : $default-font-size * 0.8;
+$base-line-height  : 1.5;
+$base-page-width : 800px;
+$header-height : 37px;
+
+$coding-font: Consolas, "Courier New", Courier;
+$default-font: 'D2Coding ligature';
+$theme-color: #000000;
+
+// Import from 'sass_dir' (default: _sass)
+@import
+    "base",
+    "layout",
+    "syntax",
+    "index",
+    "toc"
+;

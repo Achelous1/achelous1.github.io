@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>개발하는 집사</title>
+
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/about/">
+    <link rel="alternate" type="application/rss+xml" title="개발하는 집사" href="http://localhost:4000/feed.xml" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://localhost:4000/resource/logo.png">
+    <meta property="og:url" content="http://localhost:4000/about/">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:url" content="http://localhost:4000/about/" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+
+    <meta name="google-site-verification" content="i8fItGUbybQvtdEqjTIlAbCUTL4mlNo-V9fuOiAWdTU" />
+
+    <link rel="apple-touch-icon" sizes="57x57"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180"      href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="96x96"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16"   href="/resource/logo.png">
+    <link rel="manifest" href="/resource/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/resource/logo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://kit.fontawesome.com/0e662baaf0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110224147-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110224147-1');
+    </script>
+
+
+
+    <script>
+        // debugger;
+        // var url = "";
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.onreadystatechange = function() {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //         debugger;
+        //         document.getElementById("demo").innerHTML = this.responseText;
+        //     }
+        // };
+        // xhttp.open("GET", "https://raw.githubusercontent.com/Achelous1/Achelous1/main/README.md", true);
+        // xhttp.send();
+
+    </script>
+
+</head>
+<header class="header">
+    <div>
+        <a class="site-title" href="/">개발하는 집사</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/about/">me</a>
+    </div>
+    <div>
+        <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/wiki/index/">wiki</a>
+    </div>
+</header>
+<script>
+;(function(){
+    var isCtrl = false;
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        function setClassMobileWidth(className){
+            var el = document.getElementsByClassName(className)[0];
+            el.style.width = window.innerWidth + "px";
+        }
+
+        if(window.innerWidth < 800){
+            setClassMobileWidth("header");
+            setClassMobileWidth("search");
+        }
+    });
+
+    document.onkeyup=function(e){
+        if (e.which == 17) {
+            isCtrl = false;
+        }
+    }
+
+    document.onkeydown=function(e){
+        if(e.which == 17) {
+            isCtrl = true;
+        }
+        if(e.which == 82 && isCtrl == true) {
+            document.getElementById("random-button").click();
+        }
+    }
+})();
+</script>
+
+    <body>
+        <div class="page-content">
+            <div class="search">
+    <form role="search" method="get" action="/search/">
+         <input name="searchString" class="searchInput" placeholder=" 검색하세요" type="text">
+         <input type="submit" class="searchButton" value="Search">
+    </form>
+</div>
+            <div class="post">
+                <div class="post">
+
+    <header class="post-header">
+        <h1 class="page-title"></h1>
+    </header>
+
+    <article class="post-content">
+
+        <ul id="markdown-toc">
+  <li><a href="#greetings---achelous1" id="markdown-toc-greetings---achelous1"><strong>Greetings</strong> - @Achelous1</a></li>
+  <li><a href="#stack" id="markdown-toc-stack">Stack</a></li>
+  <li><a href="#이력" id="markdown-toc-이력">이력</a></li>
+  <li><a href="#프로젝트-이력" id="markdown-toc-프로젝트-이력">프로젝트 이력</a></li>
+  <li><a href="#포트폴리오" id="markdown-toc-포트폴리오">포트폴리오</a></li>
+  <li><a href="#작업중" id="markdown-toc-작업중">작업중</a></li>
+</ul>
+
+<h1 id="greetings---achelous1"><strong>Greetings</strong> - @Achelous1</h1>
+<p>반갑습니다! 저는 현재 <em>HNC 기술정보</em>에서 웹프로그래머로 재직중인 친슈라고 합니다!</p>
+
+<ul>
+  <li>클린코딩 클린아키텍처를 지향합니다</li>
+  <li>풀스택 웹개발자를 지향합니다</li>
+  <li>생각하는걸 좋아합니다</li>
+  <li>지식 모으기를 좋아합니다</li>
+</ul>
+
+<h1 id="stack">Stack</h1>
+<p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="Javascript badge" />
+<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML badge" />
+<img src="https://img.shields.io/badge/CSS-239120?&amp;style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS badge" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=java&amp;logoColor=white" alt="Java bdge" />
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&amp;logo=spring&amp;logoColor=white" alt="Spring badge" />
+<img src="https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&amp;logo=angularjs&amp;logoColor=white" alt="AngularJS badge" />
+<img src="https://img.shields.io/badge/extjs-86BC40?style=for-the-badge&amp;logo=Sencha&amp;logoColor=white" alt="Sencha badge" />
+<img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown badge" /></p>
+
+<h1 id="이력">이력</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>회사명</th>
+      <th>재직기간</th>
+      <th>직책</th>
+      <th>직책</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>苏州 向量有限公司</td>
+      <td>2016.07 ~ 2017.02 (8개월)</td>
+      <td>프레임워크 개발팀 사원</td>
+      <td>웹플랫폼 개발(프론트엔드)</td>
+    </tr>
+    <tr>
+      <td>恩核（北京）信息技术有限公司 (엔코아 중국법인)</td>
+      <td>2017.10 ~ 2019.05 (1년 8개월)</td>
+      <td>개발1팀 사원</td>
+      <td>웹플랫폼 개발(풀스택)</td>
+    </tr>
+    <tr>
+      <td>오리온 중국법인</td>
+      <td>2019.06 ~ 2019.09</td>
+      <td>프리랜서</td>
+      <td>사내 데이터표준화 및 데이터품질 검증알고리즘 설계</td>
+    </tr>
+    <tr>
+      <td>메타인사이트</td>
+      <td>2019.11 ~ 2020.04 (6개월)</td>
+      <td>개발팀 책임연구원</td>
+      <td>회사관리 및 웹플랫폼개발(풀스택)</td>
+    </tr>
+    <tr>
+      <td>에이치엔씨 기술정보</td>
+      <td>2020.06 ~ 재직중</td>
+      <td>개발팀 과장</td>
+      <td>웹개발자 (풀스택)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="프로젝트-이력">프로젝트 이력</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>프로젝트명</th>
+      <th>프로젝트기간</th>
+      <th>사용스택</th>
+      <th>직무</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>난징은행 차세대솔루션 도입</td>
+      <td>2017.12 ~ 2019.05</td>
+      <td><img src="https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&amp;logo=angularjs&amp;logoColor=white" alt="AngularJS badge" /> <br /><img src="https://img.shields.io/badge/Sprinboot-6DB33F?style=for-the-badge&amp;logo=spring&amp;logoColor=white" alt="Springboot badge" /> <br /> <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&amp;logo=Oracle&amp;logoColor=white" alt="Oracle badge" /></td>
+      <td>* 메타데이터관리플랫폼 프론트엔드 및 백엔드 개발 <br /> * 데이터품질검증 프로그램 프론트엔드 개발</td>
+    </tr>
+    <tr>
+      <td>랑팡은행 데이터품질솔루션 납품</td>
+      <td>2019.04 ~ 2019.05</td>
+      <td><img src="https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&amp;logo=angularjs&amp;logoColor=white" alt="AngularJS" /></td>
+      <td>* 데이터품질솔루션 프론트엔드 커스터마이징</td>
+    </tr>
+    <tr>
+      <td>말레이시아 벌크터미널관리솔루션 마이그레이션</td>
+      <td>2020.06 ~</td>
+      <td><img src="https://img.shields.io/badge/extjs-86BC40?style=for-the-badge&amp;logo=Sencha&amp;logoColor=white" alt="Sencha badge" /> <br /> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&amp;logo=spring&amp;logoColor=white" alt="Spring badge" /> <br /> <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&amp;logo=Oracle&amp;logoColor=white" alt="Oracle badge" /></td>
+      <td>* Adobe Flex와 J2EE로 개발된 레거시솔루션을 ExtJS와 Spring Framework로 마이그레이션</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="포트폴리오">포트폴리오</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Github</th>
+      <th>데모사이트</th>
+      <th>사용스택</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>React 영화앱 페이지</td>
+      <td><a href="https://github.com/Achelous1/react-movie-web-service">github</a></td>
+      <td><a href="https://achelous1.github.io/react-movie-web-service">demo</a></td>
+      <td><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="작업중">작업중</h1>
+
+
+
+    </article>
+
+
+
+</div>
+
+            </div>
+        </div>
+        <footer class="footer">
+    <div>
+
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+        <script type="text/javascript" async src="https://raw.githubusercontent.com/johan/js-deflate/master/rawdeflate.js"></script>
+        <script type="text/javascript" async src="/js/puml.js"></script>
+
+    </div>
+</footer>
+    </body>
+</html>

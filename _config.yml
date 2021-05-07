@@ -1,0 +1,68 @@
+# Site settings
+title: 개발하는 집사
+url: "https://achelous1.github.io"
+baseurl: ""
+description:
+    친슈 블로그
+
+# My information
+email: jsdesign1204@gmail.com
+author: 친슈
+profile: 
+insta_username: _cookveloper_
+github_username: Achelous1
+linkdin_username: achelous1
+comment-support: utterances
+profile:
+  markdown-url: "https://raw.githubusercontent.com/Achelous1/Achelous1/main/README.md"
+  content:
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-plantuml
+  
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginator_path: "/blog"
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
+# Comment Service
+disqus:
+  id: Achelous1
+  shortname: Achelous1
+utterances:
+  repo: Achelous1/achelous1.github.io
+  issue-term: pathname
+  label: Comment
+  branch: main
+
+google_analytics:
+  ua: UA-110224147-1
+
+google_adsense:
+  client: ca-pub-3675948545737694
+
+blame: "https://github.com/Achelous1/achelous1.github.io/blame/main/_wiki"
+edit: "https://github.com/Achelous1/achelous1.github.io/edit/main/_wiki"
+issue: "https://github.com/Achelous1/achelous1.github.io/issues/new"
+
+timezone: "Asia/Seoul"
+
+# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]

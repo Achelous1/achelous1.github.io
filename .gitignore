@@ -1,0 +1,10 @@
+# _site
+.sass-cache
+.jekyll-metadata
+/.idea
+# /uml
+tags
+*.swp
+Gemfile.lock
+/node_modules
+package-lock.json

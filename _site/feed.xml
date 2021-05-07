@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>개발하는 집사</title>
+    <description>친슈 블로그</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 23 Apr 2021 14:19:13 +0900</pubDate>
+    <lastBuildDate>Fri, 23 Apr 2021 14:19:13 +0900</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+
+
+    
+      <item>
+        <title>추상팩토리 패턴</title>
+        <description></description>
+        <pubDate>Fri, 23 Apr 2021 09:50:19 +0900</pubDate>
+        <link>http://localhost:4000/wiki/abstract-factory-pattern/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/abstract-factory-pattern/</guid>
+        
+        <category>abstract-factory design-pattern</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>2021 뉴스정리</title>
+        <description>2021년 뉴스를 정리해보자</description>
+        <pubDate>Fri, 23 Apr 2021 09:39:11 +0900</pubDate>
+        <link>http://localhost:4000/wiki/news-2021/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/news-2021/</guid>
+        
+        <category>news</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>2021년 일지</title>
+        <description></description>
+        <pubDate>Thu, 22 Apr 2021 16:29:59 +0900</pubDate>
+        <link>http://localhost:4000/wiki/diary-2021/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/diary-2021/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>프로그래밍</title>
+        <description>개발에 관하여</description>
+        <pubDate>Mon, 12 Apr 2021 17:13:08 +0900</pubDate>
+        <link>http://localhost:4000/wiki/programming/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/programming/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>자바의 힙과 스택메모리</title>
+        <description>자바의 메모리관리에 대하여 알아보자</description>
+        <pubDate>Mon, 05 Apr 2021 13:53:39 +0900</pubDate>
+        <link>http://localhost:4000/wiki/stack-heap-memory/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/stack-heap-memory/</guid>
+        
+        <category>java memory</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>거듭제곱</title>
+        <description></description>
+        <pubDate>Fri, 02 Apr 2021 16:27:30 +0900</pubDate>
+        <link>http://localhost:4000/wiki/exponentiation/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/exponentiation/</guid>
+        
+        <category>math</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>SOLID 원칙</title>
+        <description>객체지향의 설계원칙</description>
+        <pubDate>Fri, 02 Apr 2021 15:11:24 +0900</pubDate>
+        <link>http://localhost:4000/wiki/solid-principle/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/solid-principle/</guid>
+        
+        <category>OOP design principle</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>수학</title>
+        <description>수학을 공부하자</description>
+        <pubDate>Fri, 02 Apr 2021 11:47:43 +0900</pubDate>
+        <link>http://localhost:4000/wiki/mathematics/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/mathematics/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>SQL의 칠거지악</title>
+        <description>엔코아의 SQL 작성시 하지 말아야 할 7가지 규칙</description>
+        <pubDate>Fri, 02 Apr 2021 11:04:20 +0900</pubDate>
+        <link>http://localhost:4000/wiki/sql-7-do-nots/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/sql-7-do-nots/</guid>
+        
+        <category>sql guide do-nots</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Life Cheatsheet</title>
+        <description></description>
+        <pubDate>Tue, 30 Mar 2021 14:32:48 +0900</pubDate>
+        <link>http://localhost:4000/wiki/life-cheatsheet/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/life-cheatsheet/</guid>
+        
+        <category>life cheatsheet</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>얀테의 법칙</title>
+        <description></description>
+        <pubDate>Tue, 30 Mar 2021 10:53:54 +0900</pubDate>
+        <link>http://localhost:4000/wiki/law-of-jante/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/law-of-jante/</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>자주 쓰이고 유용한 CMD 커맨드</title>
+        <description></description>
+        <pubDate>Mon, 29 Mar 2021 10:48:15 +0900</pubDate>
+        <link>http://localhost:4000/wiki/useful-cmd-commands/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/useful-cmd-commands/</guid>
+        
+        <category>cmd commands</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>ExtJS를 사용하며 디버깅 한 경험</title>
+        <description></description>
+        <pubDate>Mon, 22 Mar 2021 13:32:07 +0900</pubDate>
+        <link>http://localhost:4000/wiki/Extjs-issues/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/Extjs-issues/</guid>
+        
+        <category>extjs debugging javascript</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>자바 코딩가이드</title>
+        <description>구글의 자바 코딩가이드</description>
+        <pubDate>Wed, 17 Mar 2021 17:19:18 +0900</pubDate>
+        <link>http://localhost:4000/wiki/google-java-style-guide/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/google-java-style-guide/</guid>
+        
+        <category>guideline java style</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>개발기술</title>
+        <description>기술을 발굴해낼 때 마다 적어두는 공간</description>
+        <pubDate>Mon, 15 Mar 2021 16:30:29 +0900</pubDate>
+        <link>http://localhost:4000/wiki/tech/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/tech/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>유용한 웹사이트</title>
+        <description>유용한 사이트들 모음</description>
+        <pubDate>Wed, 10 Mar 2021 14:25:19 +0900</pubDate>
+        <link>http://localhost:4000/wiki/Useful-sites/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/Useful-sites/</guid>
+        
+        <category>sites useful</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>2021년 독서목록</title>
+        <description></description>
+        <pubDate>Mon, 08 Mar 2021 11:29:07 +0900</pubDate>
+        <link>http://localhost:4000/wiki/books-2021/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/books-2021/</guid>
+        
+        <category>books</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>개발공부 언어가 중요할까?</title>
+        <description></description>
+        <pubDate>Mon, 08 Mar 2021 10:11:51 +0900</pubDate>
+        <link>http://localhost:4000/wiki/importance-in-studying/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/importance-in-studying/</guid>
+        
+        <category>study architecture</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>typeof와 instanceof의 차이점</title>
+        <description></description>
+        <pubDate>Thu, 25 Feb 2021 16:39:42 +0900</pubDate>
+        <link>http://localhost:4000/wiki/typeof-instanceof/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/typeof-instanceof/</guid>
+        
+        <category>javascript typeof instanceof</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>JavaScript</title>
+        <description>자바스크립트에 관하여</description>
+        <pubDate>Thu, 25 Feb 2021 16:27:57 +0900</pubDate>
+        <link>http://localhost:4000/wiki/Javascript/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/Javascript/</guid>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>A-B</title>
+        <description></description>
+        <pubDate>Tue, 23 Feb 2021 13:53:08 +0900</pubDate>
+        <link>http://localhost:4000/wiki/1001/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/1001/</guid>
+        
+        <category>baekjun</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>A+B</title>
+        <description>두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.</description>
+        <pubDate>Tue, 23 Feb 2021 13:45:16 +0900</pubDate>
+        <link>http://localhost:4000/wiki/1000/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/1000/</guid>
+        
+        <category>baekjun</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>고양이</title>
+        <description>고양이를 출력하라</description>
+        <pubDate>Tue, 23 Feb 2021 13:44:29 +0900</pubDate>
+        <link>http://localhost:4000/wiki/10171/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/10171/</guid>
+        
+        <category>baekjun</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>We love kriii</title>
+        <description></description>
+        <pubDate>Tue, 23 Feb 2021 13:44:11 +0900</pubDate>
+        <link>http://localhost:4000/wiki/10718/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/10718/</guid>
+        
+        <category>baekjun</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Hello World</title>
+        <description></description>
+        <pubDate>Tue, 23 Feb 2021 13:43:59 +0900</pubDate>
+        <link>http://localhost:4000/wiki/2557/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/2557/</guid>
+        
+        <category>baekjun algorithm</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>개</title>
+        <description>개를 출력하라</description>
+        <pubDate>Tue, 23 Feb 2021 13:18:48 +0900</pubDate>
+        <link>http://localhost:4000/wiki/10172/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/10172/</guid>
+        
+        <category>baekjun</category>
+        
+        
+      </item>
+    
+
+    
+
+    
+      <item>
+        <title>Johngrib 위키 로컬테스트</title>
+        <description></description>
+        <pubDate>Thu, 18 Feb 2021 12:13:10 +0900</pubDate>
+        <link>http://localhost:4000/wiki/blog-testing-method/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/blog-testing-method/</guid>
+        
+        <category>wiki blog local-test</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Big O Notation</title>
+        <description></description>
+        <pubDate>Wed, 17 Feb 2021 17:06:40 +0900</pubDate>
+        <link>http://localhost:4000/wiki/Big-O-Notation/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/Big-O-Notation/</guid>
+        
+        <category>complexity performance</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>baekjun문제를 풀어보자</title>
+        <description>baekjun문제를 풀어보자</description>
+        <pubDate>Wed, 17 Feb 2021 16:31:23 +0900</pubDate>
+        <link>http://localhost:4000/wiki/baekjun/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/baekjun/</guid>
+        
+        <category>baekjun</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>단계1</title>
+        <description>입출력과 사칙연산</description>
+        <pubDate>Wed, 17 Feb 2021 16:08:28 +0900</pubDate>
+        <link>http://localhost:4000/wiki/baekjun-level-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/baekjun-level-1/</guid>
+        
+        <category>baekjun arithmetic IO</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Life Guides</title>
+        <description>인생을 이끌어줄 가이드라인</description>
+        <pubDate>Wed, 10 Feb 2021 17:30:57 +0900</pubDate>
+        <link>http://localhost:4000/wiki/life-guide/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/life-guide/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Life Log</title>
+        <description>인생기록</description>
+        <pubDate>Wed, 10 Feb 2021 17:30:43 +0900</pubDate>
+        <link>http://localhost:4000/wiki/life-log/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/life-log/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Calculate Datetime Bw 2 Days</title>
+        <description>두 날짜 사이의 시간만 가지고 교대시간을 구하는 알고리즘</description>
+        <pubDate>Mon, 25 Jan 2021 13:49:45 +0900</pubDate>
+        <link>http://localhost:4000/wiki/calculate-datetime-bw-2-days/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/calculate-datetime-bw-2-days/</guid>
+        
+        <category>algorithm</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>2020년 일지</title>
+        <description></description>
+        <pubDate>Fri, 22 Jan 2021 14:54:33 +0900</pubDate>
+        <link>http://localhost:4000/wiki/diary-2020/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/diary-2020/</guid>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>인생의 42가지 규칙</title>
+        <description>Jordan Peterson 교수의 인생의 42가지 규칙</description>
+        <pubDate>Fri, 22 Jan 2021 13:39:17 +0900</pubDate>
+        <link>http://localhost:4000/wiki/42-rules-of-life/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/42-rules-of-life/</guid>
+        
+        <category>life quotes</category>
+        
+        
+      </item>
+    
+
+    
+      <item>
+        <title>Wiki</title>
+        <description></description>
+        <pubDate></pubDate>
+        <link>http://localhost:4000/wiki/index/</link>
+        <guid isPermaLink="true">http://localhost:4000/wiki/index/</guid>
+        
+        
+      </item>
+    
+
+
+  </channel>
+</rss>

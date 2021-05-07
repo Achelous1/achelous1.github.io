@@ -1,0 +1,129 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="description" content="{{ page.description }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ site.url }}/resource/logo.png">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.summary }}" />
+
+    <meta name="google-site-verification" content="i8fItGUbybQvtdEqjTIlAbCUTL4mlNo-V9fuOiAWdTU" />
+
+    <link rel="apple-touch-icon" sizes="57x57"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180"      href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="96x96"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16"   href="/resource/logo.png">
+    <link rel="manifest" href="/resource/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/resource/logo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://kit.fontawesome.com/0e662baaf0.js" crossorigin="anonymous"></script>
+
+{% if site.google_analytics.ua %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{ site.google_analytics.ua }}');
+    </script>
+{% endif %}
+{% if site.google_adsense.client and page.adsense == true %}
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "{{ site.google_adsense.client }}",
+        enable_page_level_ads: true
+      });
+    </script>
+{% endif %}
+
+    <script>
+        // debugger;
+        // var url = "";
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.onreadystatechange = function() {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //         debugger;
+        //         document.getElementById("demo").innerHTML = this.responseText;
+        //     }
+        // };
+        // xhttp.open("GET", "https://raw.githubusercontent.com/Achelous1/Achelous1/main/README.md", true);
+        // xhttp.send();
+
+    </script>
+
+</head>
+<header class="header">
+    <div>
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/about/">me</a>
+    </div>
+    <div>
+        <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/wiki/index/">wiki</a>
+    </div>
+</header>
+<script>
+;(function(){
+    var isCtrl = false;
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        function setClassMobileWidth(className){
+            var el = document.getElementsByClassName(className)[0];
+            el.style.width = window.innerWidth + "px";
+        }
+
+        if(window.innerWidth < 800){
+            setClassMobileWidth("header");
+            setClassMobileWidth("search");
+        }
+    });
+
+    document.onkeyup=function(e){
+        if (e.which == 17) {
+            isCtrl = false;
+        }
+    }
+
+    document.onkeydown=function(e){
+        if(e.which == 17) {
+            isCtrl = true;
+        }
+        if(e.which == 82 && isCtrl == true) {
+            document.getElementById("random-button").click();
+        }
+    }
+})();
+</script>

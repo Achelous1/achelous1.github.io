@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UR? (United Resume) - 개발하는 집사</title>
+
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/wiki/United-Resume/">
+    <link rel="alternate" type="application/rss+xml" title="개발하는 집사" href="http://localhost:4000/feed.xml" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="UR? (United Resume)">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://localhost:4000/resource/logo.png">
+    <meta property="og:url" content="http://localhost:4000/wiki/United-Resume/">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:url" content="http://localhost:4000/wiki/United-Resume/" />
+    <meta name="twitter:title" content="UR? (United Resume)" />
+    <meta name="twitter:description" content="이력서통합관리 크롬확장프로그램을 만들어보자" />
+
+    <meta name="google-site-verification" content="i8fItGUbybQvtdEqjTIlAbCUTL4mlNo-V9fuOiAWdTU" />
+
+    <link rel="apple-touch-icon" sizes="57x57"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76"        href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152"      href="/resource/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180"      href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="96x96"   href="/resource/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16"   href="/resource/logo.png">
+    <link rel="manifest" href="/resource/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/resource/logo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://kit.fontawesome.com/0e662baaf0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110224147-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110224147-1');
+    </script>
+
+
+
+    <script>
+        // debugger;
+        // var url = "";
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.onreadystatechange = function() {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //         debugger;
+        //         document.getElementById("demo").innerHTML = this.responseText;
+        //     }
+        // };
+        // xhttp.open("GET", "https://raw.githubusercontent.com/Achelous1/Achelous1/main/README.md", true);
+        // xhttp.send();
+
+    </script>
+
+</head>
+<header class="header">
+    <div>
+        <a class="site-title" href="/">개발하는 집사</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/about/">me</a>
+    </div>
+    <div>
+        <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/wiki/index/">wiki</a>
+    </div>
+</header>
+<script>
+;(function(){
+    var isCtrl = false;
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        function setClassMobileWidth(className){
+            var el = document.getElementsByClassName(className)[0];
+            el.style.width = window.innerWidth + "px";
+        }
+
+        if(window.innerWidth < 800){
+            setClassMobileWidth("header");
+            setClassMobileWidth("search");
+        }
+    });
+
+    document.onkeyup=function(e){
+        if (e.which == 17) {
+            isCtrl = false;
+        }
+    }
+
+    document.onkeydown=function(e){
+        if(e.which == 17) {
+            isCtrl = true;
+        }
+        if(e.which == 82 && isCtrl == true) {
+            document.getElementById("random-button").click();
+        }
+    }
+})();
+</script>
+
+    <body>
+        <div class="page-content">
+            <div class="search">
+    <form role="search" method="get" action="/search/">
+         <input name="searchString" class="searchInput" placeholder=" 검색하세요" type="text">
+         <input type="submit" class="searchButton" value="Search">
+    </form>
+</div>
+            <div class="post">
+                
+<input type="hidden" id="thisName" value="United-Resume"/>
+<div class="post">
+    <header class="post-header">
+        <h1 class="page-title">
+            <a href="/wiki/United-Resume/"> UR? (United Resume) </a>
+        </h1>
+    
+        <p class="title-summary">이력서통합관리 크롬확장프로그램을 만들어보자</p>
+    
+        <div class="history-button">
+            <p><a href="https://github.com/Achelous1/achelous1.github.io/blame/main/_wiki/United-Resume.md" target="_blank">created: 2021.02.02</a></p>
+            <p><a href="https://github.com/Achelous1/achelous1.github.io/blame/main/_wiki/United-Resume.md" target="_blank">updated: 2021.02.22</a></p>
+            <p>
+                <a href="https://github.com/Achelous1/achelous1.github.io/edit/main/_wiki/United-Resume.md">편집하기</a>
+                /
+                <a href="https://github.com/Achelous1/achelous1.github.io/issues/new?title=UR%3F+%28United+Resume%29&body=의견을%20남겨주세요">의견 남기기</a>
+            </p>
+        </div>
+
+        <div id="parent-list"></div>
+
+
+
+    <div class="post-tag">
+    developer toy-project chrome-extension
+</div>
+
+
+
+
+    </header>
+    <article class="post-content">
+        <ul id="markdown-toc">
+  <li><a href="#개요" id="markdown-toc-개요">개요</a>    <ul>
+      <li><a href="#문제점" id="markdown-toc-문제점">문제점</a></li>
+      <li><a href="#목적" id="markdown-toc-목적">목적</a>        <ul>
+          <li><a href="#이력서를-통합적으로-관리할-수-있는-프로그램을-만들어보자" id="markdown-toc-이력서를-통합적으로-관리할-수-있는-프로그램을-만들어보자">이력서를 통합적으로 관리할 수 있는 프로그램을 만들어보자</a></li>
+          <li><a href="#내보내기-기능" id="markdown-toc-내보내기-기능">내보내기 기능</a></li>
+          <li><a href="#이력서-리스트" id="markdown-toc-이력서-리스트">이력서 리스트</a></li>
+          <li><a href="#크롬확장프로그램-이용" id="markdown-toc-크롬확장프로그램-이용">크롬확장프로그램 이용</a></li>
+        </ul>
+      </li>
+      <li><a href="#구현" id="markdown-toc-구현">구현</a>        <ul>
+          <li><a href="#구글크롬-확장프로그램-인터페이스-만들기1차" id="markdown-toc-구글크롬-확장프로그램-인터페이스-만들기1차">구글크롬 확장프로그램 인터페이스 만들기(1차)</a>            <ul>
+              <li><a href="#problem---solution" id="markdown-toc-problem---solution">Problem - Solution</a></li>
+            </ul>
+          </li>
+          <li><a href="#사람인-인터페이스와-연동하기1차" id="markdown-toc-사람인-인터페이스와-연동하기1차">사람인 인터페이스와 연동하기(1차)</a></li>
+        </ul>
+      </li>
+      <li><a href="#links" id="markdown-toc-links">Links</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="개요">개요</h1>
+<ul>
+  <li>2021년 현재, 우리는 웹과 데이터의 수혜를 받는 세상에 살고 있다. 하지만 적절한 통합이 이루어 지지 않은 항목들, 그 중에서 우리는 너무나도 많은 구직사이트의 너무나도 많은 이력서들을 관리하는데 문제가 있다고 생각하여 프로그램으로써 이를 해결해보고자 한다.</li>
+</ul>
+
+<h2 id="문제점">문제점</h2>
+<ol>
+  <li>구직사이트 별 다른 형식의 이력서</li>
+  <li>사이트 별 통합되어 사용되는 포맷이나 템플릿의 부재</li>
+  <li>1, 2번의 이유로 인해 이력서가 바뀌게 되면 모든 사이트별로 수정이 불가피함</li>
+</ol>
+
+<h2 id="목적">목적</h2>
+<h3 id="이력서를-통합적으로-관리할-수-있는-프로그램을-만들어보자">이력서를 통합적으로 관리할 수 있는 프로그램을 만들어보자</h3>
+<ul>
+  <li>구직사이트 별로 이력서를 다시 만들어야 하는게 귀찮기 때문에</li>
+  <li>생성한 이력서에 기반하여 자동으로 이력서가 해당 구직사이트의 이력서로 인풋되게 해보자
+    <ul>
+      <li>구직사이트에 이력서를 서버로 넘겨주는 api가 없는 경우가 많다. 해당 사이트의 html등을 사용하여 inject를 해보자</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="내보내기-기능">내보내기 기능</h3>
+<ul>
+  <li>기왕이면 만들어진 이력서를 바탕으로 pdf 등으로 내보내기 기능도 생성하면 좋겠다</li>
+</ul>
+
+<h3 id="이력서-리스트">이력서 리스트</h3>
+<ul>
+  <li>이력서를 하나뿐만 아니라 두개 세개도 만들고 각 이력서 별로 이력관리도 됐으면 좋겠다</li>
+</ul>
+
+<h3 id="크롬확장프로그램-이용">크롬확장프로그램 이용</h3>
+<ul>
+  <li>
+    <p>이력서 하나 쓰는데 번거롭게 웹에 들어가서 로그인하고 그럴 필요가 없다. -개인정보 문제도 있기 때문에-</p>
+  </li>
+  <li>
+    <p>로컬드라이브를 사용하는 크롬확장프로그램을 이용해보자 -필요하다면 드롭박스등을 이용하면 되게 만들자-.</p>
+  </li>
+</ul>
+
+<h2 id="구현">구현</h2>
+<ul>
+  <li>너무 넓은 범위는 꿈을 헤집고 다니는 것이나 다름없다. 최대한 처음에 할 수 있는만큼 만들어보자.</li>
+</ul>
+
+<h3 id="구글크롬-확장프로그램-인터페이스-만들기1차">구글크롬 확장프로그램 인터페이스 만들기(1차)</h3>
+<ul>
+  <li>인터페이스에는 각 구직사이트 필드의 최대공약수가 아닌 최소공배수의 항목들이 존재해야 함(모든 사이트에 대응하기 위해서)</li>
+</ul>
+
+<h4 id="problem---solution">Problem - Solution</h4>
+<ul>
+  <li>크롬확장프로그램에서 'fileSystem'권한을 사용하지 못하므로 다른 저장환경이 필요하다.
+    <ul>
+      <li>해결방안 :
+        <ol>
+          <li>찾다보니 <code class="highlighter-rouge">WebSQL</code>이란 브라우저 내에 데이터를 저장할 수 있는 기능을 발견했다. 이것을 사용해보자.
+            <ul>
+              <li>검색해보니 <code class="highlighter-rouge">WebSQL</code>은 더이상 유지관리가 되고 있지 않다<a href="https://www.w3.org/TR/webdatabase/"><em>참조</em></a>.(크롬에서 삭제 될 경우가 생길 수 있음)</li>
+            </ul>
+          </li>
+          <li><code class="highlighter-rouge">sql.js</code> 사용
+            <h3 id="사람인-인터페이스와-연동하기1차">사람인 인터페이스와 연동하기(1차)</h3>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="links">Links</h2>
+<p><a href="https://www.github.com/Achelous1/united-resume">프로젝트 링크</a></p>
+
+    </article>
+
+
+    
+    <div class="post-comments">
+    
+    
+        <script src="https://utteranc.es/client.js"
+            repo="Achelous1/achelous1.github.io"
+            issue-term="pathname"
+            label="Comment"
+            branch="main"
+        async>
+        </script>
+    
+    </div>
+
+
+
+</div>
+<script>
+    ;(function() {
+        var tags = document.querySelectorAll('.post-tag');
+        if(tags == null || tags.length < 1) {
+            return;
+        }
+
+        for (var i = 0; i < tags.length; i++) {
+            var item = tags[i];
+            var tagList = item.innerHTML.trim();
+
+            if(/^\s*$/.test(tagList)) {
+                continue;
+            }
+            tagList = tagList.split(/\s+/)
+                .map(function(tag) {
+                    return `<a href="/tag/#${tag}">#${tag}</a>`;
+                })
+                .join(' ');
+            console.log(tagList);
+            tags[i].innerHTML = tagList;
+        }
+        return;
+    })();
+    ;(function() {
+        var post = document.querySelector('article.post-content');
+
+        if(post == null) {
+            return;
+        }
+
+        (function iterate_node(node) {
+
+            if (/^(?:p|ul|h\d|table)$/i.test(node.tagName)) {
+
+                node.innerHTML = link(node.innerHTML);
+
+            } else { // Node.ELEMENT_NODE
+                for (var i = 0; i < node.childNodes.length; i++) {
+                    iterate_node(node.childNodes[i]);
+                }
+            }
+        })(post);
+
+        function link(content) {
+            content = content.replace(/\\\[\[(.+?)\]\]/g, '\\[\\[$1\\]\\]');
+            content = content.replace(/\[\[([^\[\]]+?)\]\]\{([^\{\}]+?)\}/g, '<a href="../$1">$2</a>');
+            content = content.replace(/\[\[(.+?)\]\]/g, '<a href="../$1">$1</a>');
+            content = content.replace(/\\\[\\\[(.+?)\\\]\\\]/g, '[[$1]]');
+            return content;
+        }
+
+    })();
+</script>
+
+
+<script src="/js/axios.min.js"></script>
+<script async src="/js/parent.js"></script>
+<script async src="/js/toc-highlight.js"></script>
+
+            </div>
+        </div>
+        <footer class="footer">
+    <div>
+
+    </div>
+</footer>
+    </body>
+</html>
