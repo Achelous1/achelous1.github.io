@@ -3,7 +3,7 @@ layout  : wiki
 title   : 클린코드
 summary : 클린코드를 향하여
 date    : 2021-05-09 08:51:27 +0900
-updated : 2021-05-09 17:42:42 +0900
+updated : 2021-05-12 11:00:02 +0900
 tag     : 클린코드 clean-code
 toc     : true
 public  : true
@@ -65,9 +65,10 @@ class User{
 ### 목적
 * SOLID원칙의 단일책임의 원칙-한 클래스는 하나의 책임만 가져야 한다-과 더불어 간결한 코드를 구현하라
  
-> Most systems work best if they are kept simple rather than made complicated; therefore, **simplicity should be a key goal** in design and unnecessary complexity should be avoided. *by Kelly Johnson*
+> Most systems work best if they are kept simple rather than made complicated; therefore, **simplicity should be a key goal** in design and unnecessary complexity should be avoided. 
+> *by Kelly Johnson*
 
-* 대부분의 시스템은 복잡하게 만들어지기 보다는 간단하게 만들어 졌을때 작동을 더 잘한다. 그러므로, 복잡함보다는 **간결함을 프로그래밍 설계에 있어서 핵심 목적*key goal* **로 잡아야 한다.
+* 대부분의 시스템은 복잡하게 만들어지기 보다는 간단하게 만들어 졌을때 작동을 더 잘한다. 그러므로, 복잡함보다는 **간결함을 프로그래밍 설계에 있어서 핵심 목적**으로 잡아야 한다.
 
 ### 예제#1
 
