@@ -3,7 +3,7 @@ layout  : wiki
 title   : 인생의 42가지 규칙
 summary : Jordan Peterson 교수의 인생의 42가지 규칙
 date    : 2021-01-20 09:42:31 +0900
-updated : 2021-01-22 13:39:17 +0900
+updated : 2021-05-18 16:44:35 +0900
 tag     : life quotes
 toc     : true
 public  : true
@@ -89,15 +89,15 @@ latex   : false
 36. Read something written by someone great. <br/>
     위대한 사람이 쓴 것을 읽으십시오.
 37. Pet a cat when you encounter one on the street. <br/>
-    길에서 고양이를 만났을 때 고양이를 쓰다듬 으십시오.
+    길에서 고양이를 만났을 때 고양이를 쓰다듬으십시오.
 38. Do not bother children when they are skateboarding. <br/>
     아이들이 스케이트 보드를 탈 때 귀찮게하지 마십시오.
 39. Don’t let bullies get away with it. <br/>
-    다른 사람을 괴롭히는 이들을 가만히 두지 마십시오.
+    다른사람을 괴롭히는 이들을 가만히 두지 마십시오.
 40. Write a letter to the government if you see something that needs fixing — and propose a solution. <br/>
     수정이 필요한 것들을 발견하면 정부에 편지를 쓰고 해결책을 제안하십시오.
 41. Remember that what you do not yet know is more important than what you already know. <br/>
     아직 모르는 것들이 이미 알고있는 것들보다 더 중요하다는 것을 상기하십시오.
 42. Be grateful in spite of your suffering. <br/>
-    당신의 고통 중에 있을지라도 감사하십시오.
+    당신의 고통중에 있을지라도 감사하십시오.
 
