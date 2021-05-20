@@ -3,7 +3,7 @@ layout  : wiki
 title   : 노마드코더 강의 번역
 summary : 노마드코더 강의 번역 가이드
 date    : 2021-05-19 17:48:48 +0900
-updated : 2021-05-19 18:27:11 +0900
+updated : 2021-05-20 22:18:43 +0900
 tag     : nomad-coders translation
 toc     : true
 public  : true
@@ -29,6 +29,7 @@ latex   : false
 ## 실제번역 상 유의사항
 
 * Brave 브라우저에서 제대로 작동이 안된다 (2021-05-19 기준)
+* 너무 긴 문장은 쓸 수 없다. (60자가 제한인 듯) 너무 길다면 자막을 두개 또는 세개로 나눠서 쓰자.
 
 ### 화면설명
 
@@ -45,4 +46,17 @@ latex   : false
 ### 니꼬가 자주 쓰는 expression들
 1. Alright, All right, Okay
     * 평문형: 좋아, 좋았어
-    * 의문형: 알겠지
+    * 의문형: 알겠지?
+2. You see ~
+    * 평문형: ~보면
+    * 의문형: 보여?, 이거보여?
+3. All right 다음 ...
+    * 앞의 All right은 생략하거나, "자, ..." 등으로 줄이자.
+4. So now as you can see...
+    * 여기 보이듯이,...
+5. Right
+    * 평문형: 그렇지, 맞아, 좋아
+    * 의문형: 그렇지? 맞지?
+6. What this means is that
+    * 이 말인 즉슨,
+7. You는 여러분으로 번역
