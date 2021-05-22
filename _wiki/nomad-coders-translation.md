@@ -3,7 +3,7 @@ layout  : wiki
 title   : 노마드코더 강의 번역
 summary : 노마드코더 강의 번역 가이드
 date    : 2021-05-19 17:48:48 +0900
-updated : 2021-05-22 13:19:09 +0900
+updated : 2021-05-22 20:04:38 +0900
 tag     : nomad-coders translation
 toc     : true
 public  : true
@@ -51,20 +51,28 @@ latex   : false
 3. All right 다음 ...
     * 앞의 All right은 생략하거나, "자, ..." 등으로 줄이자.
 4. So now as you can see...
-    * 여기 보이듯이,...
+    * 여기 보이듯이...
 5. Right
     * 평문형: 그렇지, 맞아, 좋아
     * 의문형: 그렇지? 맞지?
 6. What this means is that 
-    * 이 말인 즉슨,
+    * 이 말인 즉슨, 이게 무슨 말이냐면,
 7. You
     * 여러분
-8. There we go
+8. There we go, There it is
     * 됐다, 됐어
 9. It makes sense
     * 이해가 되네, 말이 되네 등등 (한국어로 번역하면 어떻게든 좀 어색한 phrase)
 10. It works
     * 잘 동작해. 또는 앞의 문장과 더불어 *~할 수 있어*. 등으로 대체
+11. Actually,
+    * 실제로는
+12. All you have to do
+    * ~만 하면 돼
+13. That's it for this video
+    * 이번 영상은 여기까지야
+14. That's it
+    * 이게 다야
 
 ### :dizzy: 번역이 어려운 항목들
 1. 니꼬가 가끔 설명을 생략하고 영상에서 코드로만 이렇다라 하고 끝내버릴 때.
