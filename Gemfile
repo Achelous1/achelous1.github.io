@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-plantuml', '~> 1.1' 
   gem "jekyll-asciidoc"
   gem 'asciidoctor-diagram' 
+  gem 'jemoji'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
