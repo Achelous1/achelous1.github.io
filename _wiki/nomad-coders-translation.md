@@ -3,7 +3,7 @@ layout  : wiki
 title   : 노마드코더 강의 번역
 summary : 노마드코더 강의 번역 가이드
 date    : 2021-05-19 17:48:48 +0900
-updated : 2021-05-22 20:04:38 +0900
+updated : 2021-05-23 13:46:22 +0900
 tag     : nomad-coders translation
 toc     : true
 public  : true
@@ -30,6 +30,7 @@ latex   : false
 
 * Brave 브라우저에서 제대로 작동이 안된다 (2021-05-19 기준)
 * 한 구간에 너무 긴 문장은 쓸 수 없다. (60자가 제한인 듯) 너무 길다면 자막을 두개 또는 세개로 나눠서 쓰자.
+* 한번씩 같은 자막이 엄청나게 많이 생성되는 버그가 발생하는데 지우려고 하지 말고 침착하게 save draft 한 다음에 나갔다가 다시 들어와보자.(그 자막들을 지우다가 다른 자막이 날라가는 경우가 많음..)
 
 ### :computer: 화면설명
 ![image](https://user-images.githubusercontent.com/24582045/118786546-e03f0e00-b8cc-11eb-9a2d-19d70f74f974.png)
@@ -65,14 +66,21 @@ latex   : false
     * 이해가 되네, 말이 되네 등등 (한국어로 번역하면 어떻게든 좀 어색한 phrase)
 10. It works
     * 잘 동작해. 또는 앞의 문장과 더불어 *~할 수 있어*. 등으로 대체
-11. Actually,
+12. Let's see if this works
+    * 제대로 동작하는지 한번 보자구
+13. Actually,
     * 실제로는
-12. All you have to do
+14. All you have to do
     * ~만 하면 돼
-13. That's it for this video
+15. That's it for this video
     * 이번 영상은 여기까지야
-14. That's it
+16. That's it
     * 이게 다야
+17. What are we saying here?
+    * 이게 어떤/무슨 의미지? 
+      
+
+* 위 단어들이 **특히 all right/alright/okay/right 등등..** 너무 많이 들어간다 싶으면 조금 걷어내는 것도 가독성을 높이는 데 좋은 듯 하다
 
 ### :dizzy: 번역이 어려운 항목들
 1. 니꼬가 가끔 설명을 생략하고 영상에서 코드로만 이렇다라 하고 끝내버릴 때.
