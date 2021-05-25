@@ -3,7 +3,7 @@ layout  : wiki
 title   : ExtJS를 사용하며 디버깅 한 경험
 summary : 
 date    : 2021-02-24 16:31:38 +0900
-updated : 2021-03-22 13:32:07 +0900
+updated : 2021-05-25 09:13:06 +0900
 tag     : extjs debugging javascript 
 toc     : true
 public  : true
@@ -81,3 +81,8 @@ store.sync(); // --> fix : 리퀘스트가 POST로 올바르게 넘어갔다.
        cmd.jvm.args=-Xms128m -Xmx2048m -Dapple.awt.UIElement=true
        ```
     3. 빌드환경을 production이 아닌 development 환경으로 빌드함 - 성공하였음. production과 development환경의 변수세팅이 달라 오류가 생긴것으로 보임.
+
+### `c is not a constructor`에러
+* 문제 : 해당 에러는 ExtJS에서 사용 한 특정 클래스가 `requires`필드에 없어서 생기는 이슈이다
+* 해결방안 : 
+  1. `requires` 필드에 필요한 클래스를 load해주자
