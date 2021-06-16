@@ -3,7 +3,7 @@ layout  : wiki
 title   : 얀센 썰푼다
 summary : 
 date    : 2021-06-16 21:04:44 +0900
-updated : 2021-06-16 21:35:29 +0900
+updated : 2021-06-16 21:53:31 +0900
 tag     : covid-19 janssen vaccine 얀센
 toc     : true
 public  : true
@@ -51,7 +51,7 @@ latex   : false
 * 점심시간 쯤 되니 몸상태가 많이 나아졌음. 점심 사러 10분정도는 나갔다 오는게 가능했따
 * 점심을 먹고 오후에도 계속 자다 깨다 반복하며 쉼(타이레놀 복용 x)
 * 오후 5시쯤 되니 체온이 정상으로 돌아옴 몸상태 대충 80프로정도 돌아온듯 (머리가 띵한 느낌이 좀 있음)
-* 저녁 9시 몸상태 괜찮음. 전반적으로 하루종일 땀을 많이 흘리기 때문에 물을 많이 마셔야 할 듯. 
+* 저녁 9시 몸상태 괜찮음. 백신 맞은 곳의 근육이 아프다. 전반적으로 하루종일 땀을 많이 흘리기 때문에 물을 많이 마셔야 할 듯. 
   
 ## Links
 * [Centers of Disease Control (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/janssen.html)
