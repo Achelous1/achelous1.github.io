@@ -21,6 +21,7 @@ regenerate: true
     * [[diary-2021]]
     * [[books-2021]]
     * [[news-2021]]
+    * [[janssen-vaccine-review]]
 * [[life-guide]]
     * [[life-cheatsheet]]
 
