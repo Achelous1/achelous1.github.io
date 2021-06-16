@@ -1,4 +1,7 @@
 -
+    name: abstract-factory
+    size: 1
+-
     name: algorithm
     size: 2
 -
@@ -20,7 +23,37 @@
     name: cheatsheet
     size: 1
 -
+    name: clean-code
+    size: 1
+-
+    name: cmd
+    size: 1
+-
+    name: commands
+    size: 1
+-
     name: complexity
+    size: 1
+-
+    name: covid-19
+    size: 1
+-
+    name: debugging
+    size: 1
+-
+    name: design
+    size: 1
+-
+    name: design-pattern
+    size: 1
+-
+    name: do-nots
+    size: 1
+-
+    name: extjs
+    size: 1
+-
+    name: guide
     size: 1
 -
     name: guideline
@@ -32,19 +65,40 @@
     name: IO
     size: 1
 -
-    name: java
+    name: janssen
     size: 1
 -
-    name: javascript
+    name: java
     size: 2
 -
+    name: javascript
+    size: 3
+-
     name: life
-    size: 2
+    size: 3
 -
     name: local-test
     size: 1
 -
+    name: math
+    size: 1
+-
+    name: memory
+    size: 1
+-
+    name: news
+    size: 1
+-
+    name: nomad-coders
+    size: 1
+-
+    name: OOP
+    size: 1
+-
     name: performance
+    size: 1
+-
+    name: principle
     size: 1
 -
     name: quotes
@@ -53,10 +107,16 @@
     name: sites
     size: 1
 -
+    name: sql
+    size: 1
+-
     name: study
     size: 1
 -
     name: style
+    size: 1
+-
+    name: translation
     size: 1
 -
     name: typeof
@@ -65,5 +125,14 @@
     name: useful
     size: 1
 -
+    name: vaccine
+    size: 1
+-
     name: wiki
+    size: 1
+-
+    name: 얀센
+    size: 1
+-
+    name: 클린코드
     size: 1

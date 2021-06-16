@@ -6,7 +6,6 @@ const path = './_wiki'
 const list = [];
 
 getFiles('./_wiki', 'wiki', list);
-getFiles('./_posts', 'blog', list);
 
 const dataList = list.map(function collectData(file) {
 

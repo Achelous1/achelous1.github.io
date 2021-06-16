@@ -12,9 +12,14 @@ algorithm:
     - {fileName: calculate-datetime-bw-2-days}
 life:
     - {fileName: 42-rules-of-life}
+    - {fileName: law-of-jante}
     - {fileName: life-cheatsheet}
 quotes:
     - {fileName: 42-rules-of-life}
+abstract-factory:
+    - {fileName: abstract-factory-pattern}
+design-pattern:
+    - {fileName: abstract-factory-pattern}
 arithmetic:
     - {fileName: baekjun-level-1}
 IO:
@@ -31,25 +36,69 @@ local-test:
     - {fileName: blog-testing-method}
 books:
     - {fileName: books-2021}
+클린코드:
+    - {fileName: clean-code}
+clean-code:
+    - {fileName: clean-code}
+math:
+    - {fileName: exponentiation}
+extjs:
+    - {fileName: Extjs-issues}
+debugging:
+    - {fileName: Extjs-issues}
+javascript:
+    - {fileName: Extjs-issues}
+    - {fileName: Javascript}
+    - {fileName: typeof-instanceof}
 guideline:
     - {fileName: google-java-style-guide}
 java:
     - {fileName: google-java-style-guide}
+    - {fileName: stack-heap-memory}
 style:
     - {fileName: google-java-style-guide}
 study:
     - {fileName: importance-in-studying}
 architecture:
     - {fileName: importance-in-studying}
-javascript:
-    - {fileName: Javascript}
-    - {fileName: typeof-instanceof}
+covid-19:
+    - {fileName: janssen-vaccine-review}
+janssen:
+    - {fileName: janssen-vaccine-review}
+vaccine:
+    - {fileName: janssen-vaccine-review}
+얀센:
+    - {fileName: janssen-vaccine-review}
 cheatsheet:
     - {fileName: life-cheatsheet}
+news:
+    - {fileName: news-2021}
+nomad-coders:
+    - {fileName: nomad-coders-translation}
+translation:
+    - {fileName: nomad-coders-translation}
+OOP:
+    - {fileName: solid-principle}
+design:
+    - {fileName: solid-principle}
+principle:
+    - {fileName: solid-principle}
+sql:
+    - {fileName: sql-7-do-nots}
+guide:
+    - {fileName: sql-7-do-nots}
+do-nots:
+    - {fileName: sql-7-do-nots}
+memory:
+    - {fileName: stack-heap-memory}
 typeof:
     - {fileName: typeof-instanceof}
 instanceof:
     - {fileName: typeof-instanceof}
+cmd:
+    - {fileName: useful-cmd-commands}
+commands:
+    - {fileName: useful-cmd-commands}
 sites:
     - {fileName: Useful-sites}
 useful:

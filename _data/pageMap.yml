@@ -4,7 +4,7 @@
     summary: '두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.'
     parent: baekjun-level-1
     url: /wiki/1000
-    updated: '2021-02-05 16:17:32 +0900'
+    updated: '2021-02-23 13:45:16 +0900'
     children: []
 '1001':
     type: wiki
@@ -12,7 +12,7 @@
     summary: ""
     parent: baekjun-level-1
     url: /wiki/1001
-    updated: '2021-02-05 16:51:57 +0900'
+    updated: '2021-02-23 13:53:08 +0900'
     children: []
 '2557':
     type: wiki
@@ -20,7 +20,7 @@
     summary: ""
     parent: baekjun-level-1
     url: /wiki/2557
-    updated: '2021-02-08 11:06:50 +0900'
+    updated: '2021-02-23 13:43:59 +0900'
     children: []
 '10171':
     type: wiki
@@ -28,7 +28,7 @@
     summary: '고양이를 출력하라'
     parent: baekjun-level-1
     url: /wiki/10171
-    updated: '2021-02-05 17:03:17 +0900'
+    updated: '2021-02-23 13:44:29 +0900'
     children: []
 '10172':
     type: wiki
@@ -36,7 +36,7 @@
     summary: '개를 출력하라'
     parent: baekjun-level-1
     url: /wiki/10172
-    updated: '2021-02-17 16:07:08 +0900'
+    updated: '2021-02-23 13:18:48 +0900'
     children: []
 '10718':
     type: wiki
@@ -44,7 +44,7 @@
     summary: ""
     parent: baekjun-level-1
     url: /wiki/10718
-    updated: '2021-02-17 16:12:52 +0900'
+    updated: '2021-02-23 13:44:11 +0900'
     children: []
 42-rules-of-life:
     type: wiki
@@ -52,7 +52,15 @@
     summary: 'Jordan Peterson 교수의 인생의 42가지 규칙'
     parent: life-guide
     url: /wiki/42-rules-of-life
-    updated: '2021-01-22 13:39:17 +0900'
+    updated: '2021-05-18 16:44:35 +0900'
+    children: []
+abstract-factory-pattern:
+    type: wiki
+    title: '추상팩토리 패턴'
+    summary: ""
+    parent: design-pattern
+    url: /wiki/abstract-factory-pattern
+    updated: '2021-04-23 09:50:19 +0900'
     children: []
 baekjun:
     type: wiki
@@ -92,7 +100,7 @@ books-2021:
     summary: ""
     parent: life-log
     url: /wiki/books-2021
-    updated: '2021-02-09 16:08:17 +0900'
+    updated: '2021-03-08 11:29:07 +0900'
     children: []
 calculate-datetime-bw-2-days:
     type: wiki
@@ -101,6 +109,14 @@ calculate-datetime-bw-2-days:
     parent: programming
     url: /wiki/calculate-datetime-bw-2-days
     updated: '2021-01-25 13:49:45 +0900'
+    children: []
+clean-code:
+    type: wiki
+    title: 클린코드
+    summary: '클린코드를 향하여'
+    parent: programming
+    url: /wiki/clean-code
+    updated: '2021-05-12 11:00:02 +0900'
     children: []
 diary-2020:
     type: wiki
@@ -116,7 +132,23 @@ diary-2021:
     summary: ""
     parent: life-log
     url: /wiki/diary-2021
-    updated: '2021-02-18 11:33:20 +0900'
+    updated: '2021-06-16 21:02:22 +0900'
+    children: []
+exponentiation:
+    type: wiki
+    title: 거듭제곱
+    summary: ""
+    parent: mathematics
+    url: /wiki/exponentiation
+    updated: '2021-04-02 16:27:30 +0900'
+    children: []
+Extjs-issues:
+    type: wiki
+    title: 'ExtJS를 사용하며 디버깅 한 경험'
+    summary: ""
+    parent: Javascript
+    url: /wiki/Extjs-issues
+    updated: '2021-05-25 09:13:06 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -124,7 +156,7 @@ google-java-style-guide:
     summary: '구글의 자바 코딩가이드'
     parent: programming
     url: /wiki/google-java-style-guide
-    updated: '2021-02-17 15:30:29 +0900'
+    updated: '2021-03-17 17:19:18 +0900'
     children: []
 importance-in-studying:
     type: wiki
@@ -132,7 +164,7 @@ importance-in-studying:
     summary: ""
     parent: programming
     url: /wiki/importance-in-studying
-    updated: '2021-01-29 17:06:38 +0900'
+    updated: '2021-03-08 10:11:51 +0900'
     children: []
 index:
     type: wiki
@@ -142,13 +174,29 @@ index:
     url: /wiki/index
     updated: null
     children: []
+janssen-vaccine-review:
+    type: wiki
+    title: '얀센 썰푼다'
+    summary: ""
+    parent: index
+    url: /wiki/janssen-vaccine-review
+    updated: '2021-06-16 21:35:29 +0900'
+    children: []
 Javascript:
     type: wiki
     title: JavaScript
     summary: '자바스크립트에 관하여'
     parent: programming
     url: /wiki/Javascript
-    updated: '2021-02-05 15:34:50 +0900'
+    updated: '2021-02-25 16:27:57 +0900'
+    children: [Extjs-issues, typeof-instanceof]
+law-of-jante:
+    type: wiki
+    title: '얀테의 법칙'
+    summary: ""
+    parent: life-guide
+    url: /wiki/law-of-jante
+    updated: '2021-03-30 10:53:54 +0900'
     children: []
 life-cheatsheet:
     type: wiki
@@ -156,7 +204,7 @@ life-cheatsheet:
     summary: ""
     parent: life-guide
     url: /wiki/life-cheatsheet
-    updated: '2021-02-16 15:05:51 +0900'
+    updated: '2021-03-30 14:32:48 +0900'
     children: []
 life-guide:
     type: wiki
@@ -165,7 +213,7 @@ life-guide:
     parent: index
     url: /wiki/life-guide
     updated: '2021-02-10 17:30:57 +0900'
-    children: [42-rules-of-life, life-cheatsheet]
+    children: [42-rules-of-life, law-of-jante, life-cheatsheet]
 life-log:
     type: wiki
     title: 'Life Log'
@@ -173,30 +221,86 @@ life-log:
     parent: index
     url: /wiki/life-log
     updated: '2021-02-10 17:30:43 +0900'
-    children: [books-2021, diary-2020, diary-2021]
+    children: [books-2021, diary-2020, diary-2021, news-2021]
+mathematics:
+    type: wiki
+    title: 수학
+    summary: '수학을 공부하자'
+    parent: index
+    url: /wiki/mathematics
+    updated: '2021-04-02 11:47:43 +0900'
+    children: [exponentiation]
+news-2021:
+    type: wiki
+    title: '2021 뉴스정리'
+    summary: '2021년 뉴스를 정리해보자'
+    parent: life-log
+    url: /wiki/news-2021
+    updated: '2021-05-26 09:25:55 +0900'
+    children: []
+nomad-coders-translation:
+    type: wiki
+    title: '노마드코더 강의 번역 가이드'
+    summary: '노마드코더 강의 번역을 하면서 배운 것을 공유하자'
+    parent: programming
+    url: /wiki/nomad-coders-translation
+    updated: '2021-05-24 11:26:18 +0900'
+    children: []
 programming:
     type: wiki
     title: 프로그래밍
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-02-18 12:01:08 +0900'
-    children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, google-java-style-guide, importance-in-studying, Javascript]
+    updated: '2021-05-19 17:48:48 +0900'
+    children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
+solid-principle:
+    type: wiki
+    title: 'SOLID 원칙'
+    summary: '객체지향의 설계원칙'
+    parent: programming
+    url: /wiki/solid-principle
+    updated: '2021-04-02 15:11:24 +0900'
+    children: []
+sql-7-do-nots:
+    type: wiki
+    title: 'SQL의 칠거지악'
+    summary: '엔코아의 SQL 작성시 하지 말아야 할 7가지 규칙'
+    parent: programming
+    url: /wiki/sql-7-do-nots
+    updated: '2021-04-02 11:04:20 +0900'
+    children: []
+stack-heap-memory:
+    type: wiki
+    title: '자바의 힙과 스택메모리'
+    summary: '자바의 메모리관리에 대하여 알아보자'
+    parent: programming
+    url: /wiki/stack-heap-memory
+    updated: '2021-04-05 13:53:39 +0900'
+    children: []
 tech:
     type: wiki
     title: 개발기술
     summary: '기술을 발굴해낼 때 마다 적어두는 공간'
     parent: index
     url: /wiki/tech
-    updated: '2021-01-28 09:32:41 +0900'
+    updated: '2021-03-15 16:30:29 +0900'
     children: []
 typeof-instanceof:
     type: wiki
     title: 'typeof와 instanceof의 차이점'
     summary: ""
-    parent: JavaScript
+    parent: Javascript
     url: /wiki/typeof-instanceof
-    updated: '2021-02-05 15:46:00 +0900'
+    updated: '2021-02-25 16:39:42 +0900'
+    children: []
+useful-cmd-commands:
+    type: wiki
+    title: '자주 쓰이고 유용한 CMD 커맨드'
+    summary: ""
+    parent: programming
+    url: /wiki/useful-cmd-commands
+    updated: '2021-03-29 10:48:15 +0900'
     children: []
 Useful-sites:
     type: wiki
@@ -204,5 +308,5 @@ Useful-sites:
     summary: '유용한 사이트들 모음'
     parent: index
     url: /wiki/Useful-sites
-    updated: '2021-02-10 17:15:06 +0900'
+    updated: '2021-05-07 13:42:40 +0900'
     children: []
