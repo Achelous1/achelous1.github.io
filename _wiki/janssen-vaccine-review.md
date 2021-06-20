@@ -3,11 +3,11 @@ layout  : wiki
 title   : 얀센 썰푼다
 summary : 
 date    : 2021-06-16 21:04:44 +0900
-updated : 2021-06-16 21:53:31 +0900
+updated : 2021-06-19 20:02:53 +0900
 tag     : covid-19 janssen vaccine 얀센
 toc     : true
 public  : true
-parent  : [[index]] 
+parent  : [[life-log]] 
 latex   : false
 ---
 * TOC

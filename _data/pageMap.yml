@@ -178,9 +178,9 @@ janssen-vaccine-review:
     type: wiki
     title: '얀센 썰푼다'
     summary: ""
-    parent: index
+    parent: life-log
     url: /wiki/janssen-vaccine-review
-    updated: '2021-06-16 21:53:31 +0900'
+    updated: '2021-06-19 20:02:53 +0900'
     children: []
 Javascript:
     type: wiki
@@ -221,7 +221,7 @@ life-log:
     parent: index
     url: /wiki/life-log
     updated: '2021-02-10 17:30:43 +0900'
-    children: [books-2021, diary-2020, diary-2021, news-2021]
+    children: [books-2021, diary-2020, diary-2021, janssen-vaccine-review, news-2021]
 mathematics:
     type: wiki
     title: 수학
@@ -244,7 +244,7 @@ nomad-coders-translation:
     summary: '노마드코더 강의 번역을 하면서 배운 것을 공유하자'
     parent: programming
     url: /wiki/nomad-coders-translation
-    updated: '2021-05-24 11:26:18 +0900'
+    updated: '2021-06-19 20:04:24 +0900'
     children: []
 programming:
     type: wiki
