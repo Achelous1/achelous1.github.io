@@ -3,7 +3,7 @@ layout  : wiki
 title   : 노마드코더 강의 번역 가이드
 summary : 노마드코더 강의 번역을 하면서 배운 것을 공유하자
 date    : 2021-05-19 17:48:48 +0900
-updated : 2021-06-19 20:04:24 +0900
+updated : 2021-06-27 11:57:53 +0900
 tag     : nomad-coders translation
 toc     : true
 public  : true
@@ -67,18 +67,25 @@ latex   : false
     * 이해가 되네, 말이 되네 등등 (한국어로 번역하면 어떻게든 좀 어색한 phrase)
 10. It works
     * 잘 동작해. 또는 앞의 문장과 더불어 *~할 수 있어*. 등으로 대체
-12. Let's see if this works
+11. Let's see if this works
     * 제대로 동작하는지 한번 보자구
-13. Actually,
+12. Actually,
     * 실제로는
-14. All you have to do
+13. All you have to do
     * ~만 하면 돼
-15. That's it for this video
+14. That's it for this video
     * 이번 영상은 여기까지야
-16. That's it
+15. That's it
     * 이게 다야
-17. What are we saying here?
-    * 이게 어떤/무슨 의미지? 
+16. What are we saying here?
+    * 이게 어떤/무슨 의미지?
+17. What this mean is that..
+    * 이 말인 즉슨, 이 말은, 이게 의미하는 바는
+    * ~라는 뜻이야
+19. now we are good to go
+    * 이제 다음으로 넘어가자구
+    * 이제 다 끝났어
+    * 이제 실행해볼 차례야
       
 
 * 위 단어들이 *특히 all right/alright/okay/right 등등..* 너무 많이 들어간다 싶으면 조금 걷어내는 것도 가독성을 높이는 데 좋은 듯 하다

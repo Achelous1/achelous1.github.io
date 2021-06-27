@@ -244,7 +244,7 @@ nomad-coders-translation:
     summary: '노마드코더 강의 번역을 하면서 배운 것을 공유하자'
     parent: programming
     url: /wiki/nomad-coders-translation
-    updated: '2021-06-19 20:04:24 +0900'
+    updated: '2021-06-27 11:57:53 +0900'
     children: []
 programming:
     type: wiki
