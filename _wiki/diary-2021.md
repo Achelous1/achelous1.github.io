@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2021년 일지 
 summary : 
 date    : 2021-01-22 14:48:52 +0900
-updated : 2021-07-14 22:16:28 +0900
+updated : 2021-07-14 22:18:37 +0900
 tag     : 
 toc     : true
 public  : true
@@ -305,4 +305,4 @@ latex   : false
 * [ ] 알고리즘 문제풀이
 * [ ] 독서
 * [X] 프로그래밍 공부
-: 노마드코더 번역 끝!
+* 노마드코더 번역 끝!
