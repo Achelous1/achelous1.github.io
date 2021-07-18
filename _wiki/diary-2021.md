@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2021년 일지 
 summary : 
 date    : 2021-01-22 14:48:52 +0900
-updated : 2021-07-14 22:18:37 +0900
+updated : 2021-07-18 13:43:03 +0900
 tag     : 
 toc     : true
 public  : true
@@ -306,3 +306,11 @@ latex   : false
 * [ ] 독서
 * [X] 프로그래밍 공부
 * 노마드코더 번역 끝!
+
+### 2021-07-18
+* [ ] 알고리즘 문제풀이
+* [ ] 독서
+* [X] 프로그래밍 공부
+* Macbook에 vimwiki integration 하는 중
+* Nomad Coders에서 번역하고 받은 에어비엔비 클론코딩 시작!
+
