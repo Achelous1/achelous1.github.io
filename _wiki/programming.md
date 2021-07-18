@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2021-05-19 17:48:48 +0900
+updated : 2021-07-18 21:25:00 +0900
 tag     : 
 toc     : true
 public  : true
@@ -15,8 +15,8 @@ latex   : false
 
 # Languages
 * [[Javascript]]
+* [[python]]{Python}
 
-<!--
 # [[design-patterns]]{Design Patterns}
 ## Creational Patterns
 1. [[abstract-factory-pattern]]
@@ -46,7 +46,6 @@ latex   : false
 9. strategy-pattern
 10. template-method-pattern
 11. visitor-pattern
--->
 
 # Program Algorithms
 * [[calculate-datetime-bw-2-days]]
@@ -84,4 +83,5 @@ latex   : false
 * [[diff-web-server-was]]{Web 서버와 WAS의 차이점}
 * [[tomcat-issues]]{톰캣이슈}
 * [[test-driven-design]]{테스트주도개발에 관하여}
+* [[django]]{Python Django}
 -->
