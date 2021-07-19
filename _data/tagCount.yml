@@ -47,6 +47,9 @@
     name: design-pattern
     size: 1
 -
+    name: django
+    size: 1
+-
     name: do-nots
     size: 1
 -
@@ -100,6 +103,9 @@
 -
     name: principle
     size: 1
+-
+    name: python
+    size: 2
 -
     name: quotes
     size: 1

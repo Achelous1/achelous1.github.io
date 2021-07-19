@@ -40,6 +40,11 @@ books:
     - {fileName: clean-code}
 clean-code:
     - {fileName: clean-code}
+python:
+    - {fileName: django}
+    - {fileName: python}
+django:
+    - {fileName: django}
 math:
     - {fileName: exponentiation}
 extjs:
