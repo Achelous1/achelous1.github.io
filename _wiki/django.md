@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django
 summary : Django에 관하여
 date    : 2021-07-18 21:25:00 +0900
-updated : 2021-07-20 15:25:10 +0900
+updated : 2021-07-20 17:36:22 +0900
 tag     : python django
 toc     : true
 public  : true
@@ -64,7 +64,6 @@ $ pipenv --three
 ## Django
 * Django는 `pipenv install django=={version}`으로 설치한다
 * 프로젝트를 생성할 때에는 `django-admin startproject {projectName}`명령어를 사용하여 설치한다
-    * 위 방법은 매우 초심자-친화적이어서 이번 프로젝트 내에선 사용하지 않을것
     
 ## Links
 * [Mozilla-Django소개](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction#%EC%9A%94%EC%B2%AD%EC%9D%84_%EC%95%8C%EB%A7%9E%EC%9D%80_%EB%B7%B0%EB%A1%9C_%EC%A0%84%EB%8B%AC_urls.py)
