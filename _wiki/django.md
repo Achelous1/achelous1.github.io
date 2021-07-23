@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django
 summary : Django에 관하여
 date    : 2021-07-18 21:25:00 +0900
-updated : 2021-07-23 14:47:07 +0900
+updated : 2021-07-23 14:48:27 +0900
 tag     : python django
 toc     : true
 public  : true
@@ -33,7 +33,7 @@ latex   : false
 
 ### Pipenv 설치방법
 
-```
+```shell
 # Terminal
 $ pip install --user pipenv
 
@@ -44,7 +44,7 @@ $ brew install pipenv
 
 * Pipenv 설치 확인
  
-```
+```shell
 # Terminal
 $ pipenv
 ```
@@ -52,7 +52,7 @@ $ pipenv
 ### Pipenv 버블 설정 방법
 * Django는 Python3.x 버전에서 가장 잘 작동한다. 그러니 pipenv를 설정할 때 python3.x버전을 사용하게 option을 줘야한다
 
-```
+```shell
 # Terminal
 $ pipenv --three
 ```
@@ -66,7 +66,7 @@ $ pipenv --three
 * 프로젝트를 생성할 때에는 `django-admin startproject {projectName}`명령어를 사용하여 설치한다
 
 ## Django vs Spring
-
+### 용어 정리
 
 | Django    | Spring     |
 |-----------|------------|
