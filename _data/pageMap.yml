@@ -100,7 +100,7 @@ books-2021:
     summary: ""
     parent: life-log
     url: /wiki/books-2021
-    updated: '2021-07-23 10:13:15 +0900'
+    updated: '2021-07-25 19:24:31 +0900'
     children: []
 calculate-datetime-bw-2-days:
     type: wiki
@@ -140,7 +140,7 @@ django:
     summary: 'Django에 관하여'
     parent: python
     url: /wiki/django
-    updated: '2021-07-20 17:36:22 +0900'
+    updated: '2021-07-23 14:48:27 +0900'
     children: []
 exponentiation:
     type: wiki
