@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django
 summary : Django에 관하여
 date    : 2021-07-18 21:25:00 +0900
-updated : 2021-07-26 15:52:59 +0900
+updated : 2021-07-26 16:04:11 +0900
 tag     : python django
 toc     : true
 public  : true
@@ -22,7 +22,7 @@ latex   : false
 * Model은 기본적으로 MVC의 모델과 비슷하다.
 * Template은 기본적으로 MVC의 View와 비슷하다.
 * View는 기본적으로 MVC의 Controller와 비슷하다.
-* Django는Controller에서 URL을 resolve하지 않고, url.py라는 파일을 따로 만들어 그곳에서URL resolve를 관리한다.
+* Django는Controller에서 URL을 resolve하지 않고, url.py라는 파일을 따로 만들어 그곳에서 URL resolve를 관리한다.
 
 ## PIP vs Pipenv
 * PIP : Global 설치
