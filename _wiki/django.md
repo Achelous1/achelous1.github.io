@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django
 summary : Django에 관하여
 date    : 2021-07-18 21:25:00 +0900
-updated : 2021-07-23 14:48:27 +0900
+updated : 2021-07-26 15:52:59 +0900
 tag     : python django
 toc     : true
 public  : true
@@ -73,10 +73,6 @@ $ pipenv --three
 | Decorator | Annotation |
 | View      | Controller |
 | Template  | View       |
-|           |            |
-
-
-
 
 ## Links
 * [Mozilla-Django소개](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction#%EC%9A%94%EC%B2%AD%EC%9D%84_%EC%95%8C%EB%A7%9E%EC%9D%80_%EB%B7%B0%EB%A1%9C_%EC%A0%84%EB%8B%AC_urls.py)
