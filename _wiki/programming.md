@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2021-07-18 21:25:00 +0900
+updated : 2021-07-27 10:06:49 +0900
 tag     : 
 toc     : true
 public  : true
@@ -77,6 +77,7 @@ latex   : false
 * [[spring-bean-singleton]]{스프링의 bean은 싱글턴인가}
 * [[db-tree]]{데이터베이스의 트리구조}
 * [[inner-outer-join]]{Inner와 Outer 조인}
+* B
 * [[java-oop]]{자바 객체지향}
 * [[javascript-characteristic]]{자바스크립트의 특징}
 * [[async-synchronous]]{동기와 비동기 처리}
