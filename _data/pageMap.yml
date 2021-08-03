@@ -132,7 +132,7 @@ diary-2021:
     summary: ""
     parent: life-log
     url: /wiki/diary-2021
-    updated: '2021-07-18 16:01:06 +0900'
+    updated: '2021-08-03 19:35:23 +0900'
     children: []
 django:
     type: wiki
@@ -140,7 +140,7 @@ django:
     summary: 'Django에 관하여'
     parent: python
     url: /wiki/django
-    updated: '2021-07-26 15:52:59 +0900'
+    updated: '2021-07-26 16:04:11 +0900'
     children: []
 exponentiation:
     type: wiki
@@ -260,7 +260,7 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-07-18 21:25:00 +0900'
+    updated: '2021-07-27 10:06:49 +0900'
     children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
 python:
     type: wiki
