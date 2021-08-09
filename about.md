@@ -10,7 +10,7 @@ latex: true
 
 [//]: <> (<img align="left" src="https://user-images.githubusercontent.com/24582045/108148108-7c614980-7113-11eb-880a-949a26d908ac.jpg" style="width:15vw; height:15vw;"/>)
 ### **Greetings** - @Achelous1
-반갑습니다! 저는 현재 *HNC 기술정보*에서 웹프로그래머로 재직중인 친슈라고 합니다!
+반갑습니다! 저는 현재 *Kensington World*에서 웹프로그래머로 재직중인 친슈라고 합니다!
 
 * 클린코딩 클린아키텍처를 지향합니다
 * 풀스택 웹개발자를 지향합니다
