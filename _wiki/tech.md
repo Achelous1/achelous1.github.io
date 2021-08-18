@@ -3,7 +3,7 @@ layout  : wiki
 title   : 개발기술
 summary : 기술을 발굴해낼 때 마다 적어두는 공간
 date    : 2021-01-25 10:34:24 +0900
-updated : 2021-03-15 16:30:29 +0900
+updated : 2021-08-18 17:50:45 +0900
 tag     : 
 toc     : true
 public  : true
@@ -16,6 +16,16 @@ latex   : false
 # Technologies
 ## Virtualization
 1. Docker
+2. Kubernetes
+
+## Cloud
+1. [[AWS]]
+2. ECS
+3. ECR
+
+## Git
+1. [[github]]{Github}
+2. [[github-action]]{Github Actions}
 
 ## Language
 1. Golang
