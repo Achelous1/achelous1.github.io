@@ -1,4 +1,10 @@
 -
+    name: 얀센
+    size: 1
+-
+    name: 클린코드
+    size: 1
+-
     name: abstract-factory
     size: 1
 -
@@ -9,6 +15,9 @@
     size: 1
 -
     name: arithmetic
+    size: 1
+-
+    name: AWS
     size: 1
 -
     name: baekjun
@@ -24,6 +33,9 @@
     size: 1
 -
     name: clean-code
+    size: 1
+-
+    name: cloud
     size: 1
 -
     name: cmd
@@ -48,12 +60,24 @@
     size: 1
 -
     name: django
+    size: 2
+-
+    name: django-orm
     size: 1
 -
     name: do-nots
     size: 1
 -
     name: extjs
+    size: 1
+-
+    name: git
+    size: 1
+-
+    name: github
+    size: 2
+-
+    name: github-actions
     size: 1
 -
     name: guide
@@ -98,6 +122,9 @@
     name: OOP
     size: 1
 -
+    name: orm
+    size: 1
+-
     name: performance
     size: 1
 -
@@ -105,7 +132,7 @@
     size: 1
 -
     name: python
-    size: 2
+    size: 3
 -
     name: quotes
     size: 1
@@ -135,10 +162,4 @@
     size: 1
 -
     name: wiki
-    size: 1
--
-    name: 얀센
-    size: 1
--
-    name: 클린코드
     size: 1

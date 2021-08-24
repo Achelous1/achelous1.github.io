@@ -62,6 +62,14 @@ abstract-factory-pattern:
     url: /wiki/abstract-factory-pattern
     updated: '2021-04-23 09:50:19 +0900'
     children: []
+AWS:
+    type: wiki
+    title: 'Amazon Web Service'
+    summary: '클라우드 플랫폼 AWS에 관하여'
+    parent: tech
+    url: /wiki/AWS
+    updated: '2021-08-18 17:49:16 +0900'
+    children: []
 baekjun:
     type: wiki
     title: 'baekjun문제를 풀어보자'
@@ -132,7 +140,7 @@ diary-2021:
     summary: ""
     parent: life-log
     url: /wiki/diary-2021
-    updated: '2021-08-03 19:35:23 +0900'
+    updated: '2021-08-16 18:18:32 +0900'
     children: []
 django:
     type: wiki
@@ -141,6 +149,14 @@ django:
     parent: python
     url: /wiki/django
     updated: '2021-07-26 16:04:11 +0900'
+    children: []
+django-orm:
+    type: wiki
+    title: 'Django ORM'
+    summary: 'Django Object Relational Mapping'
+    parent: python
+    url: /wiki/django-orm
+    updated: '2021-08-24 16:57:43 +0900'
     children: []
 exponentiation:
     type: wiki
@@ -157,6 +173,22 @@ Extjs-issues:
     parent: Javascript
     url: /wiki/Extjs-issues
     updated: '2021-05-25 09:13:06 +0900'
+    children: []
+github:
+    type: wiki
+    title: Github
+    summary: ""
+    parent: tech
+    url: /wiki/github
+    updated: '2021-08-18 18:01:12 +0900'
+    children: [github-action]
+github-action:
+    type: wiki
+    title: 'Github Actions'
+    summary: 'Github의 자동화 서비스'
+    parent: github
+    url: /wiki/github-action
+    updated: '2021-08-18 17:56:18 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -260,7 +292,7 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-07-27 10:06:49 +0900'
+    updated: '2021-08-24 16:39:46 +0900'
     children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
 python:
     type: wiki
@@ -269,7 +301,7 @@ python:
     parent: programming
     url: /wiki/python
     updated: '2021-07-18 21:27:19 +0900'
-    children: [django]
+    children: [django, django-orm]
 solid-principle:
     type: wiki
     title: 'SOLID 원칙'
@@ -300,8 +332,8 @@ tech:
     summary: '기술을 발굴해낼 때 마다 적어두는 공간'
     parent: index
     url: /wiki/tech
-    updated: '2021-03-15 16:30:29 +0900'
-    children: []
+    updated: '2021-08-18 17:59:35 +0900'
+    children: [AWS, github]
 typeof-instanceof:
     type: wiki
     title: 'typeof와 instanceof의 차이점'

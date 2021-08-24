@@ -20,6 +20,10 @@ abstract-factory:
     - {fileName: abstract-factory-pattern}
 design-pattern:
     - {fileName: abstract-factory-pattern}
+AWS:
+    - {fileName: AWS}
+cloud:
+    - {fileName: AWS}
 arithmetic:
     - {fileName: baekjun-level-1}
 IO:
@@ -42,9 +46,15 @@ clean-code:
     - {fileName: clean-code}
 python:
     - {fileName: django}
+    - {fileName: django-orm}
     - {fileName: python}
 django:
     - {fileName: django}
+    - {fileName: django-orm}
+orm:
+    - {fileName: django-orm}
+django-orm:
+    - {fileName: django-orm}
 math:
     - {fileName: exponentiation}
 extjs:
@@ -55,6 +65,13 @@ javascript:
     - {fileName: Extjs-issues}
     - {fileName: Javascript}
     - {fileName: typeof-instanceof}
+git:
+    - {fileName: github}
+github:
+    - {fileName: github}
+    - {fileName: github-action}
+github-actions:
+    - {fileName: github-action}
 guideline:
     - {fileName: google-java-style-guide}
 java:
