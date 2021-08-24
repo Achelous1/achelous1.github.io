@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-24 16:57:43 +0900
+updated : 2021-08-24 17:20:00 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -22,25 +22,46 @@ latex   : false
 ### 객체/인스턴스를 생성하는 방법
 #### [save()](https://docs.djangoproject.com/en/3.2/ref/models/instances/#saving-objects)
 
-| Model.save(force_insert=False, force_update=False, using=DEFAULT_DB_ALIAS, update_fields=None)
-| force_insert/force_update : 강제 INSERT 또는UPDATE
-| using : 사용할 데이터베이스
-| update_fields : [참조](https://docs.djangoproject.com/en/3.2/ref/models/instances/#ref-models-update-fields)
+> Model.save(force_insert=False, force_update=False, using=DEFAULT_DB_ALIAS, update_fields=None)
+> force_insert/force_update : 강제 INSERT 또는UPDATE
+> using : 사용할 데이터베이스
+> update_fields : [참조](https://docs.djangoproject.com/en/3.2/ref/models/instances/#ref-models-update-fields)
 
 * 사용방법:
 ```python
->>> from app.models import {ModelName}
->>> model = ModelName(foo='bar', key='val')
->>> model.save()
+from app.models import {ModelName}
+model = ModelName(foo='bar', key='val')
+model.save()
 ```
+
 #### [create()](https://docs.djangoproject.com/en/3.2/ref/models/querysets/#django.db.models.query.QuerySet.create)
 
+> create(**kwargs)
+
+* 사용방법:
+```python
+p = Person.objects.create(first_name="Bruce", last_name="Springsteen")
+```
 
 ### 조회하는 방법
+#### all()
+
+#### get()
+
+#### filter()
+
+#### exclude()
+
+#### 체이닝**Chaining**
+
+#### Field lookups
+
 
 ### 수정하는 방법
+#### save()
 
 ### 삭제하는 방법
+#### delete()
 
 ## 링크
- 
+* [Django Documentation - Making queries](https://docs.djangoproject.com/en/3.2/topics/db/queries/#making-queries) 
