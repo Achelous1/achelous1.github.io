@@ -156,7 +156,7 @@ django-orm:
     summary: 'Django Object Relational Mapping'
     parent: python
     url: /wiki/django-orm
-    updated: '2021-08-24 16:57:43 +0900'
+    updated: '2021-08-24 17:20:00 +0900'
     children: []
 exponentiation:
     type: wiki
