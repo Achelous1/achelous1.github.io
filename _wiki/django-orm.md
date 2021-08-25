@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-25 15:21:16 +0900
+updated : 2021-08-25 15:39:08 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -122,20 +122,54 @@ Entry.objects.exclude(pub_date__gt=datetime.date(2005, 1, 3), headline='Hello')
 Entry.objects.exclude(pub_date__gt=datetime.date(2005, 1, 3)).exclude(headline='Hello')
 ```
 
-#### 체이닝*Chaining*
-
-#### Field lookups
-
-
 ### 수정하는 방법
 #### save()
+* 기본적으로 생성할 때의 save()와 비슷하며 다른점은 생성할 때엔 해당 object에 id가 미존재.
+* 변경하고 싶은 필드의 값을 먼저 변경한 뒤 save()를 호출한다
+
+* 사용방법:
+```python
+model.foo = bar
+model.save()
+
+# 또는
+model = Class(id=1, foo=bar)
+model.save()
+```
+
+#### 읽어 볼 만한 주제
+* save() 함수를 호출하면 어떻게 되는가?
+>
+What happens when you save?
+When you save an object, Django performs the following steps:
+
+Emit a pre-save signal. The pre_save signal is sent, allowing any functions listening for that signal to do something.
+
+Preprocess the data. Each field’s pre_save() method is called to perform any automated data modification that’s needed. For example, the date/time fields override pre_save() to implement auto_now_add and auto_now.
+
+Prepare the data for the database. Each field’s get_db_prep_save() method is asked to provide its current value in a data type that can be written to the database.
+
+Most fields don’t require data preparation. Simple data types, such as integers and strings, are ‘ready to write’ as a Python object. However, more complex data types often require some modification.
+
+For example, DateField fields use a Python datetime object to store data. Databases don’t store datetime objects, so the field value must be converted into an ISO-compliant date string for insertion into the database.
+
+Insert the data into the database. The preprocessed, prepared data is composed into an SQL statement for insertion into the database.
+
+Emit a post-save signal. The post_save signal is sent, allowing any functions listening for that signal to do something.
+
+
 
 ### 삭제하는 방법
 #### delete()
 
 ### 고급쿼리
+#### 체이닝*Chaining*
+
+#### Field lookups
+
 #### Aggregation
 
 
 ## 링크
 * [Django Documentation - Making queries](https://docs.djangoproject.com/en/3.2/topics/db/queries/#making-queries) 
+* [QuerySet API reference](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/)
