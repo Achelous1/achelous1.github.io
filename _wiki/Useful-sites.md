@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유용한 웹사이트 
 summary : 유용한 사이트들 모음
 date    : 2021-02-10 17:10:21 +0900
-updated : 2021-05-07 13:42:40 +0900
+updated : 2021-08-25 10:20:24 +0900
 tag     : sites useful
 toc     : true
 public  : true
@@ -32,9 +32,14 @@ latex   : false
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) 벡터아이콘 라이브러리
 * [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref) 이스케이프 문자 레퍼런스 차트
 * [Flaticon](https://www.flaticon.com/) 무료벡터일러스트레이션 아이콘
-
+* [Lessipe](https://lessipe.com/#) 프론트 및 백엔드 강좌사이트
+* 
 #### Back-End
 * [MKyong](https://mkyong.com/) 자바와 스프링강좌 사이트
+* [Jump to Python](https://wikidocs.net/book/1) 파이썬 강좌 사이트
+* [Django Girls](https://tutorial.djangogirls.org/ko/) 장고강좌 사이트
+* [Django 소개](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction) Mozilla의 장고 소개서
+* [Django Docs](https://docs.djangoproject.com/ko/3.2/) 장고 3.2버전 문서
 
 #### Common Programming
 * [regex101](https://regex101.com/) 각종 정규표현식을 보고 테스트 해볼 수 있는 웹서비스
