@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-25 16:05:36 +0900
+updated : 2021-08-25 16:11:42 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -169,11 +169,11 @@ Model.delete(using=DEFAULT_DB_ALIAS, keep_parents=False)
 -- keep_parents : (boolean) multi-table 상속[^MULTI-TABLE] 상에서 (OneToOneField) 자식데이터만 삭제하고자 할 때 True를 넘겨주면 부모의 데이터는 삭제하지 않는다
 
 ### 고급쿼리
-#### 체이닝*Chaining*
+#### [체이닝*Chaining*](https://docs.djangoproject.com/en/3.2/topics/db/queries/#chaining-filters)
 
-#### Field lookups
+#### [Field lookups](https://docs.djangoproject.com/en/3.2/ref/models/querysets/#field-lookups)
 
-#### Aggregation
+#### [Aggregation](https://docs.djangoproject.com/en/3.2/ref/models/querysets/#aggregation-functions)
 
 
 ## 링크
