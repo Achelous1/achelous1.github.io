@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-25 15:42:10 +0900
+updated : 2021-08-25 15:59:22 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -23,11 +23,11 @@ latex   : false
 #### [save()](https://docs.djangoproject.com/en/3.2/ref/models/instances/#saving-objects)
 
 > 
-Model.save(force_insert=False, force_update=False, using=DEFAULT_DB_ALIAS, update_fields=None)<br/>
+Model.save(force_insert=False, force_update=False, using=DEFAULT_DB_ALIAS, update_fields=None)
 > 
--- force_insert/force_update : 강제 INSERT 또는UPDATE<br/>
+-- force_insert/force_update : 강제 INSERT 또는UPDATE
 > 
--- using : 사용할 데이터베이스<br/>
+-- using : 사용할 데이터베이스
 > 
 -- update_fields : [참조](https://docs.djangoproject.com/en/3.2/ref/models/instances/#ref-models-update-fields)
 
@@ -141,8 +141,8 @@ model.save()
 #### 읽어 볼 만한 주제
 * save() 함수를 호출하면 어떻게 되는가?
 >
-What happens when you save?
-When you save an object, Django performs the following steps:
+**What happens when you save?**
+- When you save an object, Django performs the following steps:
 >
 Emit a pre-save signal. The pre_save signal is sent, allowing any functions listening for that signal to do something.
 >
@@ -161,7 +161,12 @@ Emit a post-save signal. The post_save signal is sent, allowing any functions li
 
 
 ### 삭제하는 방법
-#### delete()
+#### [delete()](https://docs.djangoproject.com/en/3.2/ref/models/instances/#django.db.models.Model.delete)
+
+>
+Model.delete(using=DEFAULT_DB_ALIAS, keep_parents=False)
+>
+-- keep_parents : (boolean) multi-table 상속[^MULTI-TABLE] 상에서 (OneToOneField) 자식데이터만 삭제하고자 할 때 True를 넘겨주면 부모의 데이터는 삭제하지 않는다
 
 ### 고급쿼리
 #### 체이닝*Chaining*
@@ -170,7 +175,10 @@ Emit a post-save signal. The post_save signal is sent, allowing any functions li
 
 #### Aggregation
 
+## 주석
+[^MULTI-TABLE]: [참조](https://docs.djangoproject.com/en/3.2/topics/db/models/#multi-table-inheritance)
 
 ## 링크
 * [Django Documentation - Making queries](https://docs.djangoproject.com/en/3.2/topics/db/queries/#making-queries) 
 * [QuerySet API reference](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/)
+???끝
