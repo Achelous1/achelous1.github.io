@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유용한 웹사이트 
 summary : 유용한 사이트들 모음
 date    : 2021-02-10 17:10:21 +0900
-updated : 2021-08-25 10:20:24 +0900
+updated : 2021-08-25 10:22:45 +0900
 tag     : sites useful
 toc     : true
 public  : true
@@ -33,7 +33,7 @@ latex   : false
 * [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref) 이스케이프 문자 레퍼런스 차트
 * [Flaticon](https://www.flaticon.com/) 무료벡터일러스트레이션 아이콘
 * [Lessipe](https://lessipe.com/#) 프론트 및 백엔드 강좌사이트
-* 
+
 #### Back-End
 * [MKyong](https://mkyong.com/) 자바와 스프링강좌 사이트
 * [Jump to Python](https://wikidocs.net/book/1) 파이썬 강좌 사이트
