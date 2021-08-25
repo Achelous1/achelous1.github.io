@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-25 09:56:06 +0900
+updated : 2021-08-25 15:05:54 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -40,7 +40,10 @@ model.save()
 
 #### [create()](https://docs.djangoproject.com/en/3.2/ref/models/querysets/#django.db.models.query.QuerySet.create)
 
-> create(**kwargs)
+> 
+create(**kwargs)
+>
+-- **kwargs : 생성할 object의 필드 key=value
 
 * 사용방법:
 ```python
@@ -48,11 +51,54 @@ p = Person.objects.create(first_name="Bruce", last_name="Springsteen")
 ```
 
 ### 조회하는 방법
-#### all()
+#### [all()](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#all)
 
-#### get()
+> 
+all()
+>
+-- 현재 QuerySet의 모든 데이터의 *복사본*을 반환한다
 
-#### filter()
+* 사용방법:
+```python
+model.objects.all()
+```
+
+#### [get()](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#get)
+
+>
+get(**kwargs)
+>
+-- **kwargs : 찾고자 하는 object의 필터
+>
+-- get() 함수는 해당 조건에 부합하는 *하나의* object만 반환한다
+>
+-- DoesNotExist exception : 조건에 부합하는 object를 찾지 못했을 경우 던지는 예외
+>
+-- MultipleObjectsReturned : 조건에 부합하는 하나 이상의 objects를 찾았을 경우 던지는 예외
+
+* 사용방법:
+```python
+Entry.objects.get(id=1)
+Entry.objects.get(blog=blog, entry_number=1)
+```
+
+#### [filter()](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#filter)
+
+>
+filter(**kwargs)
+>
+-- **kwargs : 찾고자하는 object들의 필터
+>
+-- 위 조건에 부합하는 object들의 *QuerySet*을 반환한다
+>
+-- 기본적으로 필터들은 **AND** 연산자로 쿼리하며 더 복잡한 쿼리를 작성하려면(**OR** 연산자 등) [Q object
+](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#django.db.models.Q)를 사용해야 한다
+
+* 사용방법:
+```python
+Entry.objects.filter(pub_date__year=2006)
+``` 
+
 
 #### exclude()
 
