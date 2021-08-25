@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-25 15:05:54 +0900
+updated : 2021-08-25 15:21:16 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -91,16 +91,36 @@ filter(**kwargs)
 >
 -- 위 조건에 부합하는 object들의 *QuerySet*을 반환한다
 >
--- 기본적으로 필터들은 **AND** 연산자로 쿼리하며 더 복잡한 쿼리를 작성하려면(**OR** 연산자 등) [Q object
+-- 기본적으로 필터들은 **AND** 연산자로 묶여지며 더 복잡한 쿼리를 작성하려면(**OR** 연산자 등) [Q object
 ](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#django.db.models.Q)를 사용해야 한다
 
 * 사용방법:
 ```python
+A
 Entry.objects.filter(pub_date__year=2006)
 ``` 
 
 
-#### exclude()
+#### [exclude()](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#exclude)
+
+>
+exclude(**kwargs)
+>
+-- **kwargs : 찾아올 데이터 중 제외하고 싶은 object들의 조건
+>
+-- SQL의 NOT 키워드와 같다
+>
+-- 기본적으로 필터들은 **AND** 연산자로 묶여지며 더 복잡한 쿼리를 작성하려면(**OR** 연산자 등) [Q object
+](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/#django.db.models.Q)를 사용해야 한다
+
+* 사용방법:
+```python
+# 예제 1
+Entry.objects.exclude(pub_date__gt=datetime.date(2005, 1, 3), headline='Hello')
+
+# 예제 2
+Entry.objects.exclude(pub_date__gt=datetime.date(2005, 1, 3)).exclude(headline='Hello')
+```
 
 #### 체이닝*Chaining*
 
@@ -112,6 +132,10 @@ Entry.objects.filter(pub_date__year=2006)
 
 ### 삭제하는 방법
 #### delete()
+
+### 고급쿼리
+#### Aggregation
+
 
 ## 링크
 * [Django Documentation - Making queries](https://docs.djangoproject.com/en/3.2/topics/db/queries/#making-queries) 
