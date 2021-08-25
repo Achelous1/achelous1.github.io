@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-25 15:59:22 +0900
+updated : 2021-08-25 16:05:36 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -175,10 +175,11 @@ Model.delete(using=DEFAULT_DB_ALIAS, keep_parents=False)
 
 #### Aggregation
 
-## 주석
-[^MULTI-TABLE]: [참조](https://docs.djangoproject.com/en/3.2/topics/db/models/#multi-table-inheritance)
 
 ## 링크
 * [Django Documentation - Making queries](https://docs.djangoproject.com/en/3.2/topics/db/queries/#making-queries) 
 * [QuerySet API reference](https://docs.djangoproject.com/ko/3.2/ref/models/querysets/)
-???끝
+
+## 주석
+[^MULTI-TABLE]: Multi-table inheritance <https://docs.djangoproject.com/en/3.2/topics/db/models/#multi-table-inheritance>
+
