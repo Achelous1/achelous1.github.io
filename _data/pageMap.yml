@@ -140,7 +140,7 @@ diary-2021:
     summary: ""
     parent: life-log
     url: /wiki/diary-2021
-    updated: '2021-08-16 18:18:32 +0900'
+    updated: '2021-08-28 23:04:21 +0900'
     children: []
 django:
     type: wiki
@@ -156,7 +156,7 @@ django-orm:
     summary: 'Django Object Relational Mapping'
     parent: python
     url: /wiki/django-orm
-    updated: '2021-08-25 15:05:54 +0900'
+    updated: '2021-08-25 16:11:42 +0900'
     children: []
 exponentiation:
     type: wiki

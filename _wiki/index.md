@@ -1,5 +1,5 @@
 ---
-layout  : wikiindex
+[[layout]]  : wikiindex
 title   : Wiki
 toc     : true
 public  : true
@@ -23,5 +23,6 @@ regenerate: true
     * [[news-2021]]
 * [[life-guide]]
     * [[life-cheatsheet]]
+
 
 
