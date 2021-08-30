@@ -50,11 +50,23 @@ python:
     - {fileName: python}
 django:
     - {fileName: django}
+    - {fileName: django-intro}
+    - {fileName: django-orm}
+    - {fileName: django-rest-framework}
+django-orm:
+    - {fileName: django-intro}
     - {fileName: django-orm}
 orm:
+    - {fileName: django-intro}
     - {fileName: django-orm}
-django-orm:
-    - {fileName: django-orm}
+rest-api:
+    - {fileName: django-rest-framework}
+rest:
+    - {fileName: django-rest-framework}
+api:
+    - {fileName: django-rest-framework}
+django-rest-framework:
+    - {fileName: django-rest-framework}
 math:
     - {fileName: exponentiation}
 extjs:

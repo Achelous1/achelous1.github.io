@@ -148,7 +148,15 @@ django:
     summary: 'Django에 관하여'
     parent: python
     url: /wiki/django
-    updated: '2021-07-26 16:04:11 +0900'
+    updated: '2021-08-30 21:30:19 +0900'
+    children: [django-intro, django-rest-framework]
+django-intro:
+    type: wiki
+    title: 'Django Introduction'
+    summary: ""
+    parent: django
+    url: /wiki/django-intro
+    updated: '2021-08-30 21:31:21 +0900'
     children: []
 django-orm:
     type: wiki
@@ -157,6 +165,14 @@ django-orm:
     parent: python
     url: /wiki/django-orm
     updated: '2021-08-25 16:11:42 +0900'
+    children: []
+django-rest-framework:
+    type: wiki
+    title: 'Django Rest Framework'
+    summary: 'Django에서 Rest API를 쉽게'
+    parent: django
+    url: /wiki/django-rest-framework
+    updated: '2021-08-30 21:34:03 +0900'
     children: []
 exponentiation:
     type: wiki
@@ -292,7 +308,7 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-08-24 16:39:46 +0900'
+    updated: '2021-08-30 21:31:52 +0900'
     children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
 python:
     type: wiki

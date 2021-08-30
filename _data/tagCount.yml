@@ -5,6 +5,9 @@
     name: algorithm
     size: 2
 -
+    name: api
+    size: 1
+-
     name: architecture
     size: 1
 -
@@ -54,9 +57,12 @@
     size: 1
 -
     name: django
-    size: 2
+    size: 4
 -
     name: django-orm
+    size: 2
+-
+    name: django-rest-framework
     size: 1
 -
     name: do-nots
@@ -117,7 +123,7 @@
     size: 1
 -
     name: orm
-    size: 1
+    size: 2
 -
     name: performance
     size: 1
@@ -129,6 +135,12 @@
     size: 3
 -
     name: quotes
+    size: 1
+-
+    name: rest
+    size: 1
+-
+    name: rest-api
     size: 1
 -
     name: sites
