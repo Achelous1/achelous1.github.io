@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-08-30 21:35:53 +0900
+updated : 2021-08-30 21:40:00 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
