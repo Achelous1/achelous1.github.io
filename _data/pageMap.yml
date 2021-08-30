@@ -149,7 +149,7 @@ django:
     parent: python
     url: /wiki/django
     updated: '2021-08-30 21:30:19 +0900'
-    children: [django-intro, django-rest-framework]
+    children: [django-intro, django-orm, django-rest-framework]
 django-intro:
     type: wiki
     title: 'Django Introduction'
@@ -162,9 +162,9 @@ django-orm:
     type: wiki
     title: 'Django ORM'
     summary: 'Django Object Relational Mapping'
-    parent: python
+    parent: django
     url: /wiki/django-orm
-    updated: '2021-08-25 16:11:42 +0900'
+    updated: '2021-08-30 21:35:53 +0900'
     children: []
 django-rest-framework:
     type: wiki
@@ -172,7 +172,7 @@ django-rest-framework:
     summary: 'Django에서 Rest API를 쉽게'
     parent: django
     url: /wiki/django-rest-framework
-    updated: '2021-08-30 21:34:03 +0900'
+    updated: '2021-08-30 21:36:06 +0900'
     children: []
 exponentiation:
     type: wiki
@@ -317,7 +317,7 @@ python:
     parent: programming
     url: /wiki/python
     updated: '2021-07-18 21:27:19 +0900'
-    children: [django, django-orm]
+    children: [django]
 solid-principle:
     type: wiki
     title: 'SOLID 원칙'
