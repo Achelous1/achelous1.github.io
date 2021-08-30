@@ -1,5 +1,5 @@
 ---
-[[layout]]  : wikiindex
+layout  : wikiindex
 title   : Wiki
 toc     : true
 public  : true
