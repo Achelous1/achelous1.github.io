@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django Rest Framework
 summary : Django에서 Rest API를 쉽게
 date    : 2021-08-30 21:31:53 +0900
-updated : 2021-09-01 22:01:00 +0900
+updated : 2021-09-01 22:03:47 +0900
 tag     : django rest-api rest api django-rest-framework
 toc     : true
 public  : true
@@ -23,7 +23,7 @@ latex   : false
 ## [Responses](https://www.django-rest-framework.org/api-guide/responses/)
 
 ## [Serializers](https://www.django-rest-framework.org/api-guide/serializers/)
-* 장고모델 기반의 데이터를 JSON형식으로 변환해주는 틀
+* 장고모델 기반의 QuerySet의 데이터를 JSON 또는 http통신으로 주고 받을 수 있는 다른형식으로 변환해주는 틀
 
 ## [Views](https://www.django-rest-framework.org/tutorial/quickstart/#views)
 * 특정 url로 요청을 받아 해당 요청을 처리하여 response를 반환해주는 함수기반 뷰(Function Based View)
