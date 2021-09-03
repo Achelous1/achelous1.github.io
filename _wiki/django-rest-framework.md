@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django Rest Framework
 summary : Django에서 Rest API를 쉽게
 date    : 2021-08-30 21:31:53 +0900
-updated : 2021-09-01 22:03:47 +0900
+updated : 2021-09-03 11:12:39 +0900
 tag     : django rest-api rest api django-rest-framework
 toc     : true
 public  : true
@@ -14,6 +14,7 @@ latex   : false
 {:toc}
 
 # 개요
+
 > Django REST Framework는 Web API를 개발하는 데 있어 막강하고 유연한 툴킷이다 [^rest-framework-intro]
 
 # Django REST Framework 개념
@@ -27,6 +28,10 @@ latex   : false
 
 ## [Views](https://www.django-rest-framework.org/tutorial/quickstart/#views)
 * 특정 url로 요청을 받아 해당 요청을 처리하여 response를 반환해주는 함수기반 뷰(Function Based View)
+
+### ViewSets
+* 다중의 view를 작성하는 대신 공통된 행위들을 같은 View 내부의 ViewSet으로 묶는다.
+* 이렇게 함으로써 로직을 정돈되고 간결하게 유지할 수 있으며 각각의 view로도 쉽게 다시 정리할 수 있다.
 
 ## [URLs](https://www.django-rest-framework.org/tutorial/quickstart/#urls)
 * 요청 받은 url을 어떤 api로 처리할 것인지 할당하는 파일(urls.py)
