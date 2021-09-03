@@ -172,7 +172,7 @@ django-rest-framework:
     summary: 'Django에서 Rest API를 쉽게'
     parent: django
     url: /wiki/django-rest-framework
-    updated: '2021-09-01 22:03:47 +0900'
+    updated: '2021-09-03 11:12:39 +0900'
     children: []
 exponentiation:
     type: wiki
@@ -372,5 +372,5 @@ Useful-sites:
     summary: '유용한 사이트들 모음'
     parent: index
     url: /wiki/Useful-sites
-    updated: '2021-08-25 10:22:45 +0900'
+    updated: '2021-09-03 11:13:40 +0900'
     children: []

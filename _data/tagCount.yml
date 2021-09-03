@@ -1,4 +1,10 @@
 -
+    name: 얀센
+    size: 1
+-
+    name: 클린코드
+    size: 1
+-
     name: abstract-factory
     size: 1
 -
@@ -168,10 +174,4 @@
     size: 1
 -
     name: wiki
-    size: 1
--
-    name: 얀센
-    size: 1
--
-    name: 클린코드
     size: 1
