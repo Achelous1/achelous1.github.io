@@ -58,5 +58,5 @@ latex: true
 | React 영화앱 페이지 | [github](https://github.com/Achelous1/react-movie-web-service) | [demo](https://achelous1.github.io/react-movie-web-service) | ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
 
 ### Recent coding history
-<figure><embed src="https://wakatime.com/share/@Chinshuu/fcb835e4-dc4b-48e9-afe0-1eda40cb6215.svg"></embed></figure>
+<figure><embed src="https://wakatime.com/share/@Chinshuu/1c9d3db5-0d7b-4cfb-aefe-3fe80b8fb230.svg"></figure>
 
