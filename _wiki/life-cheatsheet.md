@@ -3,7 +3,7 @@ layout  : wiki
 title   : Life Cheatsheet
 summary : 
 date    : 2021-01-26 16:57:23 +0900
-updated : 2021-09-05 17:36:07 +0900
+updated : 2021-09-05 17:41:20 +0900
 tag     : life cheatsheet
 toc     : true
 public  : true
@@ -53,7 +53,7 @@ latex   : false
 * 조금의 시간이 지난 후 다시금 숙달하라
 
 # Links
-* [The Order Expert | 17 Ways to Organize Your Thoughts](https://www.theorderexpert.com/17-ways-to-organize-your-thoughts/)
-* [The Sharp Brains | 8 Tips to Remember What You Read](https://sharpbrains.com/blog/2009/05/14/8-tips-to-remember-what-you-read/)
+* [The Order Expert-17 Ways to Organize Your Thoughts](https://www.theorderexpert.com/17-ways-to-organize-your-thoughts/)
+* [The Sharp Brains- Tips to Remember What You Read](https://sharpbrains.com/blog/2009/05/14/8-tips-to-remember-what-you-read/)
 
 
