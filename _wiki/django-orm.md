@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-09-06 10:24:09 +0900
+updated : 2021-09-06 10:26:43 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -143,7 +143,7 @@ model.save()
 >
 **What happens when you save?**
 >
-- When you save an object, Django performs the following steps:
+-- When you save an object, Django performs the following steps:
 >
 Emit a pre-save signal. The pre_save signal is sent, allowing any functions listening for that signal to do something.
 >
@@ -169,6 +169,8 @@ Model.delete(using=DEFAULT_DB_ALIAS, keep_parents=False)
 >
 -- keep_parents : (boolean) multi-table 상속[^MULTI-TABLE] 상에서 (OneToOneField) 자식데이터만 삭제하고자 할 때 True를 넘겨주면 부모의 데이터는 삭제하지 않는다
 
+### 고급쿼리
+#### [체이닝*Chaining*](https://docs.djangoproject.com/en/3.2/topics/db/queries/#chaining-filters)
 
 #### [Field lookups](https://docs.djangoproject.com/en/3.2/ref/models/querysets/#field-lookups)
 
