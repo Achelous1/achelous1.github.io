@@ -3,7 +3,7 @@ layout  : wiki
 title   : Django ORM
 summary : Django Object Relational Mapping
 date    : 2021-08-24 16:39:46 +0900
-updated : 2021-09-06 10:26:43 +0900
+updated : 2021-09-06 10:28:50 +0900
 tag     : django orm django-orm python
 toc     : true
 public  : true
@@ -145,19 +145,19 @@ model.save()
 >
 -- When you save an object, Django performs the following steps:
 >
-Emit a pre-save signal. The pre_save signal is sent, allowing any functions listening for that signal to do something.
+1. Emit a pre-save signal. The pre_save signal is sent, allowing any functions listening for that signal to do something.
 >
-Preprocess the data. Each field’s pre_save() method is called to perform any automated data modification that’s needed. For example, the date/time fields override pre_save() to implement auto_now_add and auto_now.
+2. Preprocess the data. Each field’s pre_save() method is called to perform any automated data modification that’s needed. For example, the date/time fields override pre_save() to implement auto_now_add and auto_now.
 >
-Prepare the data for the database. Each field’s get_db_prep_save() method is asked to provide its current value in a data type that can be written to the database.
+3. Prepare the data for the database. Each field’s get_db_prep_save() method is asked to provide its current value in a data type that can be written to the database.
 >
-Most fields don’t require data preparation. Simple data types, such as integers and strings, are ‘ready to write’ as a Python object. However, more complex data types often require some modification.
+-- Most fields don’t require data preparation. Simple data types, such as integers and strings, are ‘ready to write’ as a Python object. However, more complex data types often require some modification.
 >
-For example, DateField fields use a Python datetime object to store data. Databases don’t store datetime objects, so the field value must be converted into an ISO-compliant date string for insertion into the database.
+-- For example, DateField fields use a Python datetime object to store data. Databases don’t store datetime objects, so the field value must be converted into an ISO-compliant date string for insertion into the database.
 >
-Insert the data into the database. The preprocessed, prepared data is composed into an SQL statement for insertion into the database.
+4. Insert the data into the database. The preprocessed, prepared data is composed into an SQL statement for insertion into the database.
 >
-Emit a post-save signal. The post_save signal is sent, allowing any functions listening for that signal to do something.
+5. Emit a post-save signal. The post_save signal is sent, allowing any functions listening for that signal to do something.
 
 
 
