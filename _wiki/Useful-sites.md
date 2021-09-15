@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유용한 웹사이트 
 summary : 유용한 사이트들 모음
 date    : 2021-02-10 17:10:21 +0900
-updated : 2021-09-13 19:42:28 +0900
+updated : 2021-09-15 12:49:17 +0900
 tag     : sites useful
 toc     : true
 public  : true
@@ -54,3 +54,4 @@ latex   : false
 #### Other
 * [Moodly](https://moodly.site/) 각종 백색소음을 테마별로 들을 수 있는 사이트
 * [Product Hunt](https://www.producthunt.com/) 프로그램계의 킥스타터
+* [Apption.co](https://apption.co/) 노션에 임베드할 수 있는 각종 어플리케이션 모음
