@@ -11,6 +11,7 @@ regenerate: true
 * [[programming]]
 * [[tech]]
 * [[Useful-sites]]
+* [[useful-youtube-channel]]
 
 ## Study
 * [[mathematics]]
