@@ -53,6 +53,9 @@
     name: covid-19
     size: 1
 -
+    name: debug
+    size: 1
+-
     name: debugging
     size: 1
 -
@@ -62,16 +65,22 @@
     name: design-pattern
     size: 1
 -
+    name: developer
+    size: 1
+-
     name: django
-    size: 4
+    size: 5
 -
     name: django-orm
     size: 2
 -
     name: django-rest-framework
-    size: 1
+    size: 2
 -
     name: do-nots
+    size: 1
+-
+    name: drf
     size: 1
 -
     name: extjs
@@ -138,7 +147,7 @@
     size: 1
 -
     name: python
-    size: 3
+    size: 4
 -
     name: quotes
     size: 1
@@ -174,4 +183,7 @@
     size: 1
 -
     name: wiki
+    size: 1
+-
+    name: youtube
     size: 1

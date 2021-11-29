@@ -44,15 +44,24 @@ books:
     - {fileName: clean-code}
 clean-code:
     - {fileName: clean-code}
-python:
-    - {fileName: django}
-    - {fileName: django-orm}
-    - {fileName: python}
+debug:
+    - {fileName: djang-rest-framework-debug}
+drf:
+    - {fileName: djang-rest-framework-debug}
+django-rest-framework:
+    - {fileName: djang-rest-framework-debug}
+    - {fileName: django-rest-framework}
 django:
+    - {fileName: djang-rest-framework-debug}
     - {fileName: django}
     - {fileName: django-intro}
     - {fileName: django-orm}
     - {fileName: django-rest-framework}
+python:
+    - {fileName: djang-rest-framework-debug}
+    - {fileName: django}
+    - {fileName: django-orm}
+    - {fileName: python}
 django-orm:
     - {fileName: django-intro}
     - {fileName: django-orm}
@@ -64,8 +73,6 @@ rest-api:
 rest:
     - {fileName: django-rest-framework}
 api:
-    - {fileName: django-rest-framework}
-django-rest-framework:
     - {fileName: django-rest-framework}
 math:
     - {fileName: exponentiation}
@@ -137,3 +144,7 @@ sites:
     - {fileName: Useful-sites}
 useful:
     - {fileName: Useful-sites}
+developer:
+    - {fileName: useful-youtube-channel}
+youtube:
+    - {fileName: useful-youtube-channel}

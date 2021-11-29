@@ -108,7 +108,7 @@ books-2021:
     summary: ""
     parent: life-log
     url: /wiki/books-2021
-    updated: '2021-08-12 21:59:34 +0900'
+    updated: '2021-10-18 10:23:03 +0900'
     children: []
 calculate-datetime-bw-2-days:
     type: wiki
@@ -132,7 +132,7 @@ diary-2020:
     summary: ""
     parent: life-log
     url: /wiki/diary-2020
-    updated: '2021-01-22 14:54:33 +0900'
+    updated: '2021-09-03 16:26:10 +0900'
     children: []
 diary-2021:
     type: wiki
@@ -140,7 +140,15 @@ diary-2021:
     summary: ""
     parent: life-log
     url: /wiki/diary-2021
-    updated: '2021-08-28 23:04:21 +0900'
+    updated: '2021-10-08 17:31:35 +0900'
+    children: []
+djang-rest-framework-debug:
+    type: wiki
+    title: 'Django Rest Framework를 사용하며 디버깅한 경험'
+    summary: ""
+    parent: django
+    url: /wiki/djang-rest-framework-debug
+    updated: '2021-09-22 17:37:43 +0900'
     children: []
 django:
     type: wiki
@@ -149,7 +157,7 @@ django:
     parent: python
     url: /wiki/django
     updated: '2021-08-30 21:30:19 +0900'
-    children: [django-intro, django-orm, django-rest-framework]
+    children: [djang-rest-framework-debug, django-intro, django-orm, django-rest-framework]
 django-intro:
     type: wiki
     title: 'Django Introduction'
@@ -164,7 +172,7 @@ django-orm:
     summary: 'Django Object Relational Mapping'
     parent: django
     url: /wiki/django-orm
-    updated: '2021-08-30 21:40:00 +0900'
+    updated: '2021-09-06 10:28:50 +0900'
     children: []
 django-rest-framework:
     type: wiki
@@ -260,7 +268,7 @@ life-cheatsheet:
     summary: ""
     parent: life-guide
     url: /wiki/life-cheatsheet
-    updated: '2021-08-06 20:55:58 +0900'
+    updated: '2021-09-05 17:41:20 +0900'
     children: []
 life-guide:
     type: wiki
@@ -308,7 +316,7 @@ programming:
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2021-08-30 21:31:52 +0900'
+    updated: '2021-09-21 15:00:47 +0900'
     children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
 python:
     type: wiki
@@ -372,5 +380,13 @@ Useful-sites:
     summary: '유용한 사이트들 모음'
     parent: index
     url: /wiki/Useful-sites
-    updated: '2021-09-03 11:13:40 +0900'
+    updated: '2021-09-15 12:49:17 +0900'
+    children: []
+useful-youtube-channel:
+    type: wiki
+    title: '개발에 도움이 되는 유튜브 채널'
+    summary: ""
+    parent: index
+    url: /wiki/useful-youtube-channel
+    updated: '2021-10-06 10:06:54 +0900'
     children: []
