@@ -5,6 +5,8 @@ toc     : true
 public  : true
 comment : false
 regenerate: true
+created: 2022-01-21T09:57:11+09:00
+updated: 2022-01-21T09:57:11+09:00
 ---
 
 ## </dev>
@@ -19,9 +21,8 @@ regenerate: true
     
 ## Life
 * [[life-log]]
-    * [[diary-2021]]
-    * [[books-2021]]
-    * [[news-2021]]
+    * [[diary-2022]]
+    * [[nomad-book-club]]
 * [[life-guide]]
     * [[life-cheatsheet]]
 

@@ -68,7 +68,7 @@ latex   : false
 * [[United-Resume]]
 * [[nomad-coders-translation]]{노마드코더 강의 번역}
 
-<!--
+
 # Working-ons
 * [[stack-heap-memory]]{힙,스택 메모리}
 * [[checked-runtime-exception]]{runtime과 checked 익셉션}
@@ -88,4 +88,4 @@ latex   : false
 * [[django-orm]]
 * [[django-intro]]
 * [[django-rest-framework]]
--->
+

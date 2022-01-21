@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "e95f7a640741cdd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3443c5f9b020182",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "diary-2022.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb9fdd073fc4a267",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1f732739eda4aeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d37bdfea4e98ea5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "32a7a8e27b20e829",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#baekjun",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d89e7f88143c91ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "b88e16dfc5074a81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16a1f20531bb44d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "diary-2022.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ff5cb9102218486",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "diary-2022.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e63b28092f10717",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e3443c5f9b020182",
+  "lastOpenFiles": [
+    "diary-2022.md",
+    "djang-rest-framework-debug.md",
+    "clean-code-2022-01-21.md",
+    "templates/nomad_book_club_template.md",
+    "nomad-book-club.md",
+    "nomad-coders-translation.md",
+    "2021-01-21.md",
+    "index.md",
+    "1000.md",
+    "1001.md"
+  ]
+}
