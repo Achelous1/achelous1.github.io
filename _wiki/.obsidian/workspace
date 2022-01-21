@@ -1,16 +1,52 @@
 {
   "main": {
-    "id": "e95f7a640741cdd7",
+    "id": "721116bb46b5c6f1",
     "type": "split",
     "children": [
       {
-        "id": "e3443c5f9b020182",
+        "id": "e71a7114b240c646",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "clean-code-2022-01-21.md",
-            "mode": "preview",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8a4283b9ba34c402",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "google-java-style-guide.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "00e720aa8a0f67ab",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "google-java-style-guide.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "596250a1735dbdd1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "clean-code-2022-01-21.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -19,15 +55,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb9fdd073fc4a267",
+    "id": "ca1537ff170aa058",
     "type": "split",
     "children": [
       {
-        "id": "e1f732739eda4aeb",
+        "id": "59bef47c1b1a4bce",
         "type": "tabs",
         "children": [
           {
-            "id": "5d37bdfea4e98ea5",
+            "id": "f42ff1845bd7258d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,13 +71,13 @@
             }
           },
           {
-            "id": "32a7a8e27b20e829",
+            "id": "471d10d0c7080a43",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#baekjun",
-                "matchingCase": true,
+                "query": ".obsidian",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -56,15 +92,15 @@
     "width": 300
   },
   "right": {
-    "id": "d89e7f88143c91ca",
+    "id": "b438cbe097972c07",
     "type": "split",
     "children": [
       {
-        "id": "b88e16dfc5074a81",
+        "id": "6bc10f3e863f18e3",
         "type": "tabs",
         "children": [
           {
-            "id": "16a1f20531bb44d2",
+            "id": "eb4abf2cc986c8a4",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -81,7 +117,7 @@
             }
           },
           {
-            "id": "9ff5cb9102218486",
+            "id": "03bd4ad4b2279d89",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -93,7 +129,7 @@
             }
           },
           {
-            "id": "8e63b28092f10717",
+            "id": "6f1475bd6c5d48af",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -110,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e3443c5f9b020182",
+  "active": "e71a7114b240c646",
   "lastOpenFiles": [
     "clean-code-2022-01-21.md",
-    "nomad-book-club.md",
-    "Big-O-Notation.md",
     "templates/nomad_book_club_template.md",
-    "diary-2022.md",
-    "djang-rest-framework-debug.md",
-    "nomad-coders-translation.md",
-    "2021-01-21.md",
-    "index.md",
-    "1000.md"
+    "templates/category_template.md",
+    "google-java-style-guide.md",
+    "python.md",
+    "mathematics.md",
+    "stack-heap-memory.md",
+    "life-log.md",
+    "nomad-book-club.md",
+    "solid-principle.md"
   ]
 }
