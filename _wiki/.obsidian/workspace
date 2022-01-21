@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "clean-code-2022-01-21.md",
+            "file": "templates/nomad_book_club_template.md",
             "mode": "source",
             "source": true
           }
@@ -146,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e71a7114b240c646",
+  "active": "596250a1735dbdd1",
   "lastOpenFiles": [
     "clean-code-2022-01-21.md",
     "templates/nomad_book_club_template.md",
+    "templates/wiki_template.md",
     "templates/category_template.md",
     "google-java-style-guide.md",
     "python.md",
     "mathematics.md",
     "stack-heap-memory.md",
     "life-log.md",
-    "nomad-book-club.md",
-    "solid-principle.md"
+    "nomad-book-club.md"
   ]
 }
