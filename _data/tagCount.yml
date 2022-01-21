@@ -29,6 +29,9 @@
     name: blog
     size: 1
 -
+    name: book-club
+    size: 1
+-
     name: books
     size: 1
 -
@@ -36,7 +39,7 @@
     size: 1
 -
     name: clean-code
-    size: 1
+    size: 3
 -
     name: cloud
     size: 1
@@ -66,6 +69,9 @@
     size: 1
 -
     name: developer
+    size: 1
+-
+    name: diary
     size: 1
 -
     name: django
@@ -132,7 +138,7 @@
     size: 1
 -
     name: nomad-coders
-    size: 1
+    size: 4
 -
     name: OOP
     size: 1

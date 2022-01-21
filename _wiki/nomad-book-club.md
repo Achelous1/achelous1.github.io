@@ -1,5 +1,5 @@
 ---
-layout  : category
+layout  : wiki
 title   : 노개북
 summary : 노마드 개발자 북클럽
 date    : 2022-01-21 09:57:18 +0900

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "diary-2022.md",
-            "mode": "source",
+            "file": "clean-code-2022-01-21.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary-2022.md",
+                "file": "clean-code-2022-01-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary-2022.md",
+                "file": "clean-code-2022-01-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,15 +112,15 @@
   },
   "active": "e3443c5f9b020182",
   "lastOpenFiles": [
+    "clean-code-2022-01-21.md",
+    "nomad-book-club.md",
+    "Big-O-Notation.md",
+    "templates/nomad_book_club_template.md",
     "diary-2022.md",
     "djang-rest-framework-debug.md",
-    "clean-code-2022-01-21.md",
-    "templates/nomad_book_club_template.md",
-    "nomad-book-club.md",
     "nomad-coders-translation.md",
     "2021-01-21.md",
     "index.md",
-    "1000.md",
-    "1001.md"
+    "1000.md"
   ]
 }

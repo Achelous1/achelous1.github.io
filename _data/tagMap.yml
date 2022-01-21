@@ -44,6 +44,15 @@ books:
     - {fileName: clean-code}
 clean-code:
     - {fileName: clean-code}
+    - {fileName: clean-code-2022-01-21}
+    - {fileName: nomad_book_club_template}
+nomad-coders:
+    - {fileName: clean-code-2022-01-21}
+    - {fileName: nomad_book_club_template}
+    - {fileName: nomad-book-club}
+    - {fileName: nomad-coders-translation}
+diary:
+    - {fileName: diary-2022}
 debug:
     - {fileName: djang-rest-framework-debug}
 drf:
@@ -114,8 +123,8 @@ cheatsheet:
     - {fileName: life-cheatsheet}
 news:
     - {fileName: news-2021}
-nomad-coders:
-    - {fileName: nomad-coders-translation}
+book-club:
+    - {fileName: nomad-book-club}
 translation:
     - {fileName: nomad-coders-translation}
 OOP:
