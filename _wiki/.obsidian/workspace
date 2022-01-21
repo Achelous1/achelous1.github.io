@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clean-code-2022-01-21.md",
+                "file": "templates/nomad_book_club_template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clean-code-2022-01-21.md",
+                "file": "templates/nomad_book_club_template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,10 +146,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "596250a1735dbdd1",
+  "active": "e71a7114b240c646",
   "lastOpenFiles": [
-    "clean-code-2022-01-21.md",
     "templates/nomad_book_club_template.md",
+    "clean-code-2022-01-21.md",
     "templates/wiki_template.md",
     "templates/category_template.md",
     "google-java-style-guide.md",
