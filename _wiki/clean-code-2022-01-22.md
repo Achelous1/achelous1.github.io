@@ -47,6 +47,6 @@ latex   : false
 * [TIL 출석표](https://docs.google.com/spreadsheets/d/1Cy2NOnfFDP6Y1snkd3nL5VidLDmBq8C9696iTwbc_K0/edit#gid=0)
 * 
 ## 주석
-* [^BAD_CODE-1] 3페이지 나쁜코드 killer app으로 부터
-* [^BAD_CODE-2] [LeBlanc's Law](https://yiming.dev/clipping/2019/03/21/le-blanc's-law-a-k-a-later-equals-never/)
-* [^CLEAN_CODE-1] 9페이지 C++ 창시자이자 The C++ Programming Language 저자
+* [^BADCODE-1] 3페이지 나쁜코드 killer app으로 부터
+* [^BADCODE-2] [LeBlanc's Law](https://yiming.dev/clipping/2019/03/21/le-blanc's-law-a-k-a-later-equals-never/)
+* [^CLEANCODE-1] 9페이지 C++ 창시자이자 The C++ Programming Language 저자
