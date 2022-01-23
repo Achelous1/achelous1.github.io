@@ -20,8 +20,8 @@ latex   : false
 > * 코드가 사라질 가능성은 없다: **코드는 요구사항을 상세히 표현하는 수단이니까!**
 >     * 어느 수준에 이르면 코드의 도움 없이 요구사항을 상세하게 표현하기란 불가능하다.
 >     * 고도로 추상화된 언어나 특정 응용 분야 언어로 기술하는 명세 역시 코드!
-> * **회사가 망한 원인은 바로 나쁜코드 탓이었다**[^BADCODE-1]
-> * *르블랑의 법칙* -**나중은 결코 오지 않는다**-[^BADCODE-2]
+> * **회사가 망한 원인은 바로 나쁜코드 탓이었다** [^BADCODE-1]
+> * *르블랑의 법칙* -**나중은 결코 오지 않는다**- [^BADCODE-2]
 > * 나쁜코드는 개발 속도를 크게 떨어뜨린다
 >     * 처음에 빠르게 치고 나가다가 1~2년만에 굼벵이처럼 기어가는 팀도 많다...매번 얽히고 설킨 코드를 '해독'해서 얽히고 설킨 코드를 더한다.
 > * **시간을 들여 깨끗한 코드를 만드는 노력**이 **비용을 절감**하는 방법일 뿐만 아니라 **전문가로서 살아남는 길**
@@ -47,6 +47,6 @@ latex   : false
 * [TIL 출석표](https://docs.google.com/spreadsheets/d/1Cy2NOnfFDP6Y1snkd3nL5VidLDmBq8C9696iTwbc_K0/edit#gid=0)
 * 
 ## 주석
-* [^BADCODE-1] 3페이지 나쁜코드 killer app으로 부터
-* [^BADCODE-2] [LeBlanc's Law](https://yiming.dev/clipping/2019/03/21/le-blanc's-law-a-k-a-later-equals-never/)
-* [^CLEANCODE-1] 9페이지 C++ 창시자이자 The C++ Programming Language 저자
+[^BADCODE-1]: 3페이지 나쁜코드 killer app으로 부터
+[^BADCODE-2]: [LeBlanc's Law](https://yiming.dev/clipping/2019/03/21/le-blanc's-law-a-k-a-later-equals-never/)
+[^CLEANCODE-1]: 9페이지 C++ 창시자이자 The C++ Programming Language 저자

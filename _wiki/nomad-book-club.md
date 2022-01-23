@@ -17,3 +17,4 @@ latex   : false
 ## 1기-*클린코드*
 ### [[clean-code-2022-01-21]]
 ### [[clean-code-2022-01-22]]
+### [[clean-code-2022-01-23]]

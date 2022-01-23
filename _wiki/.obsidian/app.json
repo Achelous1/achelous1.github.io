@@ -2,7 +2,7 @@
   "legacyEditor": false,
   "livePreview": false,
   "defaultViewMode": "source",
-  "vimMode": true,
+  "vimMode": false,
   "showUnsupportedFiles": false,
   "showLineNumber": true,
   "useTab": true

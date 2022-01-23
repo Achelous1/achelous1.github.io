@@ -39,7 +39,7 @@
     size: 1
 -
     name: clean-code
-    size: 4
+    size: 5
 -
     name: cloud
     size: 1
@@ -138,7 +138,7 @@
     size: 1
 -
     name: nomad-coders
-    size: 5
+    size: 6
 -
     name: OOP
     size: 1
