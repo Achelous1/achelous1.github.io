@@ -24,7 +24,6 @@ latex   : false
 >     int d;    // 경과시간(단위: 날짜)
 >     ```
 >     * 위 변수에선 아무 의미도 드러나지 않는다
->     
 >     ```java
 >     int elapsedTimeInDays;
 >     ```
