@@ -25,7 +25,7 @@ latex   : false
 >     ```
 >     * 위 변수에선 아무 의미도 드러나지 않는다
 >     
->     ``` java
+>     ```java
 >     int elapsedTimeInDays;
 >     ```
 >     * 위처럼 의도가 드러나는 이름을 사용하라 - 코드 이해와 변경이 쉬워진다
