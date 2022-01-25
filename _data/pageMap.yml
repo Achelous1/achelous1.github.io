@@ -174,6 +174,14 @@ clean-code-2022-01-24:
     url: /wiki/clean-code-2022-01-24
     updated: '2022-01-24 23:00:14 +0900'
     children: []
+clean-code-2022-01-25:
+    type: wiki
+    title: '클린코드 2022-01-25의 기록'
+    summary: ""
+    parent: nomad-book-club
+    url: /wiki/clean-code-2022-01-25
+    updated: '2022-01-25 22:20:50 +0900'
+    children: []
 diary-2020:
     type: wiki
     title: '2020년 일지'
@@ -373,7 +381,7 @@ nomad-book-club:
     parent: index
     url: /wiki/nomad-book-club
     updated: '2022-01-21 09:57:18 +0900'
-    children: [clean-code-2022-01-21, clean-code-2022-01-22, clean-code-2022-01-23, clean-code-2022-01-24, nomad_book_club_template]
+    children: [clean-code-2022-01-21, clean-code-2022-01-22, clean-code-2022-01-23, clean-code-2022-01-24, clean-code-2022-01-25, nomad_book_club_template]
 nomad-coders-translation:
     type: wiki
     title: '노마드코더 강의 번역 가이드'

@@ -48,12 +48,14 @@ clean-code:
     - {fileName: clean-code-2022-01-22}
     - {fileName: clean-code-2022-01-23}
     - {fileName: clean-code-2022-01-24}
+    - {fileName: clean-code-2022-01-25}
     - {fileName: nomad_book_club_template}
 nomad-coders:
     - {fileName: clean-code-2022-01-21}
     - {fileName: clean-code-2022-01-22}
     - {fileName: clean-code-2022-01-23}
     - {fileName: clean-code-2022-01-24}
+    - {fileName: clean-code-2022-01-25}
     - {fileName: nomad_book_club_template}
     - {fileName: nomad-book-club}
     - {fileName: nomad-coders-translation}

@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e71a7114b240c646",
+        "id": "972dde75a4ac683c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "clean-code-2022-01-24.md",
+            "file": "clean-code-2022-01-25.md",
             "mode": "source",
             "source": true
           }
         }
       },
       {
-        "id": "ea1c250f25419c8c",
+        "id": "52484f973f1fea88",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "clean-code-2022-01-24.md",
+            "file": "clean-code-2022-01-25.md",
             "mode": "preview",
             "source": true
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clean-code-2022-01-24.md",
+                "file": "clean-code-2022-01-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clean-code-2022-01-24.md",
+                "file": "clean-code-2022-01-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e71a7114b240c646",
+  "active": "972dde75a4ac683c",
   "lastOpenFiles": [
-    "clean-code-2022-01-24.md",
+    "clean-code-2022-01-25.md",
+    "templates/nomad_book_club_template.md",
     "nomad-book-club.md",
+    "clean-code-2022-01-24.md",
     "clean-code-2022-01-23.md",
     "clean-code-2022-01-22.md",
     "clean-code-2022-01-21.md",
     "clean-code.md",
-    "templates/nomad_book_club_template.md",
     "templates/wiki_template.md",
-    "templates/category_template.md",
-    "google-java-style-guide.md"
+    "templates/category_template.md"
   ]
 }
