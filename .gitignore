@@ -1,8 +1,10 @@
 _site
+_wiki/templates
+_wiki/.obsidian
 .sass-cache
 .jekyll-metadata
 /.idea
-# /uml
+/uml
 tags
 *.swp
 Gemfile.lock
