@@ -3,7 +3,7 @@ layout  : wiki
 title   : 노개북
 summary : 노마드 개발자 북클럽
 date    : 2022-01-21 09:57:18 +0900
-updated : 2022-01-21 09:57:18 +0900
+updated : 2022-01-26 22:51:18 +0900
 tag     : nomad-coders book-club
 toc     : true
 public  : true
@@ -20,3 +20,4 @@ latex   : false
 ### [[clean-code-2022-01-23]]
 ### [[clean-code-2022-01-24]]
 ### [[clean-code-2022-01-25]]
+### [[clean-code-2022-01-26]]
