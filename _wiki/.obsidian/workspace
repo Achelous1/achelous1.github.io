@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "clean-code-2022-01-25.md",
+            "file": "Useful-sites.md",
             "mode": "source",
             "source": true
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clean-code-2022-01-25.md",
+                "file": "Useful-sites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clean-code-2022-01-25.md",
+                "file": "Useful-sites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,6 +124,7 @@
   },
   "active": "972dde75a4ac683c",
   "lastOpenFiles": [
+    "Useful-sites.md",
     "clean-code-2022-01-25.md",
     "templates/nomad_book_club_template.md",
     "nomad-book-club.md",
@@ -132,7 +133,6 @@
     "clean-code-2022-01-22.md",
     "clean-code-2022-01-21.md",
     "clean-code.md",
-    "templates/wiki_template.md",
-    "templates/category_template.md"
+    "templates/wiki_template.md"
   ]
 }
