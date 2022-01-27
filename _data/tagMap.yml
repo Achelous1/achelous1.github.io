@@ -50,6 +50,7 @@ clean-code:
     - {fileName: clean-code-2022-01-24}
     - {fileName: clean-code-2022-01-25}
     - {fileName: clean-code-2022-01-26}
+    - {fileName: clean-code-2022-01-27}
     - {fileName: nomad_book_club_template}
 nomad-coders:
     - {fileName: clean-code-2022-01-21}
@@ -58,6 +59,7 @@ nomad-coders:
     - {fileName: clean-code-2022-01-24}
     - {fileName: clean-code-2022-01-25}
     - {fileName: clean-code-2022-01-26}
+    - {fileName: clean-code-2022-01-27}
     - {fileName: nomad_book_club_template}
     - {fileName: nomad-book-club}
     - {fileName: nomad-coders-translation}
