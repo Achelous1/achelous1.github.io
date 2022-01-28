@@ -22,3 +22,4 @@ latex   : false
 ### [[clean-code-2022-01-25]]
 ### [[clean-code-2022-01-26]]
 ### [[clean-code-2022-01-27]]
+[[clean-code-2022-01-28]]

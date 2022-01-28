@@ -33,7 +33,7 @@ latex   : false
 * [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref) 이스케이프 문자 레퍼런스 차트
 * [Flaticon](https://www.flaticon.com/) 무료벡터일러스트레이션 아이콘
 * [Lessipe](https://lessipe.com/#) 프론트 및 백엔드 강좌사이트
-* [Glassmorphism][https://css.glass/] 불투명 CSS 코드 제너레이터
+* [Glassmorphism](https://css.glass/) 불투명 CSS 코드 제너레이터
 * [Neumorphism](https://neumorphism.io/#ffffff) **Soft**-UI CSS 코드 제너레이터
 
 #### Back-End
