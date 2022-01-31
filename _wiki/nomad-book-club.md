@@ -22,6 +22,8 @@ latex   : false
 ### [[clean-code-2022-01-25]]
 ### [[clean-code-2022-01-26]]
 ### [[clean-code-2022-01-27]]
-[[clean-code-2022-01-28]]
-[[clean-code-2022-01-29]]
-[[clean-code-2022-01-30]]
+### [[clean-code-2022-01-28]]
+### [[clean-code-2022-01-29]]
+### [[clean-code-2022-01-30]]
+### [[fix-dirty–code]]{더러운 코드를 고쳐보자!}
+### [[clean-code-2022-01-31]]
