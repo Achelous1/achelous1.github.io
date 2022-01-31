@@ -70,6 +70,11 @@ runChristmasClockEverySecond();
 ```javascript
 class ChristmasClock{
 
+    DAY = 1000 * 60 * 60 * 24;
+    HOUR = 1000 * 60 * 60;
+    MINUTE = 1000 * 60;
+    SECOND = 1000;
+
     constructor(){
     }
 
@@ -95,25 +100,27 @@ class ChristmasClock{
     }
     
     getRemainingGapDays(timeGap){
-        const xDay = Math.floor(timeGap / (1000 * 60 * 60 * 24));
-        return String(xDay).padStart(2, "0");
+        const remainingDays = Math.floor(timeGap / this.DAY);
+        return String(remainingDays).padStart(2, "0");
     }
     
     getRemainingGapHours(timeGap){
-        const day = Math.floor(timeGap / (1000 * 60 * 60 * 24)); 
-        const xHours = Math.floor((timeGap - day * 1000 * 60 * 60 * 24) / (1000 * 60 * 60));
-        return String(xHours).padStart(2, "0");
+        const remainingDays = Math.floor(timeGap / this.DAY); 
+        const remainingHours = Math.floor((timeGap - (remainingDays * this.DAY)) / this.HOUR);
+        return String(remainingHours).padStart(2, "0");
     }
     
     getRemainingGapMinutes(timeGap){
-        const xMinutes = Math.floor((timeGap % (60 * 60 * 1000)) / (60 * 1000));
-        return String(xMinutes).padStart(2, "0");
+        const reamainingMinutes = Math.floor((timeGap % this.HOUR) / this.MINUTE);
+        return String(reamainingMinutes).padStart(2, "0");
     }
     
     getRemainingGapSeconds(timeGap){
-        const xSeconds = Math.floor((timeGap % (60 * 1000)) / 1000);
-        return String(xSeconds).padStart(2, "0");
+        const remainingSeconds = Math.floor((timeGap % this.MINUTE) / this.SECOND);
+        return String(remainingSeconds).padStart(2, "0");
     }
+
+    convert
 
     getRemainingChristmasTimegap(){
         return {
