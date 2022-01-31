@@ -16,6 +16,7 @@ latex   : false
 # Languages
 * [[Javascript]]
 * [[python]]{Python}
+* * [[django]]{Python Django}
 * [[djang-rest-framework-debug]]
 
 # [[design-patterns]]{Design Patterns}
@@ -84,8 +85,3 @@ latex   : false
 * [[diff-web-server-was]]{Web 서버와 WAS의 차이점}
 * [[tomcat-issues]]{톰캣이슈}
 * [[test-driven-design]]{테스트주도개발에 관하여}
-* [[django]]{Python Django}
-* [[django-orm]]
-* [[django-intro]]
-* [[django-rest-framework]]
-

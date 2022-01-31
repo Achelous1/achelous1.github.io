@@ -120,8 +120,6 @@ class ChristmasClock{
         return String(remainingSeconds).padStart(2, "0");
     }
 
-    convert
-
     getRemainingChristmasTimegap(){
         return {
             day: this.getRemainingGapDays(this.getTodayChristmasTimegap()),
