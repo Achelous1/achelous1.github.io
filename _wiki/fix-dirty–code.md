@@ -44,6 +44,7 @@ setInterval(getClock, 1000);
 
 ## 클린코드에서 배운 내용을 토대로 고친 코드
 * 구현 소스코드
+
 ```javascript
 function runChristmasClockEverySecond(){
     setInterval(setChristmasRemainingClockTime, 1000);
@@ -65,6 +66,7 @@ function getChristmasClockElement(){
 runChristmasClockEverySecond();
 ```
 * ChristmasClock 클래스
+
 ```javascript
 class ChristmasClock{
 
