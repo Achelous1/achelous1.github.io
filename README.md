@@ -1,5 +1,6 @@
 # 친슈의 개발자 블로그입니다
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fachelous1.github.io&count_bg=%2378A0FF&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://achelous1.github.io/)
 * 이 위키는 [종립](https://github.com/johngrib/) 님의 위키를 
 제 나름대로 바꿔서 만든 블로그페이지 입니다.
 
