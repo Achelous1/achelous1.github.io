@@ -28,3 +28,4 @@ latex   : false
 ### [[fix-dirty–code]]{더러운 코드를 고쳐보자!}
 ### [[clean-code-2022-01-31]]
 ### [[clean-code-2022-02-01]]
+### [[clean-code-2022-02-02]]
