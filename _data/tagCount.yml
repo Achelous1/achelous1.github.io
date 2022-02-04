@@ -1,4 +1,10 @@
 -
+    name: 얀센
+    size: 1
+-
+    name: 클린코드
+    size: 1
+-
     name: abstract-factory
     size: 1
 -
@@ -33,7 +39,7 @@
     size: 1
 -
     name: clean-code
-    size: 15
+    size: 16
 -
     name: cloud
     size: 1
@@ -132,7 +138,7 @@
     size: 1
 -
     name: nomad-coders
-    size: 17
+    size: 18
 -
     name: OOP
     size: 1
@@ -186,10 +192,4 @@
     size: 1
 -
     name: youtube
-    size: 1
--
-    name: 얀센
-    size: 1
--
-    name: 클린코드
     size: 1

@@ -57,6 +57,7 @@ clean-code:
     - {fileName: clean-code-2022-01-31}
     - {fileName: clean-code-2022-02-01}
     - {fileName: clean-code-2022-02-02}
+    - {fileName: clean-code-2022-02-04}
     - {fileName: nomad_book_club_template}
 nomad-coders:
     - {fileName: clean-code-2022-01-21}
@@ -72,6 +73,7 @@ nomad-coders:
     - {fileName: clean-code-2022-01-31}
     - {fileName: clean-code-2022-02-01}
     - {fileName: clean-code-2022-02-02}
+    - {fileName: clean-code-2022-02-04}
     - {fileName: fix-dirty–code}
     - {fileName: nomad_book_club_template}
     - {fileName: nomad-book-club}
