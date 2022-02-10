@@ -286,6 +286,14 @@ clean-code-2022-02-09:
     url: /wiki/clean-code-2022-02-09
     updated: '2022-02-09 20:32:23 +0900'
     children: []
+clean-code-2022-02-10:
+    type: wiki
+    title: '클린코드 2022-02-10의 기록'
+    summary: ""
+    parent: nomad-book-club
+    url: /wiki/clean-code-2022-02-10
+    updated: '2022-02-10 23:45:00 +0900'
+    children: []
 diary-2020:
     type: wiki
     title: '2020년 일지'
@@ -308,7 +316,7 @@ diary-2022:
     summary: ""
     parent: life-log
     url: /wiki/diary-2022
-    updated: '2022-01-20 22:42:49 +0900'
+    updated: '2022-02-10 00:11:49 +0900'
     children: []
 djang-rest-framework-debug:
     type: wiki
@@ -501,7 +509,7 @@ nomad-book-club:
     parent: index
     url: /wiki/nomad-book-club
     updated: '2022-01-21 09:57:18 +0900'
-    children: [clean-code-2022-01-21, clean-code-2022-01-22, clean-code-2022-01-23, clean-code-2022-01-24, clean-code-2022-01-25, clean-code-2022-01-26, clean-code-2022-01-27, clean-code-2022-01-28, clean-code-2022-01-29, clean-code-2022-01-30, clean-code-2022-01-31, clean-code-2022-02-01, clean-code-2022-02-02, clean-code-2022-02-04, clean-code-2022-02-05, clean-code-2022-02-06, clean-code-2022-02-07, clean-code-2022-02-09, fix-dirty–code, nomad_book_club_template]
+    children: [clean-code-2022-01-21, clean-code-2022-01-22, clean-code-2022-01-23, clean-code-2022-01-24, clean-code-2022-01-25, clean-code-2022-01-26, clean-code-2022-01-27, clean-code-2022-01-28, clean-code-2022-01-29, clean-code-2022-01-30, clean-code-2022-01-31, clean-code-2022-02-01, clean-code-2022-02-02, clean-code-2022-02-04, clean-code-2022-02-05, clean-code-2022-02-06, clean-code-2022-02-07, clean-code-2022-02-09, clean-code-2022-02-10, fix-dirty–code, nomad_book_club_template]
 nomad-coders-translation:
     type: wiki
     title: '노마드코더 강의 번역 가이드'

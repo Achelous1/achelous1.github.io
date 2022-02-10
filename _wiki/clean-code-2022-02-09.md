@@ -12,7 +12,7 @@ latex   : false
 ---
 * TOC
 {:toc}
-ㅇ
+
 # DAY20
 * 오늘 읽은 범위 : 클래스 ~p184
 

@@ -34,3 +34,4 @@ latex   : false
 ### [[clean-code-2022-02-06]]
 ### [[clean-code-2022-02-07]]
 ### [[clean-code-2022-02-09]]
+### [[clean-code-2022-02-10]]
