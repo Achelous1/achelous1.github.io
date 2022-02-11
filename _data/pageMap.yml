@@ -333,7 +333,15 @@ django:
     parent: python
     url: /wiki/django
     updated: '2021-08-30 21:30:19 +0900'
-    children: [djang-rest-framework-debug, django-intro, django-orm, django-rest-framework]
+    children: [djang-rest-framework-debug, django-debug, django-intro, django-orm, django-rest-framework]
+django-debug:
+    type: wiki
+    title: '장고를 하며 디버그 한 경험'
+    summary: ""
+    parent: django
+    url: /wiki/django-debug
+    updated: '2022-02-11 21:16:15 +0900'
+    children: []
 django-intro:
     type: wiki
     title: 'Django Introduction'
