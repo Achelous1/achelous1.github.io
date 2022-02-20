@@ -40,6 +40,7 @@ local-test:
     - {fileName: blog-testing-method}
 books:
     - {fileName: books-2021}
+    - {fileName: books-2022}
 클린코드:
     - {fileName: clean-code}
 clean-code:
