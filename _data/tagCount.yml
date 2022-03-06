@@ -9,7 +9,7 @@
     size: 1
 -
     name: architecture
-    size: 1
+    size: 2
 -
     name: arithmetic
     size: 1
@@ -180,6 +180,9 @@
     size: 1
 -
     name: vaccine
+    size: 1
+-
+    name: web-application
     size: 1
 -
     name: wiki

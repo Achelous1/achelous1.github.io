@@ -10,6 +10,11 @@ baekjun:
 algorithm:
     - {fileName: '2557'}
     - {fileName: calculate-datetime-bw-2-days}
+web-application:
+    - {fileName: 3-tier-web-application}
+architecture:
+    - {fileName: 3-tier-web-application}
+    - {fileName: importance-in-studying}
 life:
     - {fileName: 42-rules-of-life}
     - {fileName: law-of-jante}
@@ -146,8 +151,6 @@ java:
 style:
     - {fileName: google-java-style-guide}
 study:
-    - {fileName: importance-in-studying}
-architecture:
     - {fileName: importance-in-studying}
 covid-19:
     - {fileName: janssen-vaccine-review}

@@ -54,6 +54,14 @@
     url: /wiki/10998
     updated: '2022-01-20 23:12:32 +0900'
     children: []
+3-tier-web-application:
+    type: wiki
+    title: '3-Tier Web Application이란'
+    summary: '3티어 웹 어플리케이션에 대해서 알아보자'
+    parent: tech
+    url: /wiki/3-tier-web-application
+    updated: '2022-03-06 13:05:46 +0900'
+    children: []
 42-rules-of-life:
     type: wiki
     title: '인생의 42가지 규칙'
@@ -581,7 +589,7 @@ tech:
     parent: index
     url: /wiki/tech
     updated: '2021-08-18 17:59:35 +0900'
-    children: [AWS, github]
+    children: [3-tier-web-application, AWS, github]
 typeof-instanceof:
     type: wiki
     title: 'typeof와 instanceof의 차이점'
