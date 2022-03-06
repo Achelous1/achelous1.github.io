@@ -56,7 +56,8 @@ latex   : false
 ## 2022-03
 ### 2022-03-06
 ==TODO==
-[] CS 공부
+[X] CS 공부
+	[X] [[3-tier-web-application]]
 [] 맛디 회의
 ==Diary==
-* 
+* 미뤄왔던 CS공부 다시 시작! 3-tier-web-application에 대해서 다시 공부했는데 놓친 부분이 많았었던것 같다

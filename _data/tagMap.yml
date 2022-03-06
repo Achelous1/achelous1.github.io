@@ -15,6 +15,7 @@ web-application:
 architecture:
     - {fileName: 3-tier-web-application}
     - {fileName: importance-in-studying}
+    - {fileName: micro-service-architecture}
 life:
     - {fileName: 42-rules-of-life}
     - {fileName: law-of-jante}
@@ -162,6 +163,10 @@ vaccine:
     - {fileName: janssen-vaccine-review}
 cheatsheet:
     - {fileName: life-cheatsheet}
+microservice:
+    - {fileName: micro-service-architecture}
+microservice-architecture:
+    - {fileName: micro-service-architecture}
 news:
     - {fileName: news-2021}
 book-club:

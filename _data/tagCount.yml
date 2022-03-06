@@ -9,7 +9,7 @@
     size: 1
 -
     name: architecture
-    size: 2
+    size: 3
 -
     name: arithmetic
     size: 1
@@ -126,6 +126,12 @@
     size: 1
 -
     name: memory
+    size: 1
+-
+    name: microservice
+    size: 1
+-
+    name: microservice-architecture
     size: 1
 -
     name: news

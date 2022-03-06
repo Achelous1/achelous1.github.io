@@ -510,6 +510,14 @@ mathematics:
     url: /wiki/mathematics
     updated: '2021-04-02 11:47:43 +0900'
     children: [exponentiation]
+micro-service-architecture:
+    type: wiki
+    title: 'Microservice 아키텍처란'
+    summary: 'How to eat an elephant'
+    parent: tech
+    url: /wiki/micro-service-architecture
+    updated: '2022-03-06 17:05:14 +0900'
+    children: []
 news-2021:
     type: wiki
     title: '2021 뉴스정리'
@@ -589,7 +597,7 @@ tech:
     parent: index
     url: /wiki/tech
     updated: '2021-08-18 17:59:35 +0900'
-    children: [3-tier-web-application, AWS, github]
+    children: [3-tier-web-application, AWS, github, micro-service-architecture]
 typeof-instanceof:
     type: wiki
     title: 'typeof와 instanceof의 차이점'

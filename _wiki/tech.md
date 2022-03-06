@@ -16,7 +16,8 @@ latex   : false
 # Technologies
 
 ## Architecture
-1. [[3-tier-web-application]]{3-Tier Web Application이란}
+* [[3-tier-web-application]]{3-Tier Web Application이란}
+* [[micro-service-architecture]]{마이크로서비스 아키텍처란}
 
 ## Virtualization
 1. Docker
