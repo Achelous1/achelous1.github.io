@@ -590,6 +590,14 @@ stack-heap-memory:
     url: /wiki/stack-heap-memory
     updated: '2021-04-05 13:53:39 +0900'
     children: []
+tcp-and-udp:
+    type: wiki
+    title: 'TCP와 UDP'
+    summary: 'TCP와 UDP에 대하여 알아보자'
+    parent: ""
+    url: /wiki/tcp-and-udp
+    updated: '2022-03-08 22:43:19 +0900'
+    children: []
 tech:
     type: wiki
     title: 개발기술

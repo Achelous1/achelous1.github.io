@@ -54,6 +54,5 @@ latex   : false
 4. 
 
 ## Protocols
-1. TCP
-2. UDP
-3. HTTP
+1. [[tcp-and-udp]]
+2. HTTP
