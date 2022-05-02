@@ -19,9 +19,14 @@ latex   : false
 * [[3-tier-web-application]]{3-Tier Web Application이란}
 * [[micro-service-architecture]]{마이크로서비스 아키텍처란}
 
+## DevOps
+* [[cicd]]{CI/CD}
+
 ## Virtualization
 1. Docker
 2. Kubernetes
+3. Container
+4. Virtual Machine
 
 ## Cloud
 * [[AWS]]
@@ -51,7 +56,6 @@ latex   : false
 1. MongoDB
 2. GraphQL
 3. Hadoop
-4. 
 
 ## Protocols
 1. [[tcp-and-udp]]

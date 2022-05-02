@@ -80,3 +80,10 @@ latex   : false
 ### 2022-03-12
 **TODO**
 [X] 맛디 회의
+
+## 2022-05
+### 2022-05-02
+**TODO**
+[X] AWS Cloud Practitioner 문제풀이 
+**Diary**
+* AWS Cloud Practitioner 자격증 공부 시작!
