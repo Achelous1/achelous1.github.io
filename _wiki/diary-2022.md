@@ -85,5 +85,17 @@ latex   : false
 ### 2022-05-02
 **TODO**
 [X] AWS Cloud Practitioner 문제풀이 
+
 **Diary**
 * AWS Cloud Practitioner 자격증 공부 시작!
+
+### 2022-05-14
+**TODO**
+[X] Atomic Habit 책읽기
+
+**Diary**
+* **Scott Adams** - *"목표는 우리가 얻어내고자 하는 결과이며, 시스템은 그 결과로 이끄는 과정이다"*
+	* 성공한 사람도, 성공하지 못한 사람도 목표는 같다
+	* 목표 달성은 일시적 변화일 뿐이다
+	* 목표는 행복을 제한한다
+	* 목표와 장기적 발전은 다르다
