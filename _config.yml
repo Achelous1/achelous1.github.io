@@ -53,7 +53,8 @@ utterances:
   branch: main
 
 google_analytics:
-  ua: UA-110224147-1
+  ua: G-JG5B7LF6YY
+
 
 google_adsense:
   client: ca-pub-4857107637953203
