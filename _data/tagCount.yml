@@ -1,4 +1,10 @@
 -
+    name: 얀센
+    size: 1
+-
+    name: 클린코드
+    size: 1
+-
     name: abstract-factory
     size: 1
 -
@@ -32,6 +38,9 @@
     name: cheatsheet
     size: 1
 -
+    name: cicd
+    size: 1
+-
     name: clean-code
     size: 21
 -
@@ -63,6 +72,9 @@
     size: 1
 -
     name: developer
+    size: 1
+-
+    name: devops
     size: 1
 -
     name: diary
@@ -195,10 +207,4 @@
     size: 1
 -
     name: youtube
-    size: 1
--
-    name: 얀센
-    size: 1
--
-    name: 클린코드
     size: 1

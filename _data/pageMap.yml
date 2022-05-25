@@ -132,7 +132,7 @@ books-2022:
     summary: ""
     parent: life-log
     url: /wiki/books-2022
-    updated: '2022-02-20 15:37:45 +0900'
+    updated: '2022-05-23 21:36:00 +0900'
     children: []
 calculate-datetime-bw-2-days:
     type: wiki
@@ -149,6 +149,14 @@ category_template:
     parent: ""
     url: /wiki/category_template
     updated: '{{date}} {{time}}'
+    children: []
+cicd:
+    type: wiki
+    title: CI/CD
+    summary: 'DevOps 엔지니어의 핵심 업무'
+    parent: tech
+    url: /wiki/cicd
+    updated: '2022-03-17 14:18:59 +0900'
     children: []
 clean-code:
     type: wiki
@@ -332,7 +340,7 @@ diary-2022:
     summary: ""
     parent: life-log
     url: /wiki/diary-2022
-    updated: '2022-02-10 00:11:49 +0900'
+    updated: '2022-05-15 21:54:49 +0900'
     children: []
 djang-rest-framework-debug:
     type: wiki
@@ -605,7 +613,7 @@ tech:
     parent: index
     url: /wiki/tech
     updated: '2021-08-18 17:59:35 +0900'
-    children: [3-tier-web-application, AWS, github, micro-service-architecture]
+    children: [3-tier-web-application, AWS, cicd, github, micro-service-architecture]
 typeof-instanceof:
     type: wiki
     title: 'typeof와 instanceof의 차이점'

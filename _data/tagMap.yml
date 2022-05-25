@@ -47,6 +47,10 @@ local-test:
 books:
     - {fileName: books-2021}
     - {fileName: books-2022}
+devops:
+    - {fileName: cicd}
+cicd:
+    - {fileName: cicd}
 클린코드:
     - {fileName: clean-code}
 clean-code:
