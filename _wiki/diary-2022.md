@@ -38,17 +38,21 @@ latex   : false
 
 ### 2022-02-10
 **TODO**
+
 [X] 맛집검색 서비스 기획 6일차 
 
 ### 2022-02-20
 **TODO**
+
 [X] 미래의 부 읽기
 [X] 맛디 다이어그램 검토
+
 **Diary**
 * 맛집 네이버스 타로로님 합류
 
 ### 2022-02-21
 **TODO**
+
 [X] 미래의 부 읽기
 [X] 피티
 [X] 맛디 다이어그램 검토
@@ -56,6 +60,7 @@ latex   : false
 ## 2022-03
 ### 2022-03-06
 **TODO**
+
 [X] CS 공부
 	[X] [[3-tier-web-application]]
 [X] 미래의 부 읽기
@@ -65,6 +70,7 @@ latex   : false
 
 ### 2022-03-08
 **TODO**
+
 [X] CS 공부
 [X] 맛디 회의
 **Diary**
@@ -72,18 +78,22 @@ latex   : false
 
 ### 2022-03-11
 **TODO**
+
 [X] CS 공부
 [X] 맛디 회의
+
 **Diary**
 * 또 다시 일주일이 지나갔다. 2022년도 1분기가 지나가려고 한다. 시간이 왜이렇게 빨리 가는지 모르겠다.
 
 ### 2022-03-12
 **TODO**
+
 [X] 맛디 회의
 
 ## 2022-05
 ### 2022-05-02
 **TODO**
+
 [X] AWS Cloud Practitioner 문제풀이 
 
 **Diary**
@@ -91,6 +101,7 @@ latex   : false
 
 ### 2022-05-14
 **TODO**
+
 [X] Atomic Habit 책읽기
 
 **Diary**
@@ -102,6 +113,7 @@ latex   : false
 
 ### 2022-05-15
 **TODO**
+
 [X] Atomic Habit 책읽기
 
 **Diary**
@@ -112,6 +124,7 @@ latex   : false
 
 ### 2022-05-16
 **TODO**
+
 [X] AWS Cloud Practitioner 문제 풀기
 [X] Atomic Habit 책읽기
 
@@ -120,6 +133,7 @@ latex   : false
 
 ### 2022-05-22
 **TODO**
+
 [X] Atomic Habit 책읽기
 
 **Diary**
@@ -130,6 +144,7 @@ latex   : false
 
 ### 2022-05-23
 **TODO**
+
 [X] Atomic Habit 책읽기
 
 **Diary**
@@ -152,10 +167,12 @@ latex   : false
 
 ### 2022-05-25
 **TODO**
+
 [X] Atomic Habit 책읽기
 
 ### 2022-05-29
 **TODO**
+
 [X] Atomic Habit 책읽기 
 
 **Diary**
@@ -168,6 +185,7 @@ latex   : false
 ## 2022-06
 ### 2022-06-05
 **TODO**
+
 [X] Atomic Habits 읽기
 
 **Diary**
@@ -176,6 +194,7 @@ latex   : false
 
 ### 2022-06-08
 **TODO**
+
 [X] Atomic Habit 읽기
 
 **Diary**
@@ -183,6 +202,7 @@ latex   : false
 
 ### 2022-06-12
 **TODO**
+
 [X] Atomic Habit 읽기
 
 **Diary**
@@ -190,6 +210,7 @@ latex   : false
 
 ### 2022-06-13
 **TODO**
+
 [X] MatDi 회의 참석
 [X] Atomic Habits 책읽기
 
@@ -200,6 +221,7 @@ latex   : false
 
 ### 2022-06-14
 **TODO**
+
 [X] Atomic Habits 읽기
 
 **Diary**
@@ -207,3 +229,13 @@ latex   : false
 	* 매번 하는 것을 그대로 하게 된다.
 	* 새로운 기술을 익힐 때 두려움에 빠지게 된다
 	* 뒤쳐지게 된다.
+
+### 2022-06-17
+**TODO**
+
+[X] Atomic Habits 읽기
+
+**Diary**
+* 개발에 재미를 붙히려면 어떻게 해야할까?
+	* 즉각적인 보상: 개발 후 커밋을 하면 깃허브 잔디를 심을 수 있다
+	* 지연된 보상: 내가 한 개발물의 결과를 볼 수 있다
