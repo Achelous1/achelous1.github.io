@@ -39,13 +39,13 @@ latex   : false
 ### 2022-02-10
 **TODO**
 
-[X] 맛집검색 서비스 기획 6일차 
+[o] 맛집검색 서비스 기획 6일차 
 
 ### 2022-02-20
 **TODO**
 
-[X] 미래의 부 읽기
-[X] 맛디 다이어그램 검토
+[o] 미래의 부 읽기
+[o] 맛디 다이어그램 검토
 
 **Diary**
 * 맛집 네이버스 타로로님 합류
@@ -53,34 +53,34 @@ latex   : false
 ### 2022-02-21
 **TODO**
 
-[X] 미래의 부 읽기
-[X] 피티
-[X] 맛디 다이어그램 검토
+[o] 미래의 부 읽기
+[o] 피티
+[o] 맛디 다이어그램 검토
 
 ## 2022-03
 ### 2022-03-06
 **TODO**
 
-[X] CS 공부
-	[X] [[3-tier-web-application]]
-[X] 미래의 부 읽기
-[X] 맛디 회의
+[o] CS 공부
+	[o] [[3-tier-web-application]]
+[o] 미래의 부 읽기
+[o] 맛디 회의
 **Diary**
 * 미뤄왔던 CS공부 다시 시작! 3-tier-web-application에 대해서 다시 공부했는데 놓친 부분이 많았었던것 같다
 
 ### 2022-03-08
 **TODO**
 
-[X] CS 공부
-[X] 맛디 회의
+[o] CS 공부
+[o] 맛디 회의
 **Diary**
 * 오늘은 UDP와 TCP에 대한 리뷰를 했다
 
 ### 2022-03-11
 **TODO**
 
-[X] CS 공부
-[X] 맛디 회의
+[o] CS 공부
+[o] 맛디 회의
 
 **Diary**
 * 또 다시 일주일이 지나갔다. 2022년도 1분기가 지나가려고 한다. 시간이 왜이렇게 빨리 가는지 모르겠다.
@@ -88,13 +88,13 @@ latex   : false
 ### 2022-03-12
 **TODO**
 
-[X] 맛디 회의
+[o] 맛디 회의
 
 ## 2022-05
 ### 2022-05-02
 **TODO**
 
-[X] AWS Cloud Practitioner 문제풀이 
+[o] AWS Cloud Practitioner 문제풀이 
 
 **Diary**
 * AWS Cloud Practitioner 자격증 공부 시작!
@@ -102,7 +102,7 @@ latex   : false
 ### 2022-05-14
 **TODO**
 
-[X] Atomic Habit 책읽기
+[o] Atomic Habit 책읽기
 
 **Diary**
 * **Scott Adams** - *"목표는 우리가 얻어내고자 하는 결과이며, 시스템은 그 결과로 이끄는 과정이다"*
@@ -114,7 +114,7 @@ latex   : false
 ### 2022-05-15
 **TODO**
 
-[X] Atomic Habit 책읽기
+[o] Atomic Habit 책읽기
 
 **Diary**
 * 나는 어떠한 사람인가? 결과가 아닌 정체성을 세워라!
@@ -125,8 +125,8 @@ latex   : false
 ### 2022-05-16
 **TODO**
 
-[X] AWS Cloud Practitioner 문제 풀기
-[X] Atomic Habit 책읽기
+[o] AWS Cloud Practitioner 문제 풀기
+[o] Atomic Habit 책읽기
 
 **Diary**
 * 습관은 나 자신이 원하는 결과를 가져다 주지 않는다. 내가 원하는 누군가로 변하게 해준다.
@@ -134,7 +134,7 @@ latex   : false
 ### 2022-05-22
 **TODO**
 
-[X] Atomic Habit 책읽기
+[o] Atomic Habit 책읽기
 
 **Diary**
 * 내 보상에 관한 신호: 성취하는 사람이 된다
@@ -145,7 +145,7 @@ latex   : false
 ### 2022-05-23
 **TODO**
 
-[X] Atomic Habit 책읽기
+[o] Atomic Habit 책읽기
 
 **Diary**
 * 내 습관 파악하기
@@ -168,12 +168,12 @@ latex   : false
 ### 2022-05-25
 **TODO**
 
-[X] Atomic Habit 책읽기
+[o] Atomic Habit 책읽기
 
 ### 2022-05-29
 **TODO**
 
-[X] Atomic Habit 책읽기 
+[o] Atomic Habit 책읽기 
 
 **Diary**
 * **실행의도**
@@ -186,7 +186,7 @@ latex   : false
 ### 2022-06-05
 **TODO**
 
-[X] Atomic Habits 읽기
+[o] Atomic Habits 읽기
 
 **Diary**
 * 성취할 것을 매력적으로 만들어보자
@@ -195,7 +195,7 @@ latex   : false
 ### 2022-06-08
 **TODO**
 
-[X] Atomic Habit 읽기
+[o] Atomic Habit 읽기
 
 **Diary**
 * 긍정적인 마인드셋이 좋은 습관을 만드는 데에도 굉장히 중요한 역할을 한다!
@@ -203,7 +203,7 @@ latex   : false
 ### 2022-06-12
 **TODO**
 
-[X] Atomic Habit 읽기
+[o] Atomic Habit 읽기
 
 **Diary**
 * 습관을 들이고 싶다면 시간이 아닌 횟수를 반복하자!
@@ -211,8 +211,8 @@ latex   : false
 ### 2022-06-13
 **TODO**
 
-[X] MatDi 회의 참석
-[X] Atomic Habits 책읽기
+[o] MatDi 회의 참석
+[o] Atomic Habits 책읽기
 
 **Diary**
 * 맛디프로젝트를 다시금 시작했다. 이번엔 꼭 성공하길 빈다.
@@ -222,7 +222,7 @@ latex   : false
 ### 2022-06-14
 **TODO**
 
-[X] Atomic Habits 읽기
+[o] Atomic Habits 읽기
 
 **Diary**
 * 개발자로서 일을 함에 있어서 습관적인 것에 안주하지 말아야 한다.
@@ -233,9 +233,23 @@ latex   : false
 ### 2022-06-17
 **TODO**
 
-[X] Atomic Habits 읽기
+[o] Atomic Habits 읽기
 
 **Diary**
 * 개발에 재미를 붙히려면 어떻게 해야할까?
 	* 즉각적인 보상: 개발 후 커밋을 하면 깃허브 잔디를 심을 수 있다
 	* 지연된 보상: 내가 한 개발물의 결과를 볼 수 있다
+
+### 2022-06-19
+**TODO**
+
+[o] Atomic Habits 읽기
+
+**Diary**
+* 습관 추적으로 보는 todo의 역할:
+	* 우리에게 특정 행동을 해야한다고 알려주는 시각적 신호
+	* 우리가 매일 특정 행동을 이행해 왔고 들인 습관을 되돌리고 싶지 않다는 내적 동기를 만들어준다
+	* 투두리스트를 체크하고 기록하는 순간순간이 보상이 될 것이다.
+* 습관 계약의 역할
+	* 내가 좋은 습관을 하지 않았을 경우, 또는 나쁜 습관을 행했을 경우 벌을 받겠다는 취지를 문서화하여 남기는 것이다.
+		* 오늘 책을 읽지 않는다면 즉각적으로 파트너에게 50달러를 보낼것이다.
