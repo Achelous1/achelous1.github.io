@@ -21,7 +21,7 @@ latex   : false
 
 # [[design-patterns]]{Design Patterns}
 ## Creational Patterns
-* [[abstract-factory-pattern]]
+1. [[abstract-factory-pattern]]
 2. builder-pattern
 3. factory-method-pattern
 4. prototype-pattern
