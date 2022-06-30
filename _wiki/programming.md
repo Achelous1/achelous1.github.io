@@ -18,36 +18,43 @@ latex   : false
 * [[python]]{Python}
 * [[django]]{Python Django}
 * [[golang]]{Go}
+* [[java]]{Java}
+
+# Data Structure
+* data-structure-hash-table
+* data-structure-tree
+
+# Algorithm
 
 # [[design-patterns]]{Design Patterns}
 ## Creational Patterns
-1. [[abstract-factory-pattern]]
-2. [[builder-pattern]]
-3. [[factory-method-pattern]]
-4. [[prototype-pattern]]
-5. [[singleton-pattern]]
+* [[abstract-factory-pattern]]
+* [[builder-pattern]]
+* [[factory-method-pattern]]
+* [[prototype-pattern]]
+* [[singleton-pattern]]
 
 ## Structural Patterns
-1. [[adapter-pattern]]
-2. [[bridge-pattern]]
-3. [[composite-pattern]]
-4. [[decorater-pattern]]
-5. [[facade-pattern]]
-6. [[flyweight-pattern]]
-7. [[proxy-pattern]]
+* [[adapter-pattern]]
+* [[bridge-pattern]]
+* [[composite-pattern]]
+* [[decorater-pattern]]
+* [[facade-pattern]]
+* [[flyweight-pattern]]
+* [[proxy-pattern]]
 
 ## Behavioral Patterns
-1. [[chain-of-responsibility-pattern]]
-2. [[command-pattern]]
-3. [[interpreter-pattern]]
-4. [[iterator-pattern]]
-5. [[mediator-pattern]]
-6. [[memento-pattern]]
-7. [[observer-pattern]]
-8. [[state-pattern]]
-9. [[strategy-pattern]]
-10. [[template-method-pattern]]
-11. [[visitor-pattern]]
+* [[chain-of-responsibility-pattern]]
+* [[command-pattern]]
+* [[interpreter-pattern]]
+* [[iterator-pattern]]
+* [[mediator-pattern]]
+* [[memento-pattern]]
+* [[observer-pattern]]
+* [[state-pattern]]
+* [[strategy-pattern]]
+* [[template-method-pattern]]
+* [[visitor-pattern]]
 
 # Program Algorithms
 * [[calculate-datetime-bw-2-days]]
@@ -85,3 +92,5 @@ latex   : false
 * [[diff-web-server-was]]{Web 서버와 WAS의 차이점}
 * [[tomcat-issues]]{톰캣이슈}
 * [[test-driven-design]]{테스트주도개발에 관하여}
+* [[stored-procedure]]
+* [[oop]]{Object Oriented Programming}
