@@ -558,6 +558,14 @@ nomad-coders-translation:
     url: /wiki/nomad-coders-translation
     updated: '2021-06-27 11:57:53 +0900'
     children: []
+oop:
+    type: wiki
+    title: OOP
+    summary: 객체지향프로그래밍
+    parent: programming
+    url: /wiki/oop
+    updated: '2022-06-30 22:29:30 +0900'
+    children: []
 programming:
     type: wiki
     title: 프로그래밍
@@ -565,7 +573,7 @@ programming:
     parent: index
     url: /wiki/programming
     updated: '2022-02-07 17:49:17 +0900'
-    children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
+    children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, oop, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
 python:
     type: wiki
     title: Python

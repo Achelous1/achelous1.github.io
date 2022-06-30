@@ -177,6 +177,8 @@ book-club:
     - {fileName: nomad-book-club}
 translation:
     - {fileName: nomad-coders-translation}
+oop:
+    - {fileName: oop}
 OOP:
     - {fileName: solid-principle}
 design:
