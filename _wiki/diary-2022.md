@@ -327,3 +327,8 @@ latex   : false
 **TODO**
 - [ ] Go MSA
 - [x] MatDi 회의
+
+### 2022-07-12
+**TODO**
+- [ ] Go MSA
+
