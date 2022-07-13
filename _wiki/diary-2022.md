@@ -332,3 +332,10 @@ latex   : false
 **TODO**
 - [ ] Go MSA
 
+### 2022-07-13
+**TODO**
+- [ ] Go MSA
+- [x] MatDi 회의
+
+**Diary**
+* 내가 부족한 것이 무엇인지 인정하며 그것을 성장의 원동력으로 삼아 발전해나갈 수 있어야 한다. - growth mindset
