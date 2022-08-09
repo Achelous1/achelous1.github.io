@@ -9,6 +9,7 @@ toc     : true
 public  : true
 parent  : [[programming]]
 latex   : false
+updated: 2022-08-09 21:52:33 +0900
 ---
 * TOC
 {:toc}
@@ -189,13 +190,6 @@ latex   : false
 #### 4.5.1 줄바꿈 할 위치
 * 줄바꿈의 주요 지침은 : *더 높은 구문레벨에서* 줄바꿈 하는것을 선호한다. 그리고:
 1. 
-
-
-
-
-
-
-
 The prime directive of line-wrapping is: prefer to break at a higher syntactic level. Also:
 
 When a line is broken at a non-assignment operator the break comes before the symbol. (Note that this is not the same practice used in Google style for other languages, such as C++ and JavaScript.)

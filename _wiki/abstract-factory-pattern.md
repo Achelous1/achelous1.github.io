@@ -4,11 +4,12 @@ title   : 추상팩토리 패턴
 summary : 
 date    : 2021-04-05 14:42:46 +0900
 updated : 2021-04-23 09:50:19 +0900
-tag     : abstract-factory design-pattern
+tag     : abstract-factory design-pattern creational
 toc     : true
 public  : true
 parent  : [[design-pattern]]
 latex   : true
+updated: 2022-08-05 16:27:24 +0900
 ---
 * TOC
 {:toc}
@@ -25,7 +26,7 @@ class AbstractFactory <<interface>>
 class AbstractProductA <<interface>>
 class ProductA2
 class ProductA1
-class ConcreteFactory1
+class ConcreteFactory1인
 class ConcreteFactory2
 class AbstractProductB <<interface>>
 class ProductB1

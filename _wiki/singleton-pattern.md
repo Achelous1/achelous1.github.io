@@ -4,7 +4,7 @@ title   : Singleton Pattern
 summary : 싱글톤 패턴
 date    : 2022-08-05 15:34:47 +0900
 updated : 2022-08-05 15:34:47 +0900
-tag     : oop design-pattern singleton structural
+tag     : oop design-pattern singleton creational
 toc     : true
 public  : true
 parent  : [[design-patterns]]
