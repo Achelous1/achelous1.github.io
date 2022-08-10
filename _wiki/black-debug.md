@@ -3,7 +3,7 @@ layout  : wiki
 title   : Black Linter 에러를 해결한 경험
 summary : 
 date    : 2022-08-10 15:41:25 +0900
-updated : 2022-08-10 15:51:36 +0900
+updated : 2022-08-10 15:58:08 +0900
 tag     : black linter
 toc     : true
 public  : true

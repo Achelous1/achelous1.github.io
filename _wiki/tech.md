@@ -3,7 +3,7 @@ layout  : wiki
 title   : 개발기술
 summary : 기술을 발굴해낼 때 마다 적어두는 공간
 date    : 2021-01-25 10:34:24 +0900
-updated : 2021-08-18 17:59:35 +0900
+updated : 2022-08-10 16:05:33 +0900
 tag     : 
 toc     : true
 public  : true
@@ -50,7 +50,7 @@ latex   : false
 5. DB2
 6. SQLite
 7. Maria DB
-8. [[ERD]]
+8. [[erd]]
 
 ### NoSql
 1. MongoDB
