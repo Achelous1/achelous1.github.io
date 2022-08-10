@@ -3,13 +3,12 @@ layout  : wiki
 title   : 2022년 일지
 summary : 
 date    : 2022-01-20 22:42:49 +0900
-updated : 2022-07-20 21:54:49 +0900
+updated: 2022-08-10 15:52:08 +0900
 tag     : diary
 toc     : true
 public  : true
 parent  : [[life-log]]
 latex   : false
-updated: 2022-08-09 21:50:58 +0900
 ---
 * TOC
 {:toc}
