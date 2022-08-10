@@ -3,7 +3,7 @@ layout  : wiki
 title   : Black Linter 에러를 해결한 경험
 summary : 
 date    : 2022-08-10 15:41:25 +0900
-updated: 2022-08-10 15:51:36 +0900
+updated : 2022-08-10 15:51:36 +0900
 tag     : black linter
 toc     : true
 public  : true
@@ -16,6 +16,7 @@ latex   : false
 # ImportError: cannot import name '_unicodefun' from 'click'  에러
 
 * 에러로그
+
 ```python
 Traceback (most recent call last):
   File "/Users/{user}/.virtualenvs/{venv}/bin/blackd", line 8, in <module>
