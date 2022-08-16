@@ -3,7 +3,7 @@ layout  : wiki
 title   : Compiler와 Interpreter의 차이
 summary : 
 date    : 2022-08-16 21:24:30 +0900
-updated : 2022-08-16 21:35:25 +0900
+updated : 2022-08-16 21:36:25 +0900
 tag     : cs compiler interpreter
 toc     : true
 public  : true
