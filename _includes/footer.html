@@ -3,7 +3,22 @@
 {% if page.latex %}
         <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
         <script type="text/javascript" async src="https://raw.githubusercontent.com/johan/js-deflate/master/rawdeflate.js"></script>
-        <script type="text/javascript" async src="/js/puml.js"></script>
+{% endif %}
+{% if page.mermaid %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+        <script>
+        var config = {
+            startOnLoad:true,
+            theme: 'default',
+            flowchart:{
+                    useMaxWidth:false,
+                    htmlLabels:true,
+                    curve:'curve'
+                }
+        };
+        mermaid.initialize(config);
+        mermaid.init(undefined, '.language-mermaid');
+        </script>
 {% endif %}
     </div>
 </footer>

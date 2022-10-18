@@ -19,12 +19,10 @@ gem "minima", "~> 2.0"
 gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-# gem 'kramdown-plantuml'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem 'jekyll-plantuml', '~> 1.1' 
   gem "jekyll-asciidoc"
-  gem 'asciidoctor-diagram' 
+  gem 'asciidoctor-diagram'
   gem 'jemoji'
 end
 

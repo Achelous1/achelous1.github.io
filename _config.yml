@@ -21,7 +21,6 @@ profile:
 plugins:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-plantuml
   - jemoji
   
 permalink: /blog/:year/:month/:day/:title/
