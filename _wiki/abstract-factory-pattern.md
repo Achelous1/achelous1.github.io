@@ -15,7 +15,7 @@ latex   : true
 
 # 추상팩토리 패턴에 대하여
 
-``` plantuml
+```mermaid
 skinparam componentStyle uml2
 
 title Abstract Factory Pattern
