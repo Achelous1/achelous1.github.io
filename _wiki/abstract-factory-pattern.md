@@ -3,7 +3,7 @@ layout  : wiki
 title   : 추상팩토리 패턴
 summary : 
 date    : 2021-04-05 14:42:46 +0900
-updated : 2022-10-20 09:25:24 +0900
+updated : 2022-10-20 11:06:54 +0900
 tag     : abstract-factory design-pattern creational
 toc     : true
 public  : true
@@ -21,24 +21,45 @@ classDiagram
 direction TD
 
 class Client
-class AbstractFactory
-<<interface>> AbstractFactory 
-class AbstractProductA
-<<interface>> AbstractProductA 
+class AbstractFactory{
+<<interface>>
+}
+class AbstractProductA{
+<<interface>>
+}
 class ProductA2
 class ProductA1
 class ConcreteFactory1
 class ConcreteFactory2
-class AbstractProductB
-<<interface>> AbstractProductB
+class AbstractProductB{
+<<interface>>
+}
 class ProductB1
 class ProductB2
 
+class Note1 {
+	The Client is written\n against the abstract factory\n and then composed at runtime\n with an actual factory
+}
+
+class Note2 {
+	The AbstractFactory defines\n the interface that all Concrete factories\n must implement which consists of a\n set of methods for producing products.
+}
+
+class Note3 {
+	The concrete factories implement the\n different product families. To create a\n product the client uses one of these factories,\n so it never has to instantiate a product object
+}
+
+class Note4 {
+	This is the product\nfamily. Each concrete\nfactory can produce an\nentire set of products.
+}
+
 Client --> AbstractFactory
 Client --> AbstractProductA 
-Client --> AbstractProductB 
+Client --> AbstractProductB
+Client .. Note1
 AbstractFactory <|.. ConcreteFactory1
 AbstractFactory <|.. ConcreteFactory2
+AbstractFactory .. Note2
 AbstractProductA <|.. ProductA1
 AbstractProductA <|.. ProductA2
 AbstractProductB <|.. ProductB1
@@ -47,21 +68,9 @@ ProductA1 <-- ConcreteFactory1
 ProductB1 <-- ConcreteFactory1
 ProductA2 <-- ConcreteFactory2
 ProductB2 <-- ConcreteFactory2
+ConcreteFactory1 .. Note3
+ConcreteFactory2 .. Note3
+AbstractProductA .. Note4
+AbstractProductB .. Note4
 
 ```
-
-
-%%
-Note right of Client The Client is written against the abstract factory and then composed at runtime with an actual factory
-
-Note left of AbstractFactory: The AbstractFactory defines the interface that all Concrete factories must implement which consists of a set of methods for producing products.
-
-Note "The concrete factories implement the\ndifferent product families. To create a\nproduct the client uses one of these factories,\nso it never has to instantiate a product object." as n1
-
-ConcreteFactory1 .. n1
-ConcreteFactory2 .. n1
-
-Note “This is the product\nfamily. Each concrete\nfactory can produce an\nentire set of products.”This is the product\nfamily. Each concrete\nfactory can produce an\nentire set of products." as n2
-
-AbstractProductA .. n2
-AbstractProductB .. n2%%
