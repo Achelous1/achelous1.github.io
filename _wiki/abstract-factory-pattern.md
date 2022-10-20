@@ -3,7 +3,7 @@ layout  : wiki
 title   : 추상팩토리 패턴
 summary : 
 date    : 2021-04-05 14:42:46 +0900
-updated : 2022-10-20 09:08:57 +0900
+updated : 2022-10-20 09:25:24 +0900
 tag     : abstract-factory design-pattern creational
 toc     : true
 public  : true
