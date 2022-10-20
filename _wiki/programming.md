@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2022-08-19 18:59:37 +0900
+updated : 2022-10-20 09:12:26 +0900
 tag     : 
 toc     : true
 public  : true
@@ -13,28 +13,75 @@ latex   : false
 * TOC
 {:toc}
 
-# Languages and Frameworks/Libraries
+## Languages and Frameworks/Libraries
 * [[Javascript]]
 * [[python]]{Python}
 * [[django]]{Python Django}
 * [[golang]]{Go}
 * [[java]]{Java}
 
-# Data Structure
+## Architectures
+* [[3-tier-web-application]]{3-Tier Web Application이란}
+* [[micro-service-architecture]]{마이크로서비스 아키텍처란}
+
+## DevOps
+* [[cicd]]{CI/CD}
+
+## Virtualizations
+1. Docker
+2. Kubernetes
+3. Container
+4. Virtual Machine
+
+## Clouds
+* [[AWS]]
+* ECS
+* ECR
+
+## Git
+* [[github]]{Github}
+* [[github-action]]{Github Actions}
+
+## Languages
+1. Golang
+2. Java
+
+## Databases
+* [[database-modeling]]{데이터베이스 모델링}
+### Relational
+1. Oracle
+2. Postgresql
+3. MySQL
+4. MSSQL/SQL Server
+5. DB2
+6. SQLite
+7. Maria DB
+8. [[erd]]
+
+### NoSql
+1. MongoDB
+2. GraphQL
+3. Hadoop
+
+## Protocols
+1. [[tcp-and-udp]]
+2. HTTP
+3. FTP
+4. SSH
+
+## Data Structures
 * data-structure-hash-table
 * data-structure-tree
 
-# Algorithm
-
-# [[design-patterns]]{Design Patterns}
-## Creational Patterns
+## [[design-patterns]]{Design Patterns}
+### Creational Patterns
 * [[abstract-factory-pattern]]
 * [[builder-pattern]]
 * [[factory-method-pattern]]
 * [[prototype-pattern]]
 * [[singleton-pattern]]
 
-## Structural Patterns
+### Structural Patterns
 * [[adapter-pattern]]
 * [[bridge-pattern]]
 * [[composite-pattern]]
@@ -43,7 +90,7 @@ latex   : false
 * [[flyweight-pattern]]
 * [[proxy-pattern]]
 
-## Behavioral Patterns
+### Behavioral Patterns
 * [[chain-of-responsibility-pattern]]
 * [[command-pattern]]
 * [[interpreter-pattern]]
@@ -56,12 +103,13 @@ latex   : false
 * [[template-method-pattern]]
 * [[visitor-pattern]]
 
-# Program Algorithms
+## Programming Algorithms
 * [[calculate-datetime-bw-2-days]]
 * [[baekjun]]{Baekjun 문제풀이}
 * [[Big-O-Notation]]{Big O Notation}
 
-# Guidelines
+## How-Tos
+* [[importance-in-studying]]
 * [[clean-code]]{클린코드}
 * [[google-java-style-guide]]{구글의 자바 스타일 가이드}
 * [[blog-testing-method]]{Johngrib 블로그 테스트 방법}
@@ -69,15 +117,12 @@ latex   : false
 * [[sql-7-do-nots]]{SQL의 칠거지악}
 * [[solid-principle]]{SOLID 원칙}
 
-# HOW-TO
-* [[importance-in-studying]]
-
-# Works
+## Works
 * [[United-Resume]]
 * [[nomad-coders-translation]]{노마드코더 강의 번역}
 
 
-# Working-ons
+## To be worked on
 * [[stack-heap-memory]]{힙,스택 메모리}
 * [[checked-runtime-exception]]{runtime과 checked 익셉션}
 * [[exception-try-catch-throws]]{예외처리의 방법}
