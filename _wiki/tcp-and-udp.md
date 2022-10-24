@@ -3,11 +3,11 @@ layout  : wiki
 title   :  TCP와 UDP
 summary : TCP와 UDP에 대하여 알아보자
 date    : 2022-03-08 22:43:19 +0900
-updated : 2022-03-08 22:43:19 +0900
+updated : 2022-10-24 11:27:00 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[programming]]
 latex   : false
 ---
 * TOC

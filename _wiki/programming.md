@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2022-10-21 09:46:30 +0900
+updated : 2022-10-24 11:26:51 +0900
 tag     : 
 toc     : true
 public  : true
@@ -13,38 +13,18 @@ latex   : false
 * TOC
 {:toc}
 
-## Languages and Frameworks/Libraries
-* [[Javascript]]
-* [[python]]{Python}
-* [[django]]{Python Django}
-* [[golang]]{Go}
-* [[java]]{Java}
 
 ## Architectures
 * [[3-tier-web-application]]{3-Tier Web Application이란}
 * [[micro-service-architecture]]{마이크로서비스 아키텍처란}
-
-## DevOps
-* [[cicd]]{CI/CD}
-
-## Virtualizations
-1. Docker
-2. Kubernetes
-3. Container
-4. Virtual Machine
 
 ## Clouds
 * [[AWS]]
 * ECS
 * ECR
 
-## Git
-* [[github]]{Github}
-* [[github-action]]{Github Actions}
-
-## Languages
-1. Golang
-2. Java
+## Concepts
+* [[osi-7-layers]]{OSI 7계층}
 
 ## Databases
 * [[database-modeling]]{데이터베이스 모델링}
@@ -75,6 +55,7 @@ latex   : false
 * [[data-structure-tree]]
 
 ## [[design-patterns]]{Design Patterns}
+
 ### Creational Patterns
 * [[abstract-factory-pattern]]
 * [[builder-pattern]]
@@ -104,10 +85,12 @@ latex   : false
 * [[template-method-pattern]]
 * [[visitor-pattern]]
 
-## Programming Algorithms
-* [[calculate-datetime-bw-2-days]]
-* [[baekjun]]{Baekjun 문제풀이}
-* [[Big-O-Notation]]{Big O Notation}
+## DevOps
+* [[cicd]]{CI/CD}
+
+## Git
+* [[github]]{Github}
+* [[github-action]]{Github Actions}
 
 ## How-Tos
 * [[importance-in-studying]]
@@ -117,6 +100,24 @@ latex   : false
 * [[useful-cmd-commands]]{자주 쓰이고 유용한 cmd 커맨드}
 * [[sql-7-do-nots]]{SQL의 칠거지악}
 * [[solid-principle]]{SOLID 원칙}
+
+## Languages and Frameworks/Libraries
+* [[Javascript]]
+* [[python]]{Python}
+* [[django]]{Python Django}
+* [[golang]]{Go}
+* [[java]]{Java}
+
+## Programming Algorithms
+* [[calculate-datetime-bw-2-days]]
+* [[baekjun]]{Baekjun 문제풀이}
+* [[Big-O-Notation]]{Big O Notation}
+
+## Virtualizations
+1. Docker
+2. Kubernetes
+3. Container
+4. Virtual Machine
 
 ## Works
 * [[United-Resume]]
