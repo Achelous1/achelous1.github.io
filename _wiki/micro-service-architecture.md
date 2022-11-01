@@ -3,7 +3,7 @@ layout  : wiki
 title   : Microservice 아키텍처란
 summary : How to eat an elephant
 date    : 2022-03-06 17:05:14 +0900
-updated : 2022-03-06 17:05:14 +0900
+updated : 2022-10-30 20:27:56 +0900
 tag     : microservice microservice-architecture architecture
 toc     : true
 public  : true
@@ -20,9 +20,9 @@ latex   : false
 
 ### Micro Service Architecture 핵심 원칙
 ##### 자율성 (Autonomy)
--   각 서비스는 다른 서비스와 독립적으로 변경되고 운영됩니다.
--   자율성을 확실히 하기 위해 느슨한 결합이 필요합니다.
--   독립적으로 배포가 가능해야합니다.
+- 각각의 서비스는 다른 서비스들에 독립적으로 변경되고 운영된다
+- 느슨한 결합으로 자율성을 확립한다
+- 각각의 서비스는 독립적으로 배포가 가능해야 한다
 
 ##### 회복성 (Resilience)
 -   마이크로 서비스는 자연스러운 메커니즘을 통해 장애를 격리시킵니다.
