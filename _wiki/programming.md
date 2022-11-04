@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2022-10-24 11:26:51 +0900
+updated : 2022-11-04 19:55:12 +0900
 tag     : 
 toc     : true
 public  : true
@@ -142,3 +142,4 @@ latex   : false
 * [[stored-procedure]]
 * [[oop]]{Object Oriented Programming}
 * [[compiler-interpreter]]{Compiler와 Interpreter의 차이}
+* [[ws-was]]{웹 서버? 웹어플리케이션 서버?}
