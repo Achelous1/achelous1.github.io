@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2022년 일지
 summary : 
 date    : 2022-01-20 22:42:49 +0900
-updated : 2022-11-10 21:09:21 +0900
+updated : 2022-11-10 21:10:06 +0900
 tag     : diary
 toc     : true
 public  : true
