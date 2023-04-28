@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래밍
 summary : 개발에 관하여
 date    : 2021-01-20 16:42:27 +0900
-updated : 2022-11-04 20:28:50 +0900
+updated : 2023-04-28 09:23:36 +0900
 tag     : 
 toc     : true
 public  : true
@@ -100,6 +100,7 @@ latex   : false
 * [[useful-cmd-commands]]{자주 쓰이고 유용한 cmd 커맨드}
 * [[sql-7-do-nots]]{SQL의 칠거지악}
 * [[solid-principle]]{SOLID 원칙}
+* [[intellij]]{IntelliJ 사용법}
 
 ## Languages and Frameworks/Libraries
 * [[Javascript]]
