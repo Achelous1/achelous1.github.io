@@ -14,6 +14,8 @@ web-application:
     - {fileName: 3-tier-web-application}
 architecture:
     - {fileName: 3-tier-web-application}
+    - {fileName: database-modeling}
+    - {fileName: design-patterns}
     - {fileName: importance-in-studying}
     - {fileName: micro-service-architecture}
 life:
@@ -26,6 +28,11 @@ abstract-factory:
     - {fileName: abstract-factory-pattern}
 design-pattern:
     - {fileName: abstract-factory-pattern}
+    - {fileName: design-patterns}
+    - {fileName: singleton-pattern}
+creational:
+    - {fileName: abstract-factory-pattern}
+    - {fileName: singleton-pattern}
 AWS:
     - {fileName: AWS}
 cloud:
@@ -99,6 +106,22 @@ nomad-coders:
     - {fileName: nomad_book_club_template}
     - {fileName: nomad-book-club}
     - {fileName: nomad-coders-translation}
+cs:
+    - {fileName: compiler-interpreter}
+    - {fileName: ws-was}
+compiler:
+    - {fileName: compiler-interpreter}
+interpreter:
+    - {fileName: compiler-interpreter}
+database:
+    - {fileName: database-modeling}
+    - {fileName: erd}
+modeling:
+    - {fileName: database-modeling}
+oop:
+    - {fileName: design-patterns}
+    - {fileName: oop}
+    - {fileName: singleton-pattern}
 diary:
     - {fileName: diary-2022}
 debug:
@@ -111,6 +134,7 @@ django-rest-framework:
 django:
     - {fileName: djang-rest-framework-debug}
     - {fileName: django}
+    - {fileName: django-debug}
     - {fileName: django-intro}
     - {fileName: django-orm}
     - {fileName: django-rest-framework}
@@ -119,6 +143,10 @@ python:
     - {fileName: django}
     - {fileName: django-orm}
     - {fileName: python}
+aws:
+    - {fileName: django-debug}
+s3:
+    - {fileName: django-debug}
 django-orm:
     - {fileName: django-intro}
     - {fileName: django-orm}
@@ -131,6 +159,8 @@ rest:
     - {fileName: django-rest-framework}
 api:
     - {fileName: django-rest-framework}
+erd:
+    - {fileName: erd}
 math:
     - {fileName: exponentiation}
 extjs:
@@ -157,6 +187,10 @@ style:
     - {fileName: google-java-style-guide}
 study:
     - {fileName: importance-in-studying}
+ide:
+    - {fileName: intellij}
+intellij:
+    - {fileName: intellij}
 covid-19:
     - {fileName: janssen-vaccine-review}
 janssen:
@@ -177,8 +211,16 @@ book-club:
     - {fileName: nomad-book-club}
 translation:
     - {fileName: nomad-coders-translation}
-oop:
-    - {fileName: oop}
+osi:
+    - {fileName: osi-7-layers}
+network:
+    - {fileName: osi-7-layers}
+life-log:
+    - {fileName: review-2022}
+year-end-review:
+    - {fileName: review-2022}
+singleton:
+    - {fileName: singleton-pattern}
 OOP:
     - {fileName: solid-principle}
 design:
@@ -209,3 +251,9 @@ developer:
     - {fileName: useful-youtube-channel}
 youtube:
     - {fileName: useful-youtube-channel}
+web-server:
+    - {fileName: ws-was}
+web-application-server:
+    - {fileName: ws-was}
+was:
+    - {fileName: ws-was}

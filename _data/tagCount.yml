@@ -15,12 +15,15 @@
     size: 1
 -
     name: architecture
-    size: 3
+    size: 5
 -
     name: arithmetic
     size: 1
 -
     name: AWS
+    size: 1
+-
+    name: aws
     size: 1
 -
     name: baekjun
@@ -53,11 +56,23 @@
     name: commands
     size: 1
 -
+    name: compiler
+    size: 1
+-
     name: complexity
     size: 1
 -
     name: covid-19
     size: 1
+-
+    name: creational
+    size: 2
+-
+    name: cs
+    size: 2
+-
+    name: database
+    size: 2
 -
     name: debug
     size: 1
@@ -69,7 +84,7 @@
     size: 1
 -
     name: design-pattern
-    size: 1
+    size: 3
 -
     name: developer
     size: 1
@@ -81,7 +96,7 @@
     size: 1
 -
     name: django
-    size: 5
+    size: 6
 -
     name: django-orm
     size: 2
@@ -93,6 +108,9 @@
     size: 1
 -
     name: drf
+    size: 1
+-
+    name: erd
     size: 1
 -
     name: extjs
@@ -113,7 +131,16 @@
     name: guideline
     size: 1
 -
+    name: ide
+    size: 1
+-
     name: instanceof
+    size: 1
+-
+    name: intellij
+    size: 1
+-
+    name: interpreter
     size: 1
 -
     name: IO
@@ -131,6 +158,9 @@
     name: life
     size: 3
 -
+    name: life-log
+    size: 1
+-
     name: local-test
     size: 1
 -
@@ -146,6 +176,12 @@
     name: microservice-architecture
     size: 1
 -
+    name: modeling
+    size: 1
+-
+    name: network
+    size: 1
+-
     name: news
     size: 1
 -
@@ -153,13 +189,16 @@
     size: 23
 -
     name: oop
-    size: 1
+    size: 3
 -
     name: OOP
     size: 1
 -
     name: orm
     size: 2
+-
+    name: osi
+    size: 1
 -
     name: performance
     size: 1
@@ -177,6 +216,12 @@
     size: 1
 -
     name: rest-api
+    size: 1
+-
+    name: s3
+    size: 1
+-
+    name: singleton
     size: 1
 -
     name: sites
@@ -203,10 +248,22 @@
     name: vaccine
     size: 1
 -
+    name: was
+    size: 1
+-
     name: web-application
     size: 1
 -
+    name: web-application-server
+    size: 1
+-
+    name: web-server
+    size: 1
+-
     name: wiki
+    size: 1
+-
+    name: year-end-review
     size: 1
 -
     name: youtube

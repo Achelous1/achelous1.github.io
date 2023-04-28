@@ -76,15 +76,15 @@ abstract-factory-pattern:
     summary: ""
     parent: design-pattern
     url: /wiki/abstract-factory-pattern
-    updated: '2021-04-23 09:50:19 +0900'
+    updated: '2022-10-23 11:43:53 +0900'
     children: []
 AWS:
     type: wiki
     title: 'Amazon Web Service'
     summary: '클라우드 플랫폼 AWS에 관하여'
-    parent: tech
+    parent: programming
     url: /wiki/AWS
-    updated: '2021-08-18 17:49:16 +0900'
+    updated: '2022-10-24 11:26:38 +0900'
     children: []
 baekjun:
     type: wiki
@@ -318,6 +318,30 @@ clean-code-2022-02-10:
     url: /wiki/clean-code-2022-02-10
     updated: '2022-02-10 23:45:00 +0900'
     children: []
+compiler-interpreter:
+    type: wiki
+    title: 'Compiler와 Interpreter의 차이'
+    summary: ""
+    parent: programming
+    url: /wiki/compiler-interpreter
+    updated: '2022-08-19 18:59:37 +0900'
+    children: []
+database-modeling:
+    type: wiki
+    title: '데이터베이스 모델링'
+    summary: ""
+    parent: programming
+    url: /wiki/database-modeling
+    updated: '2022-10-20 09:25:24 +0900'
+    children: [erd]
+design-patterns:
+    type: wiki
+    title: 'Design Patterns'
+    summary: 'GOF의 디자인 패턴'
+    parent: programming
+    url: /wiki/design-patterns
+    updated: '2022-08-05 15:36:06 +0900'
+    children: [singleton-pattern]
 diary-2020:
     type: wiki
     title: '2020년 일지'
@@ -340,7 +364,7 @@ diary-2022:
     summary: ""
     parent: life-log
     url: /wiki/diary-2022
-    updated: '2022-05-15 21:54:49 +0900'
+    updated: '2022-11-10 21:10:06 +0900'
     children: []
 djang-rest-framework-debug:
     type: wiki
@@ -364,7 +388,7 @@ django-debug:
     summary: ""
     parent: django
     url: /wiki/django-debug
-    updated: '2022-02-11 21:16:15 +0900'
+    updated: '2022-08-12 17:47:19 +0900'
     children: []
 django-intro:
     type: wiki
@@ -390,13 +414,13 @@ django-rest-framework:
     url: /wiki/django-rest-framework
     updated: '2021-09-03 11:12:39 +0900'
     children: []
-ERD:
+erd:
     type: wiki
     title: 'Entity Relationship Diagram'
     summary: ""
-    parent: ""
-    url: /wiki/ERD
-    updated: '2022-01-31 14:00:12 +0900'
+    parent: database-modeling
+    url: /wiki/erd
+    updated: '2022-10-20 09:25:03 +0900'
     children: []
 exponentiation:
     type: wiki
@@ -426,9 +450,9 @@ github:
     type: wiki
     title: Github
     summary: ""
-    parent: tech
+    parent: programming
     url: /wiki/github
-    updated: '2021-08-18 18:01:12 +0900'
+    updated: '2022-10-24 11:26:45 +0900'
     children: [github-action]
 github-action:
     type: wiki
@@ -444,7 +468,7 @@ google-java-style-guide:
     summary: '구글의 자바 코딩가이드'
     parent: programming
     url: /wiki/google-java-style-guide
-    updated: '2021-03-17 17:19:18 +0900'
+    updated: '2022-08-09 21:52:33 +0900'
     children: []
 importance-in-studying:
     type: wiki
@@ -452,7 +476,7 @@ importance-in-studying:
     summary: ""
     parent: programming
     url: /wiki/importance-in-studying
-    updated: '2021-03-08 10:11:51 +0900'
+    updated: '2022-08-09 21:53:05 +0900'
     children: []
 index:
     type: wiki
@@ -460,7 +484,15 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2022-01-21T09:57:11+09:00'
+    updated: '2022-10-24 11:10:57 +0900'
+    children: []
+intellij:
+    type: wiki
+    title: 'IntelliJ를 사용하며'
+    summary: ""
+    parent: programming
+    url: /wiki/intellij
+    updated: '2023-04-28 09:25:03 +0900'
     children: []
 janssen-vaccine-review:
     type: wiki
@@ -509,7 +541,7 @@ life-log:
     parent: index
     url: /wiki/life-log
     updated: '2021-02-10 17:30:43 +0900'
-    children: [books-2021, books-2022, diary-2020, diary-2021, diary-2022, janssen-vaccine-review, news-2021]
+    children: [books-2021, books-2022, diary-2020, diary-2021, diary-2022, janssen-vaccine-review, news-2021, review-2022]
 mathematics:
     type: wiki
     title: 수학
@@ -524,7 +556,7 @@ micro-service-architecture:
     summary: 'How to eat an elephant'
     parent: tech
     url: /wiki/micro-service-architecture
-    updated: '2022-03-06 17:05:14 +0900'
+    updated: '2022-10-30 20:27:56 +0900'
     children: []
 news-2021:
     type: wiki
@@ -566,14 +598,22 @@ oop:
     url: /wiki/oop
     updated: '2022-06-30 22:29:30 +0900'
     children: []
+osi-7-layers:
+    type: wiki
+    title: 'OSI 7계층'
+    summary: '네트워크를 나누는 7개의 계층'
+    parent: programming
+    url: /wiki/osi-7-layers
+    updated: '2022-10-24 11:26:35 +0900'
+    children: []
 programming:
     type: wiki
     title: 프로그래밍
     summary: '개발에 관하여'
     parent: index
     url: /wiki/programming
-    updated: '2022-02-07 17:49:17 +0900'
-    children: [baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, google-java-style-guide, importance-in-studying, Javascript, nomad-coders-translation, oop, python, solid-principle, sql-7-do-nots, stack-heap-memory, useful-cmd-commands]
+    updated: '2023-04-28 09:25:06 +0900'
+    children: [AWS, baekjun, Big-O-Notation, blog-testing-method, calculate-datetime-bw-2-days, clean-code, compiler-interpreter, database-modeling, design-patterns, github, google-java-style-guide, importance-in-studying, intellij, Javascript, nomad-coders-translation, oop, osi-7-layers, python, solid-principle, sql-7-do-nots, stack-heap-memory, tcp-and-udp, useful-cmd-commands, ws-was]
 python:
     type: wiki
     title: Python
@@ -582,6 +622,22 @@ python:
     url: /wiki/python
     updated: '2021-07-18 21:27:19 +0900'
     children: [django]
+review-2022:
+    type: wiki
+    title: '2022년을 마치며'
+    summary: '2022를 되돌아보자'
+    parent: life-log
+    url: /wiki/review-2022
+    updated: '2023-01-01 15:10:17 +0900'
+    children: []
+singleton-pattern:
+    type: wiki
+    title: 'Singleton Pattern'
+    summary: '싱글톤 패턴'
+    parent: design-patterns
+    url: /wiki/singleton-pattern
+    updated: '2022-08-05 15:34:47 +0900'
+    children: []
 solid-principle:
     type: wiki
     title: 'SOLID 원칙'
@@ -604,15 +660,15 @@ stack-heap-memory:
     summary: '자바의 메모리관리에 대하여 알아보자'
     parent: programming
     url: /wiki/stack-heap-memory
-    updated: '2021-04-05 13:53:39 +0900'
+    updated: '2022-08-05 16:05:18 +0900'
     children: []
 tcp-and-udp:
     type: wiki
     title: 'TCP와 UDP'
     summary: 'TCP와 UDP에 대하여 알아보자'
-    parent: ""
+    parent: programming
     url: /wiki/tcp-and-udp
-    updated: '2022-03-08 22:43:19 +0900'
+    updated: '2022-10-24 11:27:00 +0900'
     children: []
 tech:
     type: wiki
@@ -620,15 +676,15 @@ tech:
     summary: '기술을 발굴해낼 때 마다 적어두는 공간'
     parent: index
     url: /wiki/tech
-    updated: '2021-08-18 17:59:35 +0900'
-    children: [3-tier-web-application, AWS, cicd, github, micro-service-architecture]
+    updated: '2022-08-10 16:05:33 +0900'
+    children: [3-tier-web-application, cicd, micro-service-architecture]
 typeof-instanceof:
     type: wiki
     title: 'typeof와 instanceof의 차이점'
     summary: ""
     parent: Javascript
     url: /wiki/typeof-instanceof
-    updated: '2021-02-25 16:39:42 +0900'
+    updated: '2022-08-09 21:51:57 +0900'
     children: []
 useful-cmd-commands:
     type: wiki
@@ -644,7 +700,7 @@ Useful-sites:
     summary: '유용한 사이트들 모음'
     parent: index
     url: /wiki/Useful-sites
-    updated: '2022-01-26 19:40:00 +0900'
+    updated: '2022-10-21 16:06:02 +0900'
     children: []
 useful-youtube-channel:
     type: wiki
@@ -652,7 +708,7 @@ useful-youtube-channel:
     summary: ""
     parent: index
     url: /wiki/useful-youtube-channel
-    updated: '2021-10-06 10:06:54 +0900'
+    updated: '2022-10-21 16:06:02 +0900'
     children: []
 wiki_template:
     type: wiki
@@ -661,4 +717,12 @@ wiki_template:
     parent: ""
     url: /wiki/wiki_template
     updated: '{{date}} {{time}}'
+    children: []
+ws-was:
+    type: wiki
+    title: '웹 서버? 웹 어플리케이션 서버?'
+    summary: '웹서비스의 기초'
+    parent: programming
+    url: /wiki/ws-was
+    updated: '2022-11-06 21:32:50 +0900'
     children: []
