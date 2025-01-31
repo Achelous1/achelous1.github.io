@@ -1,14 +1,16 @@
 ---
-layout  : wiki
-title   : 2022년 일지
-summary : 
-date    : 2022-01-20 22:42:49 +0900
-updated : 2022-11-10 21:10:06 +0900
-tag     : diary
-toc     : true
-public  : true
-parent  : [[life-log]]
-latex   : false
+layout: wiki
+title: 2022년 일지
+summary: 
+date: 2022-01-20 22:42:49 +0900
+updated: 2022-11-10 21:10:06 +0900
+tag: diary
+toc: true
+public: true
+parent:
+  - - life-log
+latex: false
+"updated ": 2025-01-31 10:43:01 +0900
 ---
 * TOC
 {:toc}
@@ -62,7 +64,7 @@ latex   : false
 **TODO**
 
 - [x] CS 공부
-	- [x] [[3-tier-web-application]]
+	- [x] [[3-tier-web-application 1]]
 - [x] 미래의 부 읽기
 - [x] 맛디 회의
 **Diary**

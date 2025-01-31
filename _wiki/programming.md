@@ -3,14 +3,13 @@ layout: wiki
 title: 프로그래밍
 summary: 개발에 관하여
 date: 2021-01-20 16:42:27 +0900
-updated: 2025-01-31 10:10:47 +0900
+updated: 2023-04-28 09:25:06 +0900
 tag: 
 toc: true
 public: true
 parent:
   - - index
 latex: false
-"updated ": 2025-01-31 10:10:47 +0900
 ---
 * TOC
 {:toc}
@@ -39,7 +38,7 @@ latex: false
 5. DB2
 6. SQLite
 7. Maria DB
-8. [[erd]]
+8. [[erd 1]]
 
 ### NoSql
 1. MongoDB
@@ -56,43 +55,43 @@ latex: false
 * [[data-structure-hash-table]]
 * [[data-structure-tree]]
 
-## [[design-patterns]]{Design Patterns}
+## [[design-patterns 1]]{Design Patterns}
 
 ### Creational Patterns
-* [[abstract-factory-pattern]]
-* [[builder-pattern]]
-* [[factory-method-pattern]]
-* [[prototype-pattern]]
-* [[singleton-pattern]]
+* [[abstract-factory-pattern 1]]
+* [[builder-pattern 1]]
+* [[factory-method-pattern 1]]
+* [[prototype-pattern 1]]
+* [[singleton-pattern 1]]
 
 ### Structural Patterns
-* [[adapter-pattern]]
-* [[bridge-pattern]]
-* [[composite-pattern]]
-* [[decorater-pattern]]
-* [[facade-pattern]]
-* [[flyweight-pattern]]
-* [[proxy-pattern]]
+* [[adapter-pattern 1]]
+* [[bridge-pattern 1]]
+* [[composite-pattern 1]]
+* [[decorater-pattern 1]]
+* [[facade-pattern 1]]
+* [[flyweight-pattern 1]]
+* [[proxy-pattern 1]]
 
 ### Behavioral Patterns
-* [[chain-of-responsibility-pattern]]
-* [[command-pattern]]
-* [[interpreter-pattern]]
-* [[iterator-pattern]]
-* [[mediator-pattern]]
+* [[chain-of-responsibility-pattern 1]]
+* [[command-pattern 1]]
+* [[interpreter-pattern 1]]
+* [[iterator-pattern 1]]
+* [[mediator-pattern 1]]
 * [[memento-pattern]]
-* [[observer-pattern]]
-* [[state-pattern]]
-* [[strategy-pattern]]
-* [[template-method-pattern]]
-* [[visitor-pattern]]
+* [[observer-pattern 1]]
+* [[state-pattern 1]]
+* [[strategy-pattern 1]]
+* [[template-method-pattern 1]]
+* [[visitor-pattern 1]]
 
 ## DevOps
-* [[cicd]]{CI/CD}
+* [[cicd 1]]{CI/CD}
 
 ## Git
-* [[github]]{Github}
-* [[github-action]]{Github Actions}
+* [[github 1]]{Github}
+* [[github-action 1]]{Github Actions}
 
 ## How-To
 * [[importance-in-studying]]
@@ -125,27 +124,27 @@ latex: false
 3. Container
 4. Virtual Machine
 
-## Work
-* [[United-Resume]]
-* [[nomad-coders-translation]]{노마드코더 강의 번역}
+## Works
+* [[United-Resume 1]]
+* [[nomad-coders-translation 1]]{노마드코더 강의 번역}
 
 
 ## To be worked on
-* [[stack-heap-memory]]{힙,스택 메모리}
-* [[checked-runtime-exception]]{runtime과 checked 익셉션}
-* [[exception-try-catch-throws]]{예외처리의 방법}
-* [[java-whats-new]]{What's new 자바}
-* [[mvc-pattern]]{MVC 패턴이란}
-* [[spring-bean-singleton]]{스프링의 bean은 싱글턴인가}
-* [[db-tree]]{데이터베이스의 트리구조}
-* [[inner-outer-join]]{Inner와 Outer 조인}
-* [[java-oop]]{자바 객체지향}
-* [[javascript-characteristic]]{자바스크립트의 특징}
-* [[async-synchronous]]{동기와 비동기 처리}
-* [[diff-web-server-was]]{Web 서버와 WAS의 차이점}
-* [[tomcat-issues]]{톰캣이슈}
-* [[test-driven-design]]{테스트주도개발에 관하여}
+* [[stack-heap-memory 1]]{힙,스택 메모리}
+* [[checked-runtime-exception 1]]{runtime과 checked 익셉션}
+* [[exception-try-catch-throws 1]]{예외처리의 방법}
+* [[java-whats-new 1]]{What's new 자바}
+* [[mvc-pattern 1]]{MVC 패턴이란}
+* [[spring-bean-singleton 1]]{스프링의 bean은 싱글턴인가}
+* [[db-tree 1]]{데이터베이스의 트리구조}
+* [[inner-outer-join 1]]{Inner와 Outer 조인}
+* [[java-oop 1]]{자바 객체지향}
+* [[javascript-characteristic 1]]{자바스크립트의 특징}
+* [[async-synchronous 1]]{동기와 비동기 처리}
+* [[diff-web-server-was 1]]{Web 서버와 WAS의 차이점}
+* [[tomcat-issues 1]]{톰캣이슈}
+* [[test-driven-design 1]]{테스트주도개발에 관하여}
 * [[stored-procedure]]
-* [[oop]]{Object Oriented Programming}
-* [[compiler-interpreter]]{Compiler와 Interpreter의 차이}
-* [[ws-was]]{웹 서버? 웹어플리케이션 서버?}
+* [[oop 1]]{Object Oriented Programming}
+* [[compiler-interpreter 1]]{Compiler와 Interpreter의 차이}
+* [[ws-was 1]]{웹 서버? 웹어플리케이션 서버?}
