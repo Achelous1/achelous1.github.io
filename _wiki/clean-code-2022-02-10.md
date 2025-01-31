@@ -1,14 +1,18 @@
 ---
-layout  : wiki
-title   : 클린코드 2022-02-10의 기록
-summary : 
-date    : 2022-02-10 23:45:00 +0900
-updated : 2022-02-10 23:45:00 +0900
-tag     : clean-code nomad-coders
-toc     : true
-public  : true
-parent  : [[nomad-book-club]]
-latex   : false
+layout: wiki
+title: 클린코드 2022-02-10의 기록
+summary: 
+date: 2022-02-10 23:45:00 +0900
+updated: 2022-02-10 23:45:00 +0900
+tags:
+  - clean-code
+  - nomad-coders
+toc: true
+public: true
+parent:
+  - - nomad-book-club
+latex: false
+updated : 2025-01-31 10:06:47 +0900
 ---
 * TOC
 {:toc}

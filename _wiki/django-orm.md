@@ -1,19 +1,14 @@
 ---
-layout: wiki
-title: Django ORM
-summary: Django Object Relational Mapping
-date: 2021-08-24 16:39:46 +0900
-updated: 2021-09-06 10:28:50 +0900
-tags:
-  - django
-  - orm
-  - django-orm
-  - python
-toc: true
-public: true
-parent:
-  - - django
-latex: false
+layout  : wiki
+title   : Django ORM
+summary : Django Object Relational Mapping
+date    : 2021-08-24 16:39:46 +0900
+updated : 2021-09-06 10:28:50 +0900
+tag     : django orm django-orm python
+toc     : true
+public  : true
+parent  : [[django]]
+latex   : false
 ---
 * TOC
 {:toc}

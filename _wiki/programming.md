@@ -1,32 +1,34 @@
 ---
-layout  : wiki
-title   : 프로그래밍
-summary : 개발에 관하여
-date    : 2021-01-20 16:42:27 +0900
-updated : 2023-04-28 09:25:06 +0900
-tag     : 
-toc     : true
-public  : true
-parent  : [[index]] 
-latex   : false
+layout: wiki
+title: 프로그래밍
+summary: 개발에 관하여
+date: 2021-01-20 16:42:27 +0900
+updated: 2025-01-31 10:10:47 +0900
+tag: 
+toc: true
+public: true
+parent:
+  - - index
+latex: false
+"updated ": 2025-01-31 10:10:47 +0900
 ---
 * TOC
 {:toc}
 
 
-## Architectures
+## Architecture
 * [[3-tier-web-application]]{3-Tier Web Application이란}
 * [[micro-service-architecture]]{마이크로서비스 아키텍처란}
 
-## Clouds
+## Cloud
 * [[AWS]]
 * ECS
 * ECR
 
-## Concepts
+## Concept
 * [[osi-7-layers]]{OSI 7계층}
 
-## Databases
+## Database
 * [[database-modeling]]{데이터베이스 모델링}
 
 ### Relational
@@ -44,13 +46,13 @@ latex   : false
 2. GraphQL
 3. Hadoop
 
-## Protocols
+## Protocol
 1. [[tcp-and-udp]]
 2. HTTP
 3. FTP
 4. SSH
 
-## Data Structures
+## Data Structure
 * [[data-structure-hash-table]]
 * [[data-structure-tree]]
 
@@ -92,7 +94,7 @@ latex   : false
 * [[github]]{Github}
 * [[github-action]]{Github Actions}
 
-## How-Tos
+## How-To
 * [[importance-in-studying]]
 * [[clean-code]]{클린코드}
 * [[google-java-style-guide]]{구글의 자바 스타일 가이드}
@@ -102,25 +104,28 @@ latex   : false
 * [[solid-principle]]{SOLID 원칙}
 * [[intellij]]{IntelliJ 사용법}
 
-## Languages and Frameworks/Libraries
+## Languages and Frameworks/Library
 * [[Javascript]]
 * [[python]]{Python}
 * [[django]]{Python Django}
 * [[golang]]{Go}
 * [[java]]{Java}
 
-## Programming Algorithms
+## Programming Algorithm
 * [[calculate-datetime-bw-2-days]]
 * [[baekjun]]{Baekjun 문제풀이}
 * [[Big-O-Notation]]{Big O Notation}
 
-## Virtualizations
+## Tool
+* [[pre-commit]]
+
+## Virtualization
 1. Docker
 2. Kubernetes
 3. Container
 4. Virtual Machine
 
-## Works
+## Work
 * [[United-Resume]]
 * [[nomad-coders-translation]]{노마드코더 강의 번역}
 
