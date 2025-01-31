@@ -1,5 +1,5 @@
 _site
-_wiki/templates
+_wiki/templates/*
 _wiki/.obsidian
 .sass-cache
 .jekyll-metadata
