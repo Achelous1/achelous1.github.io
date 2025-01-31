@@ -3,7 +3,7 @@ layout: wiki
 title: 프로그래밍
 summary: 개발에 관하여
 date: 2021-01-20 16:42:27 +0900
-updated: 2023-04-28 09:25:06 +0900
+updated: 2025-01-31 10:10:47 +0900
 tag: 
 toc: true
 public: true
@@ -16,19 +16,19 @@ latex: false
 {:toc}
 
 
-## Architectures
+## Architecture
 * [[3-tier-web-application 1]]{3-Tier Web Application이란}
 * [[micro-service-architecture 1]]{마이크로서비스 아키텍처란}
 
-## Clouds
+## Cloud
 * [[AWS 1]]
 * ECS
 * ECR
 
-## Concepts
+## Concept
 * [[osi-7-layers 1]]{OSI 7계층}
 
-## Databases
+## Database
 * [[database-modeling 1]]{데이터베이스 모델링}
 
 ### Relational
@@ -46,13 +46,13 @@ latex: false
 2. GraphQL
 3. Hadoop
 
-## Protocols
+## Protocol
 1. [[tcp-and-udp 1]]
 2. HTTP
 3. FTP
 4. SSH
 
-## Data Structures
+## Data Structure
 * [[data-structure-hash-table 1]]
 * [[data-structure-tree]]
 
@@ -94,7 +94,7 @@ latex: false
 * [[github 1]]{Github}
 * [[github-action 1]]{Github Actions}
 
-## How-Tos
+## How-To
 * [[importance-in-studying 1]]
 * [[clean-code 1]]{클린코드}
 * [[google-java-style-guide 1]]{구글의 자바 스타일 가이드}
@@ -104,25 +104,28 @@ latex: false
 * [[solid-principle 1]]{SOLID 원칙}
 * [[intellij 1]]{IntelliJ 사용법}
 
-## Languages and Frameworks/Libraries
+## Languages and Frameworks/Library
 * [[Javascript 1]]
 * [[python 1]]{Python}
 * [[django 1]]{Python Django}
 * [[golang 1]]{Go}
 * [[java]]{Java}
 
-## Programming Algorithms
+## Programming Algorithm
 * [[calculate-datetime-bw-2-days 1]]
 * [[baekjun 1]]{Baekjun 문제풀이}
 * [[Big-O-Notation 1]]{Big O Notation}
 
-## Virtualizations
+## Tool
+* [[pre-commit]]
+
+## Virtualization
 1. Docker
 2. Kubernetes
 3. Container
 4. Virtual Machine
 
-## Works
+## Work
 * [[United-Resume 1]]
 * [[nomad-coders-translation 1]]{노마드코더 강의 번역}
 

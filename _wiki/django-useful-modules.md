@@ -9,8 +9,9 @@ tags:
   - django-rest-framework
 toc: true
 public: true
-parent: "[[django]]"
+parent: "[[django 1]]"
 latex: false
+"updated ": 2025-01-31 10:42:57 +0900
 ---
 * TOC
 {:toc}

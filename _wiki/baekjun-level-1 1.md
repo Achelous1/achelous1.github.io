@@ -10,7 +10,7 @@ public: true
 parent:
   - - baekjun
 latex: false
-"updated ": 2025-01-31 10:43:01 +0900
+"updated ": 2025-01-31 10:43:02 +0900
 ---
 * TOC
 {:toc}
