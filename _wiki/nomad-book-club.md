@@ -7,10 +7,8 @@ updated: 2022-01-21 09:57:18 +0900
 tag: nomad-coders book-club
 toc: true
 public: true
-parent:
-  - - index
+parent: [[index]]
 latex: false
-"updated ": 2025-01-31 10:42:57 +0900
 ---
 * TOC
 {:toc}

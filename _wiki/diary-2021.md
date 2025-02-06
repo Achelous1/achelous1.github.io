@@ -1,7 +1,4 @@
 ---
-"updated ": 2025-01-31 10:42:57 +0900
----
---- 
 layout  : wiki 
 title   : 2021년 일지 
 summary : 

@@ -4,7 +4,6 @@ title:
 permalink: /about/
 comment: false
 latex: true
-"updated ": 2025-01-31 10:42:48 +0900
 ---
 * TOC
 {:toc}

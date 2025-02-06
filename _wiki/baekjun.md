@@ -7,10 +7,8 @@ updated: 2021-02-17 16:31:23 +0900
 tag: baekjun
 toc: true
 public: true
-parent:
-  - - programming
+parent: [[programming]]
 latex: false
-"updated ": 2025-01-31 10:42:57 +0900
 ---
 * TOC
 {:toc}

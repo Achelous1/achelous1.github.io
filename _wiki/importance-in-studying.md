@@ -9,7 +9,6 @@ toc     : true
 public  : true
 parent  : [[programming]]
 latex   : false
-updated: 2022-08-09 21:53:05 +0900
 ---
 * TOC
 {:toc}

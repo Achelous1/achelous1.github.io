@@ -7,10 +7,8 @@ updated: 2022-11-10 21:10:06 +0900
 tag: diary
 toc: true
 public: true
-parent:
-  - - life-log
+parent: [[life-log]]
 latex: false
-"updated ": 2025-01-31 10:43:01 +0900
 ---
 * TOC
 {:toc}

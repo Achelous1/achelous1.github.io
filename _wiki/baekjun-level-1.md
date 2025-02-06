@@ -7,10 +7,8 @@ updated: 2021-02-17 16:08:28 +0900
 tag: baekjun arithmetic IO
 toc: true
 public: true
-parent:
-  - - baekjun
+parent: [[baekjun]]
 latex: false
-"updated ": 2025-01-31 10:43:01 +0900
 ---
 * TOC
 {:toc}

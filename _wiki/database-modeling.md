@@ -7,11 +7,9 @@ updated: 2022-10-20 09:25:24 +0900
 tag: database architecture modeling
 toc: true
 public: true
-parent:
-  - - programming
+parent: [[programming]]
 latex: false
 mermaid: true
-"updated ": 2025-01-31 10:42:57 +0900
 ---
 * TOC
 {:toc}

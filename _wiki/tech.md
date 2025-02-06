@@ -7,10 +7,8 @@ updated: 2022-08-10 16:05:33 +0900
 tag: 
 toc: true
 public: true
-parent:
-  - - index
+parent: [[index]]
 latex: false
-"updated ": 2025-01-31 10:42:57 +0900
 ---
 * TOC
 {:toc}

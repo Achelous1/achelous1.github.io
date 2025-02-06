@@ -7,10 +7,8 @@ updated: 2025-01-31 10:11:07 +0900
 tag: web-application architecture
 toc: true
 public: true
-parent:
-  - - tech
+parent: [[tech]]
 latex: false
-"updated ": 2025-01-31 10:11:07 +0900
 ---
 * TOC
 {:toc}

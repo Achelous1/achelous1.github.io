@@ -7,10 +7,8 @@ updated: 2021-02-25 16:27:57 +0900
 tag: javascript
 toc: true
 public: true
-parent:
-  - - programming
+parent: [[programming]]
 latex: false
-"updated ": 2025-01-31 10:42:57 +0900
 ---
 * TOC
 {:toc}
