@@ -10,20 +10,20 @@ updated: 2022-10-24 11:10:57 +0900
 ---
 
 ## </dev>
-* [[programming 1]]
-* [[Useful-sites 1]]
-* [[useful-youtube-channel 1]]
+* [[programming]]
+* [[useful-sites]]
+* [[useful-youtube-channel]]
 
 ## Study
-* [[mathematics 1]]
-    *  [[exponentiation 1]]
+* [[mathematics]]
+    *  [[exponentiation]]
     
 ## Life
-* [[life-log 1]]
-    * [[diary-2022 1]]
-    * [[nomad-book-club 1]]
-* [[life-guide 1]]
-    * [[life-cheatsheet 1]]
+* [[life-log]]
+    * [[diary-2022]]
+    * [[nomad-book-club]]
+* [[life-guide]]
+    * [[life-cheatsheet]]
 
 
 
