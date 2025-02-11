@@ -1,26 +1,26 @@
 ---
-layout  : wiki
-title   : 단계1
-summary : 입출력과 사칙연산 
-date    : 2021-02-05 16:11:24 +0900
-updated : 2021-02-17 16:08:28 +0900
-tag     : baekjun arithmetic IO
-toc     : true
-public  : true
-parent  : [[baekjun]] 
-latex   : false
+layout: wiki
+title: 단계1
+summary: 입출력과 사칙연산
+date: 2021-02-05 16:11:24 +0900
+updated: 2021-02-17 16:08:28 +0900
+tag: baekjun arithmetic IO
+toc: true
+public: true
+parent: [[baekjun]]
+latex: false
 ---
 * TOC
 {:toc}
 
 # 입출력과 사칙연산
-#### [[2557]]
-#### [[10718]]
-#### [[10171]]
-#### [[10172]]
-#### [[1000]]
-#### [[1001]]
-#### [[10998]]
+#### [[2557 1]]
+#### [[10718 1]]
+#### [[10171 1]]
+#### [[10172 1]]
+#### [[1000 1]]
+#### [[1001 1]]
+#### [[10998 1]]
 #### [[1008]]
 #### [[10869]]
 #### [[10430]]

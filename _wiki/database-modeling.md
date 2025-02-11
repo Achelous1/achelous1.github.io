@@ -1,21 +1,21 @@
 ---
-layout  : wiki
-title   : 데이터베이스 모델링
-summary : 
-date    : 2022-10-20 08:33:05 +0900
-updated : 2022-10-20 09:25:24 +0900
-tag     : database architecture modeling
-toc     : true
-public  : true
-parent  : [[programming]]
-latex   : false
-mermaid : true
+layout: wiki
+title: 데이터베이스 모델링
+summary: 
+date: 2022-10-20 08:33:05 +0900
+updated: 2022-10-20 09:25:24 +0900
+tag: database architecture modeling
+toc: true
+public: true
+parent: [[programming]]
+latex: false
+mermaid: true
 ---
 * TOC
 {:toc}
 
 # 데이터베이스 모델링이란
-## [[ERD]]
+## [[erd 1]]
 
 # 데이터표준화
 

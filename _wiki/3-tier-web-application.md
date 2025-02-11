@@ -1,14 +1,14 @@
 ---
-layout  : wiki
-title   :  3-Tier Web Application이란
-summary : 3티어 웹 어플리케이션에 대해서 알아보자
-date    : 2022-03-06 13:05:46 +0900
-updated : 2022-03-06 13:05:46 +0900
-tag     : web-application architecture
-toc     : true
-public  : true
-parent  :  [[tech]]
-latex   : false
+layout: wiki
+title: 3-Tier Web Application이란
+summary: 3티어 웹 어플리케이션에 대해서 알아보자
+date: 2022-03-06 13:05:46 +0900
+updated: 2025-01-31 10:11:07 +0900
+tag: web-application architecture
+toc: true
+public: true
+parent: [[tech]]
+latex: false
 ---
 * TOC
 {:toc}

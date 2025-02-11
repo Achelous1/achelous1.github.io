@@ -3,7 +3,7 @@ layout  : wiki
 title   : IntelliJ를 사용하며 
 summary : 
 date    : 2023-04-28 09:15:46 +0900
-updated : 2023-04-28 09:25:03 +0900
+updated : 2023-04-28 09:25:33 +0900
 tag     : ide intellij
 toc     : true
 public  : true

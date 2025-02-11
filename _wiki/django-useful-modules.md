@@ -4,9 +4,7 @@ title: Django Useful Modules
 summary: Django 유용한 모듈 모음집
 date: 2025-01-14 09:21:00 +0900
 updated: 2025-01-14 09:21:00 +0900
-tags:
-  - django
-  - django-rest-framework
+tags: django django-rest-framework
 toc: true
 public: true
 parent: '[["django"]]'

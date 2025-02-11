@@ -1,4 +1,4 @@
---- 
+---
 layout  : wiki 
 title   : 2021년 일지 
 summary : 
@@ -7,7 +7,7 @@ updated : 2021-10-08 17:31:35 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[life-log]]
+parent  : [[life-log 1]]
 latex   : false
 ---
 * TOC
