@@ -17,13 +17,29 @@ latex   : false
 #### netstat
 * case : 특정 포트를 사용하는 프로세스를 검색하고 싶을 때:
 
-```cmd
+```bash
 > netstat -a -n -o | find "{pid}"
 ```
 
 #### taskkill
 * case : 특정 pid를 가진 프로세스를 **강제로** 종료하고 싶을때:
 
-```cmd
+```bash
 > taskkill /F /PID "{pid}"
+```
+
+#### lsof
+- case: 열려 있는 파일 및 리소스 관리의 필수 도구(List Open Files)
+##### 설치
+```bash
+> sudo apt install lsof
+```
+##### 실행
+- 특정 디렉토리를 사용 중인 프로세스 찾기
+```bash
+> lsof +D /path/to/directory
+```
+- 특정 포트를 점유하고 있는 프로세스 찾기
+```bash
+> lsof -i :80
 ```

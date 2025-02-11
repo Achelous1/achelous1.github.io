@@ -9,7 +9,7 @@ tags:
   - django-rest-framework
 toc: true
 public: true
-parent: "[[django]]"
+parent: '[["django"]]'
 latex: false
 ---
 * TOC
